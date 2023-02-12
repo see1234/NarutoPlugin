@@ -1,0 +1,5 @@
+name: Naruto
+version: 1.13.0
+main: minenaruto.narutoplugin.main.Main
+author: see1
+api-version: 1.13
