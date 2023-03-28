@@ -28,10 +28,10 @@ import minenaruto.narutoplugin.iditems.Item;
 import minenaruto.narutoplugin.main.Main;
 
 public class FireElement3 extends AbilitiesMain {
-
+	private Item item = new Item(293, 54, "§7[§6Naruto§7] §cМассовое огненное уничтожение", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
 	@Override
 	public void RightClick(Player player, NarutoPlayer pl) {
-		if (AbilityListener.checkChakraItem(player, Item.items.get(4).getName(), 150, 0, 0, 0, 0)) {
+		if (AbilityListener.checkChakraItem(player, getItem().getName(), 150, 0, 0, 0, 0)) {
 			Location playerlocation = player.getLocation().clone();
 			List<ArmorStand> arrayArmorStand = spawnArmorStand(playerlocation, 1);
 			for (ArmorStand arm : arrayArmorStand) {
@@ -43,9 +43,9 @@ public class FireElement3 extends AbilitiesMain {
 	@Override
 	public void RightPlusShift(Player player, NarutoPlayer pl) {
 		// TODO Auto-generated method stub
-		if (AbilityListener.checkChakraItem(player, Item.items.get(4).getName(), 0, 0, 0, 0, 0)) {
+		if (AbilityListener.checkChakraItem(player, getItem().getName(), 0, 0, 0, 0, 0)) {
 			if (pl.IfHasJustuPointAndRemoveJustuPoint(5)) {
-				player.getInventory().addItem(Item.items.get(5).getItemStack());
+			//	player.getInventory().addItem(Item.items.get(5).getItemStack());
 			}
 		}
 	}
@@ -124,6 +124,11 @@ public class FireElement3 extends AbilitiesMain {
 			arrayArmorStand.add(armorstand);
 		}
 		return arrayArmorStand;
+	}
+	@Override
+	public Item getItem() {
+
+		return item;
 	}
 
 }

@@ -30,7 +30,7 @@ public class MobListener implements Listener {
 		final Player p = e.getEvent().getEntity().getKiller();
 		if (npc.getEntity() != null) {
 
-			if (npc.getName().startsWith("§7[NPC]")) {
+			if (npc.getName().startsWith("Â§7[NPC]")) {
 				for (final ItemStack item : ((Player) npc.getEntity()).getInventory().getContents()) {
 					if (item != null) {
 						item.setType(Material.AIR);
@@ -43,7 +43,7 @@ public class MobListener implements Listener {
 					}
 				}
 			}
-			if (npc.getName().startsWith("§7[NPC]")) {
+			if (npc.getName().startsWith("Â§7[NPC]")) {
 				if (p != null) {
 					NarutoPlayer player = NarutoPlayer.getNarutoPlayer(p.getName());
 					player.addExp(3);
@@ -61,7 +61,7 @@ public class MobListener implements Listener {
 		if (event.getEntity() != null && event.getEntity().getType() == EntityType.ZOMBIE
 				&& event.getEntity().isDead() == false) {
 			if (new Random().nextInt(100) < 1) {
-				ShinobiMob.spawnEntity("§7[NPC] Øèíîáè", 100, 10, event.getEntity().getLocation(), "9234");
+				ShinobiMob.spawnEntity("Â§7[NPC] Ð¨Ð¸Ð½Ð¾Ð±Ð¸", 100, 10, event.getEntity().getLocation(), "9234");
 				event.getEntity().remove();
 				return;
 			}

@@ -17,68 +17,21 @@ import org.bukkit.inventory.meta.ItemMeta;
 import minenaruto.narutoplugin.main.Main;
 
 public class Item {
-	private int id;
+
 	private int iditem;
 	private int durability;
 	private String displayname;
 	private List<String> lore;
 
-	public static HashMap<Integer, Item> items = new HashMap<Integer, Item>();
 
-	public Item(ItemStack is, int id) {
-		if (id == -1) {
-			this.id = items.size() + 1;
-		}
-		else {
-		this.id = id; 
-		}
-		if (is != null) {
-			this.iditem = is.getTypeId();
-			this.durability = is.getDurability();
-			this.displayname = is.getItemMeta().getDisplayName();
-			this.lore = is.getItemMeta().getLore();
-		}
+
+	public Item( int iditem, int durability, String displayname, List<String> lore) {
+	    this.iditem = iditem;
+		this.durability = durability;
+		this.displayname = displayname;
+		this.lore = lore;
 	}
 
-	public static void loadNarutoItems() {
-		Bukkit.getScheduler().runTaskAsynchronously(Main.getInstance(), () -> {
-
-			ResultSet resultSetf = Main.getInstance().getDatabaseManager()
-					.getResult("SELECT * FROM " + Main.getInstance().getDatabaseManager().getGameTable() + ";");
-
-			try {
-				while (resultSetf.next()) {
-					Item item = new Item(null, resultSetf.getInt("id"));
-
-					item.id = resultSetf.getInt("id");
-
-					item.iditem = resultSetf.getInt("iditem");
-
-					item.durability = resultSetf.getInt("durability");
-
-					item.displayname = resultSetf.getString("displayname");
-
-					item.lore = new ArrayList<String>();
-
-					String lore = resultSetf.getString("lore");
-
-					if (!lore.toLowerCase().equalsIgnoreCase("null")) {
-
-						for (String text : lore.split(";")) {
-
-							item.lore.add(text);
-						}
-					}
-
-					items.put(item.id, item);
-
-				}
-			} catch (SQLException ex) {
-				ex.printStackTrace();
-			}
-		});
-
-	}
 
 	public String getName() {
 		return displayname;
@@ -91,15 +44,13 @@ public class Item {
 		if (this.lore != null) {
 			if (this.lore.size() != 0) {
 				for (String lorename : this.lore) {
-					displaylore.add(lorename.replace("&", "ง"));
+					displaylore.add(lorename.replace("&", "ยง"));
 				}
 			}
 		}
-		displaylore.add("");
-		displaylore.add("ง0" + id);
 		im.setLore(displaylore);
 		if (displayname != null) {
-			im.setDisplayName(displayname.replace("&", "ง"));
+			im.setDisplayName(displayname.replace("&", "ยง"));
 		}
 		im.setUnbreakable(true);
 		im.addItemFlags(ItemFlag.HIDE_ATTRIBUTES);
@@ -110,37 +61,10 @@ public class Item {
 		im.addItemFlags(ItemFlag.HIDE_UNBREAKABLE);
 		is.setDurability((short) durability);
 		is.setItemMeta(im);
-		
 		return is;
 	}
 
-	public void save() {
-		String lore = null;
 
-		if (this.lore != null) {
-			lore = this.lore.stream().map(Object::toString).collect(Collectors.joining(";"));
-		}
 
-		Main.getInstance().getDatabaseManager()
-				.update("UPDATE " + Main.getInstance().getDatabaseManager().getGameTable() + " SET " + "iditem="
-						+ iditem + ", " + "durability=" + durability + ", " + "displayname='" + displayname + "', "
-						+ "lore='" + lore + "' " + "WHERE id='" + id + "'");
-		if (items.containsKey(id)) {
-			items.remove(id);
-		}
-		items.put(id, this);
-	}
 
-	public void addIteminDB() {
-		String lore = null;
-		if (this.lore != null) {
-			lore = this.lore.stream().map(Object::toString).collect(Collectors.joining(";"));
-		}
-
-		Main.getInstance().getDatabaseManager()
-				.update("INSERT INTO " + Main.getInstance().getDatabaseManager().getGameTable()
-						+ "(id, iditem, durability, displayname, lore) VALUES(" + id + ", " + iditem + ", " + durability
-						+ ", '" + displayname + "', '" + lore + "')");
-		items.put(id, this);
-	}
 }

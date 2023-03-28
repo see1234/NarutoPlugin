@@ -3,6 +3,7 @@ package minenaruto.narutoplugin.abilities;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+import minenaruto.narutoplugin.main.Main;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.LivingEntity;
@@ -79,26 +80,13 @@ public class AbilityListener implements Listener {
 
 		if (player.getInventory().getItemInMainHand() != null && player.getInventory().getItemInMainHand().hasItemMeta()
 				&& player.getInventory().getItemInMainHand().getItemMeta().hasDisplayName()
-				&& player.getInventory().getItemInMainHand().getItemMeta().getDisplayName().startsWith("§7[§6Naruto§7]")
+				&& player.getInventory().getItemInMainHand().getItemMeta().getDisplayName().startsWith("В§7[В§6NarutoВ§7]")
 				&& e.getHand() != null && !e.getHand().equals(EquipmentSlot.OFF_HAND)) {
 			if (haveCooldownPlayer(e.getPlayer().getName())) return;
 			if (hasPvpZone((Entity) player)) {
-				final ArrayList<AbilitiesMain> classes = new ArrayList<AbilitiesMain>();
-				classes.add(new SharinganItachi());
-				classes.add(new SharinganItachiAmateracy());
-				classes.add(new ShadowClon());
-				classes.add(new FireElement());
-				classes.add(new FireElement2());
-				classes.add(new FireElement3());
-				classes.add(new FireElement4());
-				classes.add(new LightningArmor());
-				classes.add(new LightningShield());
-				classes.add(new StoneBullets());
-				classes.add(new StoneArmor());
-				classes.add(new StoneHand());
-				classes.add(new Sharingan());
+
 				NarutoPlayer pl = NarutoPlayer.getNarutoPlayer(player.getName());
-				for (final AbilitiesMain ap : classes) {
+				for (final AbilitiesMain ap : Main.getInstance().getAbilities()) {
 					if (e.getAction().name().startsWith("RIGHT_CLICK")) {
 						if (player.isSneaking()) {
 							ap.RightPlusShift(player, pl);
@@ -138,26 +126,26 @@ public class AbilityListener implements Listener {
 			}
 			NarutoPlayer player = NarutoPlayer.getNarutoPlayer(pl.getName());
 			if (player.getInt("genjustu") < genjustu) {
-				player.sendMessage("&cУ вас не хватает генджутсу " + genjustu);
+				player.sendMessage("&cРЈ РІР°СЃ РЅРµ С…РІР°С‚Р°РµС‚ РіРµРЅРґР¶СѓС‚СЃСѓ " + genjustu);
 				return false;
 			}
 			if (player.getInt("taijustu") < taijustu) {
-				player.sendMessage("&cУ вас не хватает тайджутсу " + taijustu);
+				player.sendMessage("&cРЈ РІР°СЃ РЅРµ С…РІР°С‚Р°РµС‚ С‚Р°Р№РґР¶СѓС‚СЃСѓ " + taijustu);
 				return false;
 			}
 			if (player.getInt("summoning") < summoning) {
-				player.sendMessage("&cУ вас не хватает призыва " + summoning);
+				player.sendMessage("&cРЈ РІР°СЃ РЅРµ С…РІР°С‚Р°РµС‚ РїСЂРёР·С‹РІР° " + summoning);
 				return false;
 			}
 			if (player.getInt("senjustu") < senjustu) {
-				player.sendMessage("&cУ вас не хватает сенжутсу " + senjustu);
+				player.sendMessage("&cРЈ РІР°СЃ РЅРµ С…РІР°С‚Р°РµС‚ СЃРµРЅР¶СѓС‚СЃСѓ " + senjustu);
 				return false;
 			}
 			if (player.getInt("chakra") >= chakra) {
 				player.setInt("chakra", player.getInt("chakra") - chakra);
 				return true;
 			} else {
-				player.sendMessage("&cДля использования способности не хватает чакры!");
+				player.sendMessage("&cР”Р»СЏ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ СЃРїРѕСЃРѕР±РЅРѕСЃС‚Рё РЅРµ С…РІР°С‚Р°РµС‚ С‡Р°РєСЂС‹!");
 			}
 
 		}

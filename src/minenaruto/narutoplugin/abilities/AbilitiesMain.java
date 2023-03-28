@@ -1,16 +1,16 @@
 package minenaruto.narutoplugin.abilities;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.List;
 
+import minenaruto.narutoplugin.iditems.Item;
 import org.bukkit.Bukkit;
 import org.bukkit.Chunk;
 import org.bukkit.Location;
 import org.bukkit.craftbukkit.v1_12_R1.entity.CraftEntity;
-import org.bukkit.entity.Entity;
-import org.bukkit.entity.EntityType;
-import org.bukkit.entity.LivingEntity;
-import org.bukkit.entity.Player;
+import org.bukkit.entity.*;
 import org.bukkit.event.Listener;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.Plugin;
@@ -36,8 +36,12 @@ public abstract class AbilitiesMain implements Listener {
 	public abstract void RightClick(final Player player, NarutoPlayer pl);
 
 	public abstract void RightPlusShift(final Player player, NarutoPlayer pl);
+    public abstract Item getItem();
 
 	public static HashMap<Entity, Player> getDamage = new HashMap<Entity, Player>();
+
+    public static HashMap<String, Item> models = new HashMap<String,Item>();
+
 
 	public static HashMap<Player, Integer> scheduler = new HashMap<Player, Integer>();
 
@@ -104,7 +108,7 @@ public abstract class AbilitiesMain implements Listener {
         return null;
     }
 	public static void addDamageEntity(final Player player, final Entity entity, double damage) {
-		if (entity.getName().startsWith("§7[§6Naruto§7]")) {
+		if (entity.getName().startsWith("Â§7[Â§6NarutoÂ§7]")) {
 			if (!getDamage.containsValue(getDamage.get(player))) {
 				getDamage.put(entity, player);
 			} else if (getDamage.get(player) != player) {
@@ -116,4 +120,6 @@ public abstract class AbilitiesMain implements Listener {
 		}
 		AbilityListener.damageEntity(entity, player, damage);
 	}
+
+
 }

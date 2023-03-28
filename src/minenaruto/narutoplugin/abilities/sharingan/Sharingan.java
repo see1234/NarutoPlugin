@@ -1,10 +1,7 @@
 package minenaruto.narutoplugin.abilities.sharingan;
 
 import java.io.File;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.UUID;
+import java.util.*;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
@@ -28,18 +25,19 @@ import minenaruto.narutoplugin.iditems.Item;
 import minenaruto.narutoplugin.main.Main;
 
 public class Sharingan extends AbilitiesMain {
+	private Item item = new Item(293, 76, "§7[§6Naruto§7] §4Шаринган Гендзюцу", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
 	public static HashMap<UUID, ArrayList<Bat>> bats = new HashMap<UUID, ArrayList<Bat>>();
 	@Override
 	public void RightClick(Player player, NarutoPlayer np) {
 	 
-		if(AbilityListener.checkChakraItem(player, Item.items.get(11).getName(), 80, 50, 0, 10, 0)) {
+		if(AbilityListener.checkChakraItem(player, getItem().getName(), 80, 50, 0, 10, 0)) {
 			final LivingEntity entityTarget = rayTraceEntity(player, 16);
 			if(entityTarget == null) {
 			player.sendMessage("§7[§6Naruto§7] §f" + "Не попал!");	
 			}
 			else {
 		     	if(entityTarget instanceof Player) {
-			         ((Player) entityTarget).sendTitle("쀁", "", 20, 60, 20);
+			         ((Player) entityTarget).sendTitle("?", "", 20, 60, 20);
 		     	}
 		     	else {
 		     		entityTarget.setAI(true);
@@ -66,5 +64,9 @@ public class Sharingan extends AbilitiesMain {
 		// TODO Auto-generated method stub
 		
 	}
- 
+	@Override
+	public Item getItem() {
+
+		return item;
+	}
 }

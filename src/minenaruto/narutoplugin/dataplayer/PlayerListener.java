@@ -37,6 +37,7 @@ public class PlayerListener implements Listener {
 	public void onPlayerQuit(PlayerQuitEvent event) {
 		NarutoPlayer np = NarutoPlayer.getNarutoPlayer(event.getPlayer().getName());
 		np.unload();
+		event.getPlayer().setAllowFlight(false);
 		BossBar bossBar = Chakra.chakraBar.get(event.getPlayer().getName());
 		bossBar.removePlayer(event.getPlayer());
 		bossBar.removeAll();

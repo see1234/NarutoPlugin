@@ -45,7 +45,7 @@ public class ShinobiMob {
 		final NPC npc = CitizensAPI.getNPCRegistry().createNPC(EntityType.PLAYER, name);
 		((SkinTrait) npc.getTrait((Class) SkinTrait.class)).setSkinName(s);
 		// ((Equipment)npc.getTrait((Class)Equipment.class)).set(Equipment.EquipmentSlot.HAND,
-		// (ItemStack)CreateCustomItems.Swords.get("§7[§4UC§7] §b\u041c\u0435\u0447
+		// (ItemStack)CreateCustomItems.Swords.get("?7[?4UC?7] ?b\u041c\u0435\u0447
 		// \u043d\u043f\u0441"));
 		final SentinelTrait st = (SentinelTrait) npc.getTrait((Class) SentinelTrait.class);
 		new SentinelTargetLabel("players").addToList(st.allTargets);

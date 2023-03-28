@@ -22,9 +22,6 @@ public class SkillListener implements Listener {
 		if (event.getEntity() instanceof Player) {
 			if (Bukkit.getOnlinePlayers().contains(event.getEntity())) {
 				NarutoPlayer player = NarutoPlayer.getNarutoPlayer(event.getEntity().getName());
-				System.out.println(player.getDouble("medical") );
-				System.out.println(player.getDouble("health") );
-				System.out.println(((Player) event.getEntity()).getHealth() );
 				player.setDouble("health", player.getDouble("health") - ((double) event.getDamage()));
 				double healthmax = player.getDouble("medical") + 20;
 				double health = player.getDouble("health") <= 0 ? 0 : player.getDouble("health");
@@ -42,7 +39,7 @@ public class SkillListener implements Listener {
 				NarutoPlayer player = NarutoPlayer.getNarutoPlayer(event.getEntity().getName());
 
 				player.setDouble("health", player.getDouble("medical") + 20);
-				((Player) event.getEntity()).setHealth(20.0);
+			//	((Player) event.getEntity()).setHealth(20.0);
 
 
 			}

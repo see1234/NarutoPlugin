@@ -27,10 +27,10 @@ import minenaruto.narutoplugin.iditems.Item;
 import minenaruto.narutoplugin.main.Main;
 
 public class FireElement2 extends AbilitiesMain {
-
+    private Item item = new Item(293, 54, "§7[§6Naruto§7] §cПушка пламени", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
 	@Override
 	public void RightClick(Player player, NarutoPlayer pl) {
-		if (AbilityListener.checkChakraItem(player, Item.items.get(3).getName(), 100, 0, 0, 0, 0)) {
+		if (AbilityListener.checkChakraItem(player, getItem().getName(), 100, 0, 0, 0, 0)) {
 			Location playerlocation = player.getLocation().clone();
 			List<ArmorStand> arrayArmorStand = spawnArmorStand(playerlocation, 1);
 			for (ArmorStand arm : arrayArmorStand) {
@@ -42,9 +42,9 @@ public class FireElement2 extends AbilitiesMain {
 	@Override
 	public void RightPlusShift(Player player, NarutoPlayer pl) {
 		// TODO Auto-generated method stub
-		if (AbilityListener.checkChakraItem(player, Item.items.get(3).getName(), 0, 0, 0, 0, 0)) {
+		if (AbilityListener.checkChakraItem(player, getItem().getName(), 0, 0, 0, 0, 0)) {
 			if(pl.IfHasJustuPointAndRemoveJustuPoint(5)) {
-				player.getInventory().addItem(Item.items.get(4).getItemStack());
+			//	player.getInventory().addItem(Item.items.get(4).getItemStack());
 			}
 		}
 	}
@@ -128,12 +128,16 @@ public class FireElement2 extends AbilitiesMain {
 			armorstand.setGravity(false);
 			armorstand.setBasePlate(false);
 			armorstand.setVisible(false);
-			armorstand.setItemInHand(Item.items.get(2).getItemStack());
+			armorstand.setItemInHand(models.get("fireball").getItemStack());
 			arrayArmorStand.add(armorstand);
 		}
 		return arrayArmorStand;
 	}
+	@Override
+	public Item getItem() {
 
+		return item;
+	}
  
 
 }

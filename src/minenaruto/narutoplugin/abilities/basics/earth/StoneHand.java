@@ -31,10 +31,10 @@ import minenaruto.narutoplugin.iditems.Item;
 import minenaruto.narutoplugin.main.Main;
 
 public class StoneHand extends AbilitiesMain {
-
+   private Item item = new Item(293, 52, "§7[§6Naruto§7] §6Каменный кулак", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
 	@Override
 	public void RightClick(Player player, NarutoPlayer pl) {
-		if (AbilityListener.checkChakraItem(player, Item.items.get(12).getName(), 20, 0, 0, 0, 0)) {
+		if (AbilityListener.checkChakraItem(player, getItem().getName(), 20, 0, 0, 0, 0)) {
 			runTaskAbility(player);
 		}
 	}
@@ -42,9 +42,9 @@ public class StoneHand extends AbilitiesMain {
 	@Override
 	public void RightPlusShift(Player player, NarutoPlayer pl) {
 		// TODO Auto-generated method stub
-		if (AbilityListener.checkChakraItem(player, Item.items.get(12).getName(), 0, 0, 0, 0, 0)) {
+		if (AbilityListener.checkChakraItem(player, getItem().getName(), 0, 0, 0, 0, 0)) {
 			if (pl.IfHasJustuPointAndRemoveJustuPoint(5)) {
-				player.getInventory().addItem(Item.items.get(13).getItemStack());
+				//player.getInventory().addItem(Item.items.get(13).getItemStack());
 			}
 		}
 	}
@@ -53,5 +53,9 @@ public class StoneHand extends AbilitiesMain {
 		player.addPotionEffect(new PotionEffect(PotionEffectType.INCREASE_DAMAGE, 120, 3, true));
 	}
 
+	@Override
+	public Item getItem() {
 
+		return item;
+	}
 }

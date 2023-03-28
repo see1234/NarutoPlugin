@@ -41,7 +41,7 @@ public class Chakra extends BukkitRunnable {
 			} else {
 				NarutoPlayer np = NarutoPlayer.getNarutoPlayer(player.getName());
 				if (np != null) {
-					BossBar bossBar = Bukkit.createBossBar("§aЧакра - §dменю прокачки нажмите §cF", BarColor.BLUE,
+					BossBar bossBar = Bukkit.createBossBar("В§aР§Р°РєСЂР° - В§dРјРµРЅСЋ РїСЂРѕРєР°С‡РєРё РЅР°Р¶РјРёС‚Рµ В§cF", BarColor.BLUE,
 							BarStyle.SEGMENTED_20, new BarFlag[0]);
 					bossBar.addPlayer(player);
 					chakraBar.put(player.getName(), bossBar);

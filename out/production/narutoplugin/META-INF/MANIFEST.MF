@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: PlaceholderAPI-2.10.9.jar Citizens-2.0.27-b2226.jar Sentinel
+ -2.2.0-SNAPSHOT-b373.jar spigot-1.12.2.jar WorldGuard.jar worldedit-buk
+ kit-6.1.7.3.jar
+

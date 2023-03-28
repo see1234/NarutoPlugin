@@ -29,10 +29,10 @@ import minenaruto.narutoplugin.iditems.Item;
 import minenaruto.narutoplugin.main.Main;
 
 public class StoneBullets extends AbilitiesMain {
-
+    private Item item = new Item(293, 52, "§7[§6Naruto§7] §6Каменные пули", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
 	@Override
 	public void RightClick(Player player, NarutoPlayer pl) {
-		if (AbilityListener.checkChakraItem(player, Item.items.get(9).getName(), 20, 0, 0, 0, 0)) {
+		if (AbilityListener.checkChakraItem(player, getItem().getName(), 20, 0, 0, 0, 0)) {
 			Location playerlocation = player.getLocation().clone();
 			List<ArmorStand> arrayArmorStand = spawnArmorStand(playerlocation, 9);
 			for (ArmorStand arm : arrayArmorStand) {
@@ -44,9 +44,9 @@ public class StoneBullets extends AbilitiesMain {
 	@Override
 	public void RightPlusShift(Player player, NarutoPlayer pl) {
 		// TODO Auto-generated method stub
-		if (AbilityListener.checkChakraItem(player, Item.items.get(9).getName(), 0, 0, 0, 0, 0)) {
+		if (AbilityListener.checkChakraItem(player, getItem().getName(), 0, 0, 0, 0, 0)) {
 			if (pl.IfHasJustuPointAndRemoveJustuPoint(5)) {
-				player.getInventory().addItem(Item.items.get(10).getItemStack());
+			//	player.getInventory().addItem(Item.items.get(10).getItemStack());
 			}
 		}
 	}
@@ -101,12 +101,17 @@ public class StoneBullets extends AbilitiesMain {
 			Vector vec = new Vector(boolx, (rand.nextInt(i + 1) / 2), boolz);
 			ArmorStand armorstand = (ArmorStand) loc.getWorld().spawnEntity(loc.clone().add(vec),
 					EntityType.ARMOR_STAND);
+			armorstand.setVisible(false);
 			armorstand.setGravity(false);
 			armorstand.setBasePlate(false);
-			armorstand.setVisible(false);
-			armorstand.setHelmet(Item.items.get(8).getItemStack());
+			armorstand.setHelmet(models.get("stone").getItemStack());
 			arrayArmorStand.add(armorstand);
 		}
 		return arrayArmorStand;
+	}
+	@Override
+	public Item getItem() {
+
+		return item;
 	}
 }
