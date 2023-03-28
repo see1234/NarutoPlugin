@@ -27,10 +27,10 @@ import minenaruto.narutoplugin.iditems.Item;
 import minenaruto.narutoplugin.main.Main;
 
 public class FireElement4 extends AbilitiesMain {
-
+   private Item item = new Item(293, 54, "§7[§6Naruto§7] §cПростое пламя", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
 	@Override
 	public void RightClick(Player player, NarutoPlayer pl) {
-		if (AbilityListener.checkChakraItem(player, Item.items.get(5).getName(), 100, 0, 0, 0, 0)) {
+		if (AbilityListener.checkChakraItem(player, getItem().getName(), 100, 0, 0, 0, 0)) {
 			runTaskAbility(player);
 		}
 	}
@@ -38,9 +38,9 @@ public class FireElement4 extends AbilitiesMain {
 	@Override
 	public void RightPlusShift(Player player, NarutoPlayer pl) {
 		// TODO Auto-generated method stub
-		if (AbilityListener.checkChakraItem(player, Item.items.get(5).getName(), 0, 0, 0, 0, 0)) {
+		if (AbilityListener.checkChakraItem(player, getItem().getName(), 0, 0, 0, 0, 0)) {
 			if(pl.IfHasJustuPointAndRemoveJustuPoint(5)) {
-				player.getInventory().addItem(Item.items.get(6).getItemStack());
+				player.getInventory().addItem(getItem().getItemStack());
 			}
 		}
 	}
@@ -106,24 +106,12 @@ public class FireElement4 extends AbilitiesMain {
           }
         }
        }  
-	public List<ArmorStand> spawnArmorStand(Location loc, int size) {
-		ArrayList<ArmorStand> arrayArmorStand = new ArrayList<ArmorStand>();
-		for (int i = 0; i < size; i++) {
- 
-			//int boolx = rand.nextBoolean() ? rand.nextInt(i + 1) : -rand.nextInt(i + 1);
-			//int boolz = rand.nextBoolean() ? rand.nextInt(i + 1) : -rand.nextInt(i + 1);
-			//Vector vec = new Vector(boolx, (rand.nextInt(i + 1) / 2), boolz);
-			ArmorStand armorstand = (ArmorStand) loc.getWorld().spawnEntity(loc.clone(),
-					EntityType.ARMOR_STAND);
-			armorstand.setGravity(false);
-			armorstand.setBasePlate(false);
-			armorstand.setVisible(false);
-			armorstand.setItemInHand(Item.items.get(2).getItemStack());
-			arrayArmorStand.add(armorstand);
-		}
-		return arrayArmorStand;
-	}
 
+	@Override
+	public Item getItem() {
+
+		return item;
+	}
  
 
 }

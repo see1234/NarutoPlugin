@@ -3,6 +3,7 @@ package minenaruto.narutoplugin.abilities.basics;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.UUID;
 
 import org.bukkit.Bukkit;
@@ -31,10 +32,10 @@ import minenaruto.narutoplugin.iditems.Item;
 import minenaruto.narutoplugin.main.Main;
 
 public class ShadowClon extends AbilitiesMain {
- 
+   private  Item item = new Item(293, 8, "§7[§6Naruto§7] §7Теневое клонирование", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
 	@Override
 	public void RightClick(Player player, NarutoPlayer pl) {
-		if(AbilityListener.checkChakraItem(player, Item.items.get(7).getName(), 30, 0, 0, 30, 0)) {
+		if(AbilityListener.checkChakraItem(player, getItem().getName(), 30, 0, 0, 30, 0)) {
             NPC npc = CitizensAPI.getNPCRegistry().createNPC(EntityType.PLAYER, player.getName());
             SentinelTrait st = (SentinelTrait)npc.getTrait(SentinelTrait.class);
             Bukkit.getScheduler().scheduleSyncDelayedTask((Plugin)Main.getInstance(), () -> {
@@ -85,7 +86,11 @@ public class ShadowClon extends AbilitiesMain {
             }, 1L, 1L); 
 		}
 	}
+    @Override
+    public Item getItem() {
 
+        return item;
+    }
 	@Override
 	public void RightPlusShift(Player player, NarutoPlayer pl) {
 		// TODO Auto-generated method stub

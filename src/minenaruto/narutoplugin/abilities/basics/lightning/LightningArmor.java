@@ -29,10 +29,10 @@ import minenaruto.narutoplugin.iditems.Item;
 import minenaruto.narutoplugin.main.Main;
 
 public class LightningArmor extends AbilitiesMain {
-
+   private Item item = new Item(293, 57, "§7[§6Naruto§7] §6Штормовой покров", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
 	@Override
 	public void RightClick(Player player, NarutoPlayer pl) {
-		if (AbilityListener.checkChakraItem(player, Item.items.get(10).getName(), 100, 0, 0, 0, 0)) {
+		if (AbilityListener.checkChakraItem(player, getItem().getName(), 100, 0, 0, 0, 0)) {
 			runTaskAbility(player);
 		}
 	}
@@ -40,7 +40,7 @@ public class LightningArmor extends AbilitiesMain {
 	@Override
 	public void RightPlusShift(Player player, NarutoPlayer pl) {
 		// TODO Auto-generated method stub
-		if (AbilityListener.checkChakraItem(player, Item.items.get(10).getName(), 0, 0, 0, 0, 0)) {
+		if (AbilityListener.checkChakraItem(player, getItem().getName(), 0, 0, 0, 0, 0)) {
 			if(pl.IfHasJustuPointAndRemoveJustuPoint(5)) {
 				//player.getInventory().addItem(Item.items.get(6).getItemStack());
 			}
@@ -52,7 +52,11 @@ public class LightningArmor extends AbilitiesMain {
         player.addPotionEffect(new PotionEffect(PotionEffectType.FAST_DIGGING, 400, 4));
         player.addPotionEffect(new PotionEffect(PotionEffectType.JUMP, 400, 4));
 	}
+	@Override
+	public Item getItem() {
 
+		return item;
+	}
 
 
  

@@ -23,10 +23,10 @@ import minenaruto.narutoplugin.iditems.Item;
 import minenaruto.narutoplugin.main.Main;
 
 public class LightningShield extends AbilitiesMain {
-
+	private Item item = new Item(293, 57, "§7[§6Naruto§7] §6Штормовой щит", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
 	@Override
 	public void RightClick(Player player, NarutoPlayer pl) {
-		if (AbilityListener.checkChakraItem(player, Item.items.get(14).getName(), 50, 0, 0, 0, 0)) {
+		if (AbilityListener.checkChakraItem(player, getItem().getName(), 50, 0, 0, 0, 0)) {
 			runTaskAbility(player);
 		}
 	}
@@ -34,7 +34,7 @@ public class LightningShield extends AbilitiesMain {
 	@Override
 	public void RightPlusShift(Player player, NarutoPlayer pl) {
 		// TODO Auto-generated method stub
-		if (AbilityListener.checkChakraItem(player, Item.items.get(14).getName(), 0, 0, 0, 0, 0)) {
+		if (AbilityListener.checkChakraItem(player, getItem().getName(), 0, 0, 0, 0, 0)) {
 			if(pl.IfHasJustuPointAndRemoveJustuPoint(5)) {
 				//player.getInventory().addItem(Item.items.get(6).getItemStack());
 			}
@@ -82,7 +82,10 @@ public class LightningShield extends AbilitiesMain {
 		};
 		task.runTaskTimerAsynchronously(Main.getInstance(), 1L, 1L);
 	}
-   
+	@Override
+	public Item getItem() {
+		return item;
+	}
 
  
 

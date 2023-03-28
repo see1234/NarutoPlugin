@@ -30,10 +30,10 @@ import minenaruto.narutoplugin.iditems.Item;
 import minenaruto.narutoplugin.main.Main;
 
 public class SharinganItachi extends AbilitiesMain {
-
+	private Item item = new Item(293, 77, "§7[§6Naruto§7] §4Шаринган Итачи (Воронье Гендзюцу)", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
 	@Override
 	public void RightClick(Player player, NarutoPlayer pl) {
-		if (AbilityListener.checkChakraItem(player, Item.items.get(6).getName(), 100, 0, 0, 0, 0)) {
+		if (AbilityListener.checkChakraItem(player, getItem().getName(), 100, 0, 0, 0, 0)) {
 			Location playerlocation = player.getLocation().clone();
 		//	List<ArmorStand> arrayArmorStand = spawnArmorStand(playerlocation, 1);
 				runTaskAbility(player);
@@ -44,17 +44,22 @@ public class SharinganItachi extends AbilitiesMain {
 	@Override
 	public void RightPlusShift(Player player, NarutoPlayer pl) {
 		// TODO Auto-generated method stub
-		if (AbilityListener.checkChakraItem(player, Item.items.get(6).getName(), 0, 0, 0, 0, 0)) {
+		if (AbilityListener.checkChakraItem(player, getItem().getName(), 0, 0, 0, 0, 0)) {
 			if(pl.IfHasJustuPointAndRemoveJustuPoint(5)) {
-				player.getInventory().addItem(Item.items.get(7).getItemStack());
+				//	player.getInventory().addItem(Item.items.get(7).getItemStack());
 			}
 		}
+	}
+
+	@Override
+	public Item getItem() {
+		return item;
 	}
 
 	public void runTaskAbility(Player player) {
 		final LivingEntity entityTarget = rayTraceEntity(player, 16);
 		if(entityTarget == null) {
-		player.sendMessage("�7[�6Naruto�7] �f" + "�� �� �������� � ������� �����");	
+		player.sendMessage("§7[§6Naruto§7] §f" + "Вы не скрылись в летущие мышки");	
 		}
 		else {
 	     	if(entityTarget instanceof Player) {
