@@ -7,23 +7,34 @@ import java.util.Collection;
 import java.util.stream.Collectors;
 
 import minenaruto.narutoplugin.abilities.AbilitiesMain;
+import minenaruto.narutoplugin.abilities.Kekkei_Genkai.log.LogHandsOfWood;
+import minenaruto.narutoplugin.abilities.Kekkei_Genkai.log.LogSharpNeedles;
+import minenaruto.narutoplugin.abilities.Kekkei_Genkai.log.LogShield;
+import minenaruto.narutoplugin.abilities.basics.ChakraController;
+import minenaruto.narutoplugin.abilities.basics.ReplacementTechnique;
 import minenaruto.narutoplugin.abilities.basics.ShadowClon;
 import minenaruto.narutoplugin.abilities.basics.earth.StoneArmor;
+import minenaruto.narutoplugin.abilities.basics.earth.StoneBroke;
 import minenaruto.narutoplugin.abilities.basics.earth.StoneBullets;
 import minenaruto.narutoplugin.abilities.basics.earth.StoneHand;
-import minenaruto.narutoplugin.abilities.basics.fire.FireElement;
-import minenaruto.narutoplugin.abilities.basics.fire.FireElement2;
-import minenaruto.narutoplugin.abilities.basics.fire.FireElement3;
-import minenaruto.narutoplugin.abilities.basics.fire.FireElement4;
+import minenaruto.narutoplugin.abilities.basics.fire.*;
 import minenaruto.narutoplugin.abilities.basics.lightning.LightningArmor;
+import minenaruto.narutoplugin.abilities.basics.lightning.LightningBullets;
+import minenaruto.narutoplugin.abilities.basics.lightning.LightningCover;
 import minenaruto.narutoplugin.abilities.basics.lightning.LightningShield;
-import minenaruto.narutoplugin.abilities.models.FireBall;
-import minenaruto.narutoplugin.abilities.models.Stone;
-import minenaruto.narutoplugin.abilities.reningan.ReninganFly;
-import minenaruto.narutoplugin.abilities.reningan.ReninganSaskeTeleport;
-import minenaruto.narutoplugin.abilities.sharingan.Sharingan;
-import minenaruto.narutoplugin.abilities.sharingan.SharinganItachi;
-import minenaruto.narutoplugin.abilities.sharingan.SharinganItachiAmateracy;
+import minenaruto.narutoplugin.abilities.basics.water.WaterJail;
+import minenaruto.narutoplugin.abilities.basics.water.WaterPunch;
+import minenaruto.narutoplugin.abilities.basics.water.WaterShark;
+import minenaruto.narutoplugin.abilities.basics.wind.WindPush;
+import minenaruto.narutoplugin.abilities.reningan.RenninganSaskeTeleportHome;
+import minenaruto.narutoplugin.models.*;
+import minenaruto.narutoplugin.abilities.reningan.RenninganBlackHole;
+import minenaruto.narutoplugin.abilities.reningan.RenninganFly;
+import minenaruto.narutoplugin.abilities.reningan.RenninganSaskeTeleport;
+import minenaruto.narutoplugin.abilities.sharingan.*;
+import minenaruto.narutoplugin.swords.Decapitator;
+import minenaruto.narutoplugin.swords.HidanScythe;
+import minenaruto.narutoplugin.swords.SwordMain;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.World;
@@ -36,7 +47,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 import minenaruto.narutoplugin.abilities.AbilityListener;
 import minenaruto.narutoplugin.dataplayer.Chakra;
 import minenaruto.narutoplugin.dataplayer.PlayerListener;
-import minenaruto.narutoplugin.iditems.Item;
 import minenaruto.narutoplugin.iditems.NarutoItemsCommand;
 import minenaruto.narutoplugin.skillmenu.SkillListener;
 import minenaruto.narutoplugin.skillmenu.Skillmenu;
@@ -49,6 +59,8 @@ public class Main extends JavaPlugin {
 	public static Main getInstance() { return instance; }
 	public static FileConfiguration cfg;
 	private ArrayList<AbilitiesMain> abilities = new ArrayList<AbilitiesMain>();
+	private ArrayList<ModelsMain> models = new ArrayList<ModelsMain>();
+	private ArrayList<SwordMain> swords = new ArrayList<SwordMain>();
 	public static FileConfiguration getCfg() { return cfg; }
 	public void onEnable() {
 	    instance = this;
@@ -58,34 +70,81 @@ public class Main extends JavaPlugin {
 		registerCommands();
 		registerModels();
 		registerAbilities();
+		registerSwords();
 		new Chakra().runTaskTimer((Plugin)this, 20L, 20L);
 	}
 
 	public ArrayList<AbilitiesMain> getAbilities() {
 		return abilities;
 	}
+	public ArrayList<SwordMain> getSwords() {
+		return swords;
+	}
 
 	private void registerAbilities() {
+		//Глаза:
+		//  Шаринган:
+		abilities.add(new Sharingan());
+		abilities.add(new SharinganObito());
 		abilities.add(new SharinganItachi());
 		abilities.add(new SharinganItachiAmateracy());
-		abilities.add(new ShadowClon());
-		abilities.add(new FireElement());
-		abilities.add(new FireElement2());
-		abilities.add(new FireElement3());
-		abilities.add(new FireElement4());
+		abilities.add(new SharinganSaskeAmateracy());
+		abilities.add(new SharinganSusano());
+		abilities.add(new SharinganSusanoItachi());
+		abilities.add(new SharinganSusanoMadara());
+		abilities.add(new SharinganSusanoSaske());
+		//  Риненган:
+		abilities.add(new RenninganFly());
+		abilities.add(new RenninganBlackHole());
+		abilities.add(new RenninganSaskeTeleportHome());
+		abilities.add(new RenninganSaskeTeleport());
+		//Стихии:
+		// Огонь:
+		abilities.add(new FireCircleOfFire());
+		abilities.add(new FireFlameCannon());
+		abilities.add(new FireJetpack());
+		abilities.add(new FireMassFieryDestruction());
+		abilities.add(new FirePhoenixFlower());
+		abilities.add(new FireShieldOfFire());
+		abilities.add(new FireSimpleFlame());
+		// Молния:
+		abilities.add(new LightningCover());
 		abilities.add(new LightningArmor());
+		abilities.add(new LightningBullets());
 		abilities.add(new LightningShield());
+		// Земля:
 		abilities.add(new StoneBullets());
 		abilities.add(new StoneArmor());
 		abilities.add(new StoneHand());
-		abilities.add(new Sharingan());
-		abilities.add(new ReninganFly());
-		abilities.add(new ReninganSaskeTeleport());
+		abilities.add(new StoneBroke());
+		// Вода:
+		abilities.add(new WaterJail());
+		abilities.add(new WaterShark());
+		abilities.add(new WaterPunch());
+        // Ветер:
+		abilities.add(new WindPush());
+		//ККГ:
+		//  Дерево:
+		abilities.add(new LogShield());
+		abilities.add(new LogSharpNeedles());
+		abilities.add(new LogHandsOfWood());
+		//Прочие возможности:
+		abilities.add(new ChakraController());
+		abilities.add(new ReplacementTechnique());
+		abilities.add(new ShadowClon());
 	}
 	private void registerModels() {
-		abilities.add(new Stone());
-		abilities.add(new FireBall());
-
+		models.add(new Stone());
+		models.add(new FireBall());
+		models.add(new Shark());
+		models.add(new Susano());
+		models.add(new SusanoItachi());
+		models.add(new SusanoMadara());
+		models.add(new SusanoSaske());
+	}
+	private void registerSwords() {
+		swords.add(new Decapitator());
+		swords.add(new HidanScythe());
 	}
 	private void registerCommands() {
 		new NarutoItemsCommand().register();

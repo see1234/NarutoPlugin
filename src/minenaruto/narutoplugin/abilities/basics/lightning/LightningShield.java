@@ -42,45 +42,42 @@ public class LightningShield extends AbilitiesMain {
 	}
 
 	public void runTaskAbility(Player player) {
-		BukkitRunnable task = new BukkitRunnable() {
+		for (double k = 0.0D; k < 3.0D; k += 0.5D) {
+			for (Entity en : player.getNearbyEntities(k, k, k)) {
+				if (en instanceof LivingEntity) {
+					if (en instanceof Player) {
+						if (hasPvpZone(en)) {
+							addDamageEntity(player, (Player)en,7);
 
-			@Override
-			public void run() {
-	            for (double k = 0.0; k < 3.0; k += 0.5) {
-	                for (Entity en : player.getNearbyEntities(k, k, k)) {
-	                    if (!(en instanceof LivingEntity)) continue;
-	                    if (en instanceof Player) {
-	                        if (!hasPvpZone(en)) continue;
-	                        addDamageEntity(player, en, 14);
-	                        ((LivingEntity)en).addPotionEffect(new PotionEffect(PotionEffectType.SLOW, 100, 5));
-	                        continue;
-	                    }
-	                    addDamageEntity(player, en, 20);
-	                    ((LivingEntity)en).addPotionEffect(new PotionEffect(PotionEffectType.SLOW, 100, 5));
-	                }
-	                World world = player.getWorld();
-	                double radius = k;
-	                Location location = player.getLocation();
-	                float yaw = player.getEyeLocation().getYaw();
-	                int angle = 360;
-	                int angleStep = 5;
-	                int arcCount = 3;
-	                double playerHeight = 2.1;
-	                double floorOffset = 0.1;
-	                double arcHeight = (playerHeight - floorOffset) / (double)arcCount;
-	                for (int arc = 0; arc < arcCount; ++arc) {
-	                    for (int i = 0; i <= angle; i += angleStep) {
-	                        double radians = Math.toRadians((float)i + yaw - (float)angle / 2.0f);
-	                        double x = -Math.sin(radians) * radius;
-	                        double y = Math.cos(radians) * radius;
-	                        world.spawnParticle(Particle.CRIT_MAGIC, new Vector(x, floorOffset + arcHeight * (double)arc, y).toLocation(world).add(location), 1, 0.0, 0.0, 0.0, 0.0);
-	                    }
-	                }
-	            }
-	            cancel();
+							((LivingEntity)en).addPotionEffect(new PotionEffect(PotionEffectType.SLOW, 100, 5));
+						}
+						continue;
+					}
+					addDamageEntity(player, (Player)en,10);
+					((LivingEntity)en).addPotionEffect(new PotionEffect(PotionEffectType.SLOW, 100, 5));
+				}
 			}
-		};
-		task.runTaskTimerAsynchronously(Main.getInstance(), 1L, 1L);
+			World world = player.getWorld();
+			double radius = k;
+			Location location = player.getLocation();
+			float yaw = player.getEyeLocation().getYaw();
+			int angle = 360;
+			int angleStep = 5;
+			int arcCount = 3;
+			double playerHeight = 2.1D;
+			double floorOffset = 0.1D;
+			double arcHeight = (playerHeight - floorOffset) / arcCount;
+			for (int arc = 0; arc < arcCount; arc++) {
+				int i;
+				for (i = 0; i <= angle; i += angleStep) {
+					double radians = Math.toRadians((i + yaw - angle / 2.0F));
+					double x = -Math.sin(radians) * radius;
+					double y = Math.cos(radians) * radius;
+					world.spawnParticle(Particle.CRIT_MAGIC, (new Vector(x, floorOffset + arcHeight * arc, y))
+							.toLocation(world).add(location), 1, 0.0D, 0.0D, 0.0D, 0.0D);
+				}
+			}
+		}
 	}
 	@Override
 	public Item getItem() {
