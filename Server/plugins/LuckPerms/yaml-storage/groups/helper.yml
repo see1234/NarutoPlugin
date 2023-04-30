@@ -1,0 +1,8 @@
+name: helper
+permissions:
+- weight.12
+parents:
+- default
+prefixes:
+- §9H+ §7|§f:
+    priority: 12

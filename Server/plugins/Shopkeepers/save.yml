@@ -1,0 +1,168 @@
+# This file is not intended to be manually modified! If you want to manually edit this file anyways, ensure that the server is not running currently and that you have prepared a backup of this file.
+data-version: 2|2230
+'2':
+  uniqueId: 4f953f42-d3e2-483c-b4f2-152b51e77ac0
+  name: Trader
+  world: world
+  x: -193
+  y: 74
+  z: 239
+  type: admin
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: SNOW
+    villagerLevel: 1
+  recipes:
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: NAME_TAG
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §7[§4UC§7] §cПобедная бирка
+          lore:
+          - '§7Информация: '
+          - §7 - §сПобедную бирку §7можно обменять на оружие
+          - §7 - Найти §9Торговца §7можно на спавне в магазине
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §bОбезглавливающий меч
+          lore:
+          - '§6Информация§7:'
+          - §7 - Один из легендарных мечей тумана
+          - §7 - Восстанавливает хп при убийстве игрока
+          enchants:
+            DAMAGE_ALL: 5
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: NAME_TAG
+        amount: 7
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §7[§4UC§7] §cПобедная бирка
+          lore:
+          - '§7Информация: '
+          - §7 - §сПобедную бирку §7можно обменять на оружие
+          - §7 - Найти §9Торговца §7можно на спавне в магазине
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §7[§4UC§7] §eМеч-Секач
+          lore:
+          - '§6Информация§7:'
+          - §7 - Мощным ударом откидывает противника
+          - §7 - Противник замедляется
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: NAME_TAG
+        amount: 7
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §7[§4UC§7] §cПобедная бирка
+          lore:
+          - '§7Информация: '
+          - §7 - §сПобедную бирку §7можно обменять на оружие
+          - §7 - Найти §9Торговца §7можно на спавне в магазине
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §7[§4UC§7] §3Нуибари
+          lore:
+          - '§6Информация§7:'
+          - §7 - Пронзает противника на сквозь
+          - §7 - У противника начинается кровотечение
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: NAME_TAG
+        amount: 9
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §7[§4UC§7] §cПобедная бирка
+          lore:
+          - '§7Информация: '
+          - §7 - §сПобедную бирку §7можно обменять на оружие
+          - §7 - Найти §9Торговца §7можно на спавне в магазине
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §7[§4UC§7] §cКиба
+          lore:
+          - '§6Информация§7:'
+          - §7 - Нажмите §6ПКМ§7, чтобы вызвать молнию
+          - ''
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true
+    '5':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: NAME_TAG
+        amount: 15
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §7[§4UC§7] §cПобедная бирка
+          lore:
+          - '§7Информация: '
+          - §7 - §сПобедную бирку §7можно обменять на оружие
+          - §7 - Найти §9Торговца §7можно на спавне в магазине
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2230
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §7[§4UC§7] §8Кабутовари
+          lore:
+          - '§6Информация§7:'
+          - §7 - Мощнейший молот
+          - §7 - Тяжелый топор и молот замедляют владельца
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          Unbreakable: true

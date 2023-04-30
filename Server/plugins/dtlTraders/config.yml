@@ -1,0 +1,62 @@
+#
+# Appearance and position of page selectors
+version: 6.0.0
+General:
+  disable-npc-left-click: true
+  disable-npc-right-click: false
+  currency: Valis
+page-selectors:
+  back:
+    slots:
+      - 2
+    position: bottom
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD_BLOCK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '&aBack'
+    name: "&aBack"
+  next:
+    slots:
+      - 6
+    position: bottom
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD_BLOCK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '&aNext'
+    name: "&aNext"
+  exit:
+    slots:
+      - 4
+    position: bottom
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: REDSTONE_BLOCK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '&cExit'
+    name: "&cExit"
+shop-selectors:
+  slot: 8
+  position: bottom
+  buy:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+    name: '&aBuy'
+  sell:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: STONE
+    name: '&6Sell'
+  trade:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: REDSTONE_BLOCK
+    name: '&bTrade'

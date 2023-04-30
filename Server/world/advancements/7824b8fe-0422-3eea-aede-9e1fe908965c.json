@@ -1,0 +1,9 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "swampland": "2022-07-24 16:09:21 +0300",
+      "taiga": "2022-07-24 16:10:18 +0300"
+    },
+    "done": false
+  }
+}

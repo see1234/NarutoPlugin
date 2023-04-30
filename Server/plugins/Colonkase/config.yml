@@ -1,0 +1,20 @@
+block: NOTE_BLOCK
+colonka:
+  'yes':
+    name: 'yes'
+    world: world
+    x: -277.0
+    y: 80.0
+    z: 233.0
+    interval: 120
+    radius: 1
+    mosch: 1
+  testf:
+    name: testf
+    world: world
+    x: -292.0
+    y: 63.0
+    z: 219.0
+    interval: 120
+    radius: 1
+    mosch: 1

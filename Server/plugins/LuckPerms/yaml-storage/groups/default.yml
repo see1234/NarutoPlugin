@@ -1,0 +1,42 @@
+name: default
+permissions:
+- worldguard.region.addmember.own.*
+- worldguard.region.addowner.own.*
+- worldguard.region.info.own.*
+- worldguard.region.remove.own.*
+- worldguard.region.removemember.own.*
+- worldguard.region.removeowner.own.*
+- bukkit.command.*:
+    value: false
+- minecraft.*:
+    value: false
+- skinsrestorer.*
+- auctionhouse.cancel
+- auctionhouse.return
+- auctionhouse.sell
+- auctionhouse.use
+- betterrtp.use
+- betterrtp.world.world
+- essentials.home
+- essentials.kit.start
+- essentials.kits.start
+- essentials.pay
+- essentials.sethome
+- essentials.spawn
+- essentials.tpa
+- essentials.tpaccept
+- essentials.tptoggle
+- weight.1
+- worldedit.selection.expand
+- worldedit.selection.hpos
+- worldedit.selection.pos
+- worldedit.wand
+- worldguard.region
+- worldguard.region.claim
+- worldguard.region.wand
+prefixes:
+- §fP §7|§f:
+    priority: 1
+meta:
+- default:
+    value: 'true'

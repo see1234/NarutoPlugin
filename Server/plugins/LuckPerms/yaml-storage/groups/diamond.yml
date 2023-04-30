@@ -1,0 +1,9 @@
+name: diamond
+permissions:
+- exp.diamond
+- weight.4
+parents:
+- default
+prefixes:
+- §bD §7|§f:
+    priority: 4

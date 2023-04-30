@@ -1,0 +1,12 @@
+name: ctester
+permissions:
+- artifact.5
+- commission.null
+- prison.bypass
+- prison.moderations
+- weight.16
+parents:
+- default
+prefixes:
+- §cC§6T §7|§f:
+    priority: 16

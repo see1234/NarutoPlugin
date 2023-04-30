@@ -1,0 +1,9 @@
+name: vip
+permissions:
+- exp.vip
+- weight.2
+parents:
+- default
+prefixes:
+- §aV §7|§f:
+    priority: 2

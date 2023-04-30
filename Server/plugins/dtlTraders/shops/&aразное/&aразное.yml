@@ -1,0 +1,1185 @@
+'&aразное':
+  title: §aРазное
+  command: none
+  permission: none
+  default-shop: buy
+  buy-shop-enabled: true
+  sell-shop-enabled: true
+  trade-shop-enabled: true
+  logging-enabled: false
+  pages:
+    page-0:
+      size: 54
+      page-name: Page 42127
+      page-permission: ''
+      buy-items:
+        item-0:
+          id: 180
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLACK_STAINED_GLASS_PANE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §c❤
+          show-description: true
+          description: []
+        item-1:
+          id: 181
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLACK_STAINED_GLASS_PANE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §c❤
+          show-description: true
+          description: []
+        item-2:
+          id: 182
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLACK_STAINED_GLASS_PANE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §c❤
+          show-description: true
+          description: []
+        item-3:
+          id: 183
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLACK_STAINED_GLASS_PANE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §c❤
+          show-description: true
+          description: []
+        item-4:
+          id: 184
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLACK_STAINED_GLASS_PANE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §c❤
+          show-description: true
+          description: []
+        item-5:
+          id: 185
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLACK_STAINED_GLASS_PANE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §c❤
+          show-description: true
+          description: []
+        item-6:
+          id: 186
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLACK_STAINED_GLASS_PANE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §c❤
+          show-description: true
+          description: []
+        item-7:
+          id: 187
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLACK_STAINED_GLASS_PANE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §c❤
+          show-description: true
+          description: []
+        item-8:
+          id: 188
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLACK_STAINED_GLASS_PANE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §c❤
+          show-description: true
+          description: []
+        item-9:
+          id: 225
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: ENDER_PEARL
+            amount: 2
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 24/11/2020 15:59:58
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 24/11/2020 15:59:58
+          show-price: true
+          trade-price: 1000.0
+          custom-input-enabled: true
+          stack-sale-enabled: true
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-10:
+          id: 226
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: ENDER_EYE
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 24/11/2020 16:00:14
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 24/11/2020 16:00:14
+          show-price: true
+          trade-price: 1500.0
+          custom-input-enabled: true
+          stack-sale-enabled: true
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-11:
+          id: 227
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: SLIME_BALL
+            amount: 4
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 24/11/2020 16:00:43
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 24/11/2020 16:00:43
+          show-price: true
+          trade-price: 750.0
+          custom-input-enabled: true
+          stack-sale-enabled: true
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-12:
+          id: 228
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BONE
+            amount: 2
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 24/11/2020 16:01:00
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 24/11/2020 16:01:00
+          show-price: true
+          trade-price: 350.0
+          custom-input-enabled: true
+          stack-sale-enabled: true
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-13:
+          id: 229
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLAZE_ROD
+            amount: 2
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 24/11/2020 16:01:12
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 24/11/2020 16:01:12
+          show-price: true
+          trade-price: 1250.0
+          custom-input-enabled: true
+          stack-sale-enabled: true
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-14:
+          id: 230
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLAZE_POWDER
+            amount: 2
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 24/11/2020 16:01:29
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 24/11/2020 16:01:29
+          show-price: true
+          trade-price: 500.0
+          custom-input-enabled: true
+          stack-sale-enabled: true
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-15:
+          id: 245
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: GOLDEN_CARROT
+            amount: 2
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 24/11/2020 16:06:49
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 24/11/2020 16:06:49
+          show-price: true
+          trade-price: 1200.0
+          custom-input-enabled: true
+          stack-sale-enabled: true
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-16:
+          id: 246
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BREWING_STAND
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 24/11/2020 16:07:21
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 24/11/2020 16:07:21
+          show-price: true
+          trade-price: 1100.0
+          custom-input-enabled: false
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-17:
+          id: 242
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: SUGAR_CANE
+            amount: 16
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 24/11/2020 16:04:57
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 24/11/2020 16:04:57
+          show-price: true
+          trade-price: 350.0
+          custom-input-enabled: true
+          stack-sale-enabled: true
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-18:
+          id: 244
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: WRITABLE_BOOK
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 24/11/2020 16:06:29
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 24/11/2020 16:06:29
+          show-price: true
+          trade-price: 550.0
+          custom-input-enabled: false
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-19:
+          id: 243
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: GHAST_TEAR
+            amount: 2
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 24/11/2020 16:06:14
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 24/11/2020 16:06:14
+          show-price: true
+          trade-price: 2000.0
+          custom-input-enabled: true
+          stack-sale-enabled: true
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-20:
+          id: 200
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLACK_STAINED_GLASS_PANE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §c❤
+          show-description: true
+          description: []
+        item-21:
+          id: 201
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLACK_STAINED_GLASS_PANE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §c❤
+          show-description: true
+          description: []
+        item-22:
+          id: 322
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: EXPERIENCE_BOTTLE
+            amount: 16
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 17/12/2020 21:37:32
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 17/12/2020 21:37:32
+          show-price: true
+          trade-price: 2500.0
+          custom-input-enabled: true
+          stack-sale-enabled: true
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-23:
+          id: 203
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLACK_STAINED_GLASS_PANE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §c❤
+          show-description: true
+          description: []
+        item-24:
+          id: 204
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLACK_STAINED_GLASS_PANE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §c❤
+          show-description: true
+          description: []
+        item-25:
+          id: 231
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: SNOWBALL
+            amount: 16
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 24/11/2020 16:02:00
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 24/11/2020 16:02:00
+          show-price: true
+          trade-price: 100.0
+          custom-input-enabled: true
+          stack-sale-enabled: true
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-26:
+          id: 241
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: MAP
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 24/11/2020 16:04:31
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 24/11/2020 16:04:31
+          show-price: true
+          trade-price: 500.0
+          custom-input-enabled: false
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-27:
+          id: 232
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: MUSIC_DISC_BLOCKS
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 24/11/2020 16:02:38
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 24/11/2020 16:02:38
+          show-price: true
+          trade-price: 5000.0
+          custom-input-enabled: false
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-28:
+          id: 233
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: MUSIC_DISC_13
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 24/11/2020 16:02:48
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 24/11/2020 16:02:48
+          show-price: true
+          trade-price: 5000.0
+          custom-input-enabled: false
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-29:
+          id: 234
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: MUSIC_DISC_CAT
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 24/11/2020 16:03:07
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 24/11/2020 16:03:07
+          show-price: true
+          trade-price: 5000.0
+          custom-input-enabled: false
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-30:
+          id: 235
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: MUSIC_DISC_CHIRP
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 24/11/2020 16:03:18
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 24/11/2020 16:03:18
+          show-price: true
+          trade-price: 5000.0
+          custom-input-enabled: false
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-31:
+          id: 236
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: MUSIC_DISC_FAR
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 24/11/2020 16:03:31
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 24/11/2020 16:03:31
+          show-price: true
+          trade-price: 5000.0
+          custom-input-enabled: false
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-32:
+          id: 237
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: MUSIC_DISC_MALL
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 24/11/2020 16:03:41
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 24/11/2020 16:03:41
+          show-price: true
+          trade-price: 5000.0
+          custom-input-enabled: false
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-33:
+          id: 238
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: MUSIC_DISC_MELLOHI
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 24/11/2020 16:03:55
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 24/11/2020 16:03:55
+          show-price: true
+          trade-price: 5000.0
+          custom-input-enabled: false
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-34:
+          id: 239
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: MUSIC_DISC_STAL
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 24/11/2020 16:04:08
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 24/11/2020 16:04:08
+          show-price: true
+          trade-price: 5000.0
+          custom-input-enabled: false
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-35:
+          id: 240
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: MUSIC_DISC_STRAD
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 24/11/2020 16:04:21
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 24/11/2020 16:04:21
+          show-price: true
+          trade-price: 5000.0
+          custom-input-enabled: false
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: true
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+        item-36:
+          id: 216
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLACK_STAINED_GLASS_PANE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §c❤
+          show-description: true
+          description: []
+        item-37:
+          id: 217
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLACK_STAINED_GLASS_PANE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §c❤
+          show-description: true
+          description: []
+        item-38:
+          id: 218
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLACK_STAINED_GLASS_PANE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §c❤
+          show-description: true
+          description: []
+        item-39:
+          id: 219
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLACK_STAINED_GLASS_PANE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §c❤
+          show-description: true
+          description: []
+        item-40:
+          id: 220
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLACK_STAINED_GLASS_PANE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §c❤
+          show-description: true
+          description: []
+        item-41:
+          id: 221
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLACK_STAINED_GLASS_PANE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §c❤
+          show-description: true
+          description: []
+        item-42:
+          id: 222
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLACK_STAINED_GLASS_PANE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §c❤
+          show-description: true
+          description: []
+        item-43:
+          id: 223
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLACK_STAINED_GLASS_PANE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §c❤
+          show-description: true
+          description: []
+        item-44:
+          id: 224
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 2230
+            type: BLACK_STAINED_GLASS_PANE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: §c❤
+          show-description: true
+          description: []

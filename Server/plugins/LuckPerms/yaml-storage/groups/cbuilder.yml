@@ -1,0 +1,10 @@
+name: cbuilder
+permissions:
+- artifact.5
+- commission.null
+- prison.bypass
+- prison.moderations
+- weight.17
+prefixes:
+- §cC§2B §7|§f:
+    priority: 17

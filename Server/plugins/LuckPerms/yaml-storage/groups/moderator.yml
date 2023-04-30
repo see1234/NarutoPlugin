@@ -1,0 +1,8 @@
+name: moderator
+permissions:
+- weight.14
+parents:
+- default
+prefixes:
+- §3M §7|§f:
+    priority: 14

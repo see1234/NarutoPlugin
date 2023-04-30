@@ -1,0 +1,405 @@
+Clans:
+  Black:
+    leader: XaTiKoXD
+    members:
+    - XaTiKoXD
+    - levm6454_85
+    - deidara2010
+    - Phoenix_Sparks
+    - _MaksTop_300
+    - Contriver_5
+    spawnLoc:
+      ==: org.bukkit.Location
+      world: world
+      x: -853.1512521303761
+      y: 88.0
+      z: -732.9426757742162
+      pitch: 16.594849
+      yaw: 229.447
+    points: 1826
+  LoveL:
+    leader: xReez1k_
+    members:
+    - xReez1k_
+    - AnGeJlo4ek
+    trusted: []
+    coowner:
+    - Lil_Click
+    - AnGeJlo4ek
+    points: 3997
+  Uchixa:
+    leader: Yukimaru
+    members:
+    - Yukimaru
+    - InoShikoCho
+    - uchihaitachi
+    - Shelling
+    - Walentin1
+    - dfaniil090
+    - volshebnik2285
+    - Timur_Savitskiy
+    - das12
+    - KeNmA_kOzUmE
+    - AkayoSakira
+    - MisterL_79310
+    - BazukaPlay4k
+    - LagPlayBit
+    - Abimansur
+    - beybarus
+    - fixynime
+    - TheHappy
+    - lofly
+    - hrapochka
+    - _DONNI_
+    - KYBE_ONE
+    - TwixTop_
+    - GodA1d
+    - ELMAN179179
+    - Naruto1006
+    - nazartasher
+    - danu
+    - Arbuzka
+    - MeY_TumanA
+    - larsvo2001
+    - madara87890
+    - Darthmaull
+    - vipmaster
+    - pvp111
+    - Cristiano_7
+    points: 222731
+    spawnLoc:
+      ==: org.bukkit.Location
+      world: world
+      x: -1569.1440409951645
+      y: 63.0
+      z: -108.13585736031153
+      pitch: 20.100052
+      yaw: -1.1179788
+    trusted:
+    - InoShikoCho
+    - uchihaitachi
+    - dfaniil090
+    - Walentin1
+    - Abimansur
+    - LagPlayBit
+    - HatekiSAO
+    - SuperXuan_
+    - volshebnik2285
+    - TheHappy
+    - fixynime
+    - lofly
+    - beybarus
+    - hrapochka
+    - Timur_Savitskiy
+    - KYBE_ONE
+    - TwixTop_
+    - KeNmA_kOzUmE
+    - GodA1d
+    - Shelling
+    - ELMAN179179
+    - danu
+    - Arbuzka
+    - MeY_TumanA
+    - madara87890
+    - larsvo2001
+    - pvp111
+    - vipmaster
+    - Darthmaull
+    - Cristiano_7
+    coowner:
+    - BazukaPlay4k
+    - Romirgl
+  ДжоДжо:
+    leader: Kira
+    members:
+    - Kira
+    - Murik_936
+    - NFVBR
+    - Indra
+    - tagir777228
+    - Dio
+    - Shoprr
+    - x__Sasori__x
+    - Lornik00
+    - 32321jok
+    - NuegoCa
+    - Val11X1
+    - janabakana
+    - rusla
+    - HatekiSAO
+    - 1toy
+    - Rinegaijd
+    - Minato_kyn
+    - full123456
+    - 3_madara_3
+    - full1234543
+    - SPIDWAGON
+    - StasNagibatoR228
+    - EtoMexan1K
+    - xXxbekaxXx
+    points: 177806
+    spawnLoc:
+      ==: org.bukkit.Location
+      world: world
+      x: 1258.5202743799387
+      y: 27.0
+      z: 711.4405340885143
+      pitch: 70.53796
+      yaw: -109.90454
+    trusted:
+    - Murik_936
+    - _Obito_Uchiha_
+    - astroK
+    - TwixTop_
+    - janabakana
+    - x__Sasori__x
+    - 1toy
+    - HatekiSAO
+    - Rinegaijd
+    - koteikakot54
+    - NFVBR
+    - full123456
+    - 3_madara_3
+    - Val11X1
+    - 32321jok
+    - NuegoCa
+    - Lornik00
+    - StasNagibatoR228
+    - EtoMexan1K
+    coowner:
+    - Indra
+    - tagir777228
+    - Dio
+    - SPIDWAGON
+    - Minato_kyn
+  USHIHA:
+    leader: Minato_Namikadze
+    members:
+    - Minato_Namikadze
+    - ArchiDOG109
+    - _invers_
+    - RusskieBogi
+    - wanna3013
+    - Invers
+    - PecMaksik228
+    - uzuichihamadara
+    - PacShepherd
+    - Kvily
+    - Iron_Dwarf25
+    - Yato
+    - alexander12
+    - kriperbak
+    - _GodLegend_
+    - gopnik_mama
+    - igor_zip
+    - vanya_halk
+    - MergQser
+    - '51295129'
+    - kikipodio1
+    - Brategg
+    - MineGamesEtycky
+    - vanabibambuka
+    - Marat_tatar
+    - bavbolby
+    - etycky
+    - Lil_Click
+    - Daniil9020
+    - xxmorvisxx
+    - Macsimpoco228
+    - dominator
+    - red_dotada
+    - tsvetosha666
+    - Raised
+    trusted:
+    - MeY_TumanA
+    - lofly
+    - Lil_Click
+    - Daniil9020
+    - etycky
+    - Marat_tatar
+    - igor_zip
+    - vanya_halk
+    - Raised
+    - MergQser
+    - '51295129'
+    - kikipodio1
+    - Brategg
+    - vanabibambuka
+    - gopnik_mama
+    - kriperbak
+    - _GodLegend_
+    - alexander12
+    - Yato
+    - Iron_Dwarf25
+    - Kvily
+    - PacShepherd
+    - ArchiDOG109
+    - _invers_
+    - RusskieBogi
+    - wanna3013
+    - Invers
+    - PecMaksik228
+    - uzuichihamadara
+    - Macsimpoco228
+    - red_dotada
+    - tsvetosha666
+    - dominator
+    points: 22639
+    spawnLoc:
+      ==: org.bukkit.Location
+      world: world
+      x: 215.61566948431445
+      y: 252.0
+      z: -839.6705287793702
+      pitch: -7.6084356
+      yaw: -189.30872
+    coowner:
+    - MineGamesEtycky
+    - EtoMexan1K
+    - xxmorvisxx
+    - bavbolby
+  Flows:
+    leader: Jefy
+    members:
+    - Jefy
+    - Kravizx_YouTube
+    - Jccmbodyboard
+    - Feniks_uwu
+    - Romchik357
+    - Wastey221
+    - kapycta125
+    - goose426
+    points: 30170
+  debili:
+    leader: EnderPearlEP
+    members:
+    - EnderPearlEP
+    points: 424
+  Hokages:
+    leader: MaxwellLOL
+    members:
+    - MaxwellLOL
+    - ki8ll_pro
+    - YyrikVodila
+    - dima2009
+    - happy_pay123527
+    points: 18784
+    spawnLoc:
+      ==: org.bukkit.Location
+      world: world
+      x: -1054.1118570084539
+      y: 31.0
+      z: -956.1527304089627
+      pitch: 20.849907
+      yaw: -51.413826
+  Наруто:
+    leader: SashaYouTube0908
+    members:
+    - SashaYouTube0908
+    - ByTeRbBr0d
+    - DenisYouTube0908
+    - kaneki993
+    - RAZAn2
+    points: 6333
+    spawnLoc:
+      ==: org.bukkit.Location
+      world: world
+      x: 439.73103355938406
+      y: 59.0
+      z: 755.4307879609089
+      pitch: 18.810354
+      yaw: 90.18063
+  Оцуцуки:
+    leader: Hagor0mo
+    members:
+    - Hagor0mo
+    - skubidubidu2007
+    - Dizziestrook
+    - OPN4NMAPY
+    - Dizziestrook67
+    points: 4620
+    trusted: []
+    coowner:
+    - skubidubidu2007
+    spawnLoc:
+      ==: org.bukkit.Location
+      world: world
+      x: -1159.0171778687275
+      y: 72.0
+      z: -776.8470377622389
+      pitch: 21.900051
+      yaw: -334.34857
+  Noragami:
+    leader: Wigait
+    members:
+    - Wigait
+    - ader
+    - German
+    - se155115
+    - Aristarh19
+    - Minat0_topAdmin
+    - sixtychip369
+    - koteikakot54
+    - sharkleon
+    points: 25184
+    spawnLoc:
+      ==: org.bukkit.Location
+      world: world
+      x: 314.2715418716504
+      y: 84.0
+      z: -1190.401576256024
+      pitch: 17.699842
+      yaw: 1.7016602
+    trusted:
+    - ader
+    - Aristarh19
+    - koteikakot54
+    coowner:
+    - se155115
+    - larsvo2001
+    - German
+    - sixtychip369
+  Uchiha:
+    leader: Romirgl
+    members:
+    - Romirgl
+    - capturk
+    - MishaShinobi
+    - Mrloshka2710
+    - KanekikynYT
+    - StallGolem
+    - besit64
+    - isk2604
+    points: 18103
+    spawnLoc:
+      ==: org.bukkit.Location
+      world: world
+      x: -1569.3630902082498
+      y: 63.0
+      z: -124.46133442574424
+      pitch: 61.814735
+      yaw: 180.96753
+    trusted:
+    - capturk
+    - MishaShinobi
+    - KanekikynYT
+    - StallGolem
+    - besit64
+    - isk2604
+    coowner:
+    - Mrloshka2710
+  DRAGON:
+    leader: REKERTMAX
+    members:
+    - REKERTMAX
+    - lolotrek1230
+    - endere_man
+    - NOT18721
+    points: 1465
+  DieIroka:
+    leader: lingleat
+    members:
+    - lingleat
+    - XAKU2
+    - xAdil
+    points: 4

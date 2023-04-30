@@ -1,0 +1,21 @@
+name: administrator
+permissions:
+- litebans.notify.*:
+    value: false
+- '*'
+- aac.banvl
+- artifact.3:
+    value: false
+- artifact.4:
+    value: false
+- artifact.5:
+    value: false
+- commission.null
+- matrix.notify:
+    value: false
+- prisonevo.admin
+- prisonevo.hide
+- weight.17
+prefixes:
+- §cA §7|§f:
+    priority: 17

@@ -1,0 +1,23 @@
+name: dev
+permissions:
+- worldguard.*:
+    value: false
+- '*'
+- artifact.3:
+    value: false
+- artifact.4:
+    value: false
+- artifact.5:
+    value: false
+- combatlogx.flight.enable:
+    value: false
+- commission.null
+- essentials.fly.safelogin:
+    value: false
+- weight.18
+prefixes:
+- §cDev §7|§f:
+    priority: 18
+suffixes:
+- '&a':
+    priority: 18

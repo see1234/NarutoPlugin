@@ -1,0 +1,535 @@
+[09:49:19] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[09:49:19] [Server thread/INFO]: Loading properties
+[09:49:19] [Server thread/INFO]: Default game type: ADVENTURE
+[09:49:20] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-79a30d7-f4830a1 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[09:49:20] [Server thread/INFO]: Debug logging is disabled
+[09:49:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:49:20] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:49:20] [Server thread/INFO]: Generating keypair
+[09:49:20] [Server thread/INFO]: Starting Minecraft server on *:20000
+[09:49:20] [Server thread/INFO]: Using default channel type
+[09:49:23] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[09:49:23] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use: bind
+[09:49:23] [Server thread/WARN]: Perhaps a server is already running on that port?
+[09:49:23] [Server thread/INFO]: Stopping server
+[09:49:23] [Server thread/INFO]: Saving players
+t-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:3183) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2333) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2269) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2257) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.DedicatedServer$2.run(DedicatedServer.java:87) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+[09:49:17] [Server thread/INFO]: Default game type: ADVENTURE
+[09:49:17] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-79a30d7-f4830a1 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[09:49:18] [Server thread/INFO]: Debug logging is disabled
+[09:49:18] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[09:49:18] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:49:18] [Server thread/INFO]: Generating keypair
+[09:49:18] [Server thread/INFO]: Starting Minecraft server on *:20000
+[09:49:18] [Server thread/INFO]: Using default channel type
+[09:49:20] [Server thread/ERROR]: Ambiguous plugin name `Essentials' for files `plugins\EssentialsX.jar' and `plugins\EssentialsX-2.18.2.0.jar' in `plugins'
+[09:49:20] [Server thread/ERROR]: Could not load 'plugins\spigot-1.12.2.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:152) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:133) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:305) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:205) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 6 more
+[09:49:20] [Server thread/ERROR]: Ambiguous plugin name `TAB' for files `plugins\TAB.v3.1.5.jar' and `plugins\TAB v2.8.2 (1).jar' in `plugins'
+[09:49:20] [Server thread/ERROR]: Ambiguous plugin name `WorldEdit' for files `plugins\worldedit-bukkit-6.1.7.3.jar' and `plugins\FastAsyncWorldEdit.jar' in `plugins'
+[09:49:20] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[09:49:20] [Server thread/ERROR]: Could not load 'plugins\LuckPerms-Bukkit-5.2.90.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.ExceptionInInitializerError
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:327) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:248) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:305) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:205) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.lang.ExceptionInInitializerError
+	at me.lucko.luckperms.bukkit.LPBukkitBootstrap.<init>(LPBukkitBootstrap.java:103) ~[?:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.ReflectAccess.newInstance(ReflectAccess.java:128) ~[?:?]
+	at jdk.internal.reflect.ReflectionFactory.newInstance(ReflectionFactory.java:341) ~[?:?]
+	at java.lang.Class.newInstance(Class.java:677) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:90) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	... 6 more
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make protected void java.net.URLClassLoader.addURL(java.net.URL) accessible: module java.base does not "opens java.net" to unnamed module @344e2f62
+	at java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297) ~[?:?]
+	at java.lang.reflect.Method.checkCanSetAccessible(Method.java:200) ~[?:?]
+	at java.lang.reflect.Method.setAccessible(Method.java:194) ~[?:?]
+	at me.lucko.luckperms.common.dependencies.classloader.ReflectionClassLoader.<clinit>(ReflectionClassLoader.java:53) ~[?:?]
+	at me.lucko.luckperms.bukkit.LPBukkitBootstrap.<init>(LPBukkitBootstrap.java:103) ~[?:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.ReflectAccess.newInstance(ReflectAccess.java:128) ~[?:?]
+	at jdk.internal.reflect.ReflectionFactory.newInstance(ReflectionFactory.java:341) ~[?:?]
+	at java.lang.Class.newInstance(Class.java:677) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:90) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	... 6 more
+[09:49:21] [Server thread/ERROR]: Could not load 'plugins\Citizens-2.0.27-b2226.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.IllegalArgumentException: Plugin already initialized!
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:327) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:248) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:305) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:205) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.lang.IllegalArgumentException: Plugin already initialized!
+	at org.bukkit.plugin.java.PluginClassLoader.initialize(PluginClassLoader.java:183) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.java.JavaPlugin.<init>(JavaPlugin.java:60) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.citizensnpcs.Citizens.<init>(Citizens.java:74) ~[?:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.ReflectAccess.newInstance(ReflectAccess.java:128) ~[?:?]
+	at jdk.internal.reflect.ReflectionFactory.newInstance(ReflectionFactory.java:341) ~[?:?]
+	at java.lang.Class.newInstance(Class.java:677) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:90) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	... 6 more
+Caused by: java.lang.IllegalStateException: Initial initialization
+	at org.bukkit.plugin.java.PluginClassLoader.initialize(PluginClassLoader.java:186) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.java.JavaPlugin.<init>(JavaPlugin.java:60) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at minenaruto.narutoplugin.main.Main.<init>(Main.java:46) ~[?:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.ReflectAccess.newInstance(ReflectAccess.java:128) ~[?:?]
+	at jdk.internal.reflect.ReflectionFactory.newInstance(ReflectionFactory.java:341) ~[?:?]
+	at java.lang.Class.newInstance(Class.java:677) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:90) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	... 6 more
+[09:49:21] [Server thread/ERROR]: Could not load 'plugins\Sentinel-2.2.0-SNAPSHOT-b373.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Citizens
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:216) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:305) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:205) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[09:49:21] [Server thread/ERROR]: Could not load 'plugins\Shopkeepers-2.12.0.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoSuchMethodError: 'int org.bukkit.UnsafeValues.getDataVersion()'
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:327) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:248) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:305) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:205) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'int org.bukkit.UnsafeValues.getDataVersion()'
+	at com.nisovin.shopkeepers.storage.SKShopkeeperStorage.getMinecraftDataVersion(SKShopkeeperStorage.java:118) ~[?:?]
+	at com.nisovin.shopkeepers.storage.SKShopkeeperStorage.<init>(SKShopkeeperStorage.java:112) ~[?:?]
+	at com.nisovin.shopkeepers.SKShopkeepersPlugin.<init>(SKShopkeepersPlugin.java:112) ~[?:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.ReflectAccess.newInstance(ReflectAccess.java:128) ~[?:?]
+	at jdk.internal.reflect.ReflectionFactory.newInstance(ReflectionFactory.java:341) ~[?:?]
+	at java.lang.Class.newInstance(Class.java:677) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:90) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	... 6 more
+[09:49:21] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[09:49:21] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.9
+[09:49:21] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[09:49:21] [Server thread/INFO]: [PlugMan] Loading PlugMan v2.1.7
+[09:49:21] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v2.0.9
+[09:49:21] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.2.2-SNAPSHOT;8eeab68
+[09:49:21] [Server thread/INFO]: [SimpleLay] Loading SimpleLay v1.0.10
+[09:49:21] [Server thread/INFO]: [FastAsyncWorldEdit] Loading FastAsyncWorldEdit v1.13-breaking
+[09:49:21] [Server thread/INFO]: [EconomyMoniDays] Loading EconomyMoniDays v1.0.3
+[09:49:21] [Server thread/INFO]: [playit-gg] Loading playit-gg v0.1.1
+[09:49:21] [Server thread/INFO]: [Naruto] Loading Naruto v1.13.0
+[09:49:21] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v3.2.1
+[09:49:21] [Server thread/INFO]: [ViaVersion] ViaVersion 3.2.1 is now loaded, injecting!
+[09:49:21] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[09:49:21] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[09:49:21] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[09:49:21] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[09:49:21] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[09:49:21] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[09:49:21] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[09:49:21] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.5.1
+[09:49:22] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.9
+[09:49:22] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[09:49:22] [Server thread/INFO]: [Essentials] Loading Essentials v2.16.1.0
+[09:49:22] [Server thread/INFO]: [IllegalStack] Loading IllegalStack v2.2.1a
+[09:49:22] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.4.6
+[09:49:22] [Server thread/INFO]: [AuctionHouse] Loading AuctionHouse v2.1.12
+[09:49:22] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.18.2.0
+[09:49:22] [Server thread/INFO]: [TAB] Loading TAB v3.1.5
+[09:49:22] [Server thread/INFO]: [BetterRTP] Loading BetterRTP v3.0.4-1
+[09:49:22] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.18.2.0
+[09:49:22] [Server thread/INFO]: [HolographicExtension] Loading HolographicExtension v1.10.9
+[09:49:22] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.5.1
+[09:49:22] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[09:49:22] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[09:49:22] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[09:49:22] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[09:49:22] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[09:49:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:49:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:49:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09:49:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:49:22] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[09:49:22] [Server thread/INFO]: Preparing level "world"
+[09:49:22] [Server thread/INFO]: -------- World Settings For [world] --------
+[09:49:22] [Server thread/INFO]: Item Despawn Rate: 6000
+[09:49:22] [Server thread/INFO]: Item Merge Radius: 2.5
+[09:49:22] [Server thread/INFO]: View Distance: 7
+[09:49:22] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[09:49:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[09:49:22] [Server thread/INFO]: Experience Merge Radius: 3.0
+[09:49:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[09:49:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[09:49:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[09:49:22] [Server thread/INFO]: Cane Growth Modifier: 100%
+[09:49:22] [Server thread/INFO]: Melon Growth Modifier: 100%
+[09:49:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[09:49:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[09:49:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[09:49:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[09:49:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[09:49:22] [Server thread/INFO]: Vine Growth Modifier: 100%
+[09:49:22] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[09:49:22] [Server thread/INFO]: Mob Spawn Range: 4
+[09:49:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[09:49:22] [Server thread/INFO]: Structure Info Saving: true
+[09:49:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[09:49:22] [Server thread/INFO]: Random Lighting Updates: false
+[09:49:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[09:49:22] [Server thread/INFO]: Max TNT Explosions: 100
+[09:49:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[09:49:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[09:49:22] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[09:49:22] [Server thread/INFO]: Item Despawn Rate: 6000
+[09:49:22] [Server thread/INFO]: Item Merge Radius: 2.5
+[09:49:22] [Server thread/INFO]: View Distance: 7
+[09:49:22] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[09:49:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[09:49:22] [Server thread/INFO]: Experience Merge Radius: 3.0
+[09:49:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[09:49:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[09:49:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[09:49:22] [Server thread/INFO]: Cane Growth Modifier: 100%
+[09:49:22] [Server thread/INFO]: Melon Growth Modifier: 100%
+[09:49:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[09:49:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[09:49:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[09:49:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[09:49:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[09:49:22] [Server thread/INFO]: Vine Growth Modifier: 100%
+[09:49:22] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[09:49:22] [Server thread/INFO]: Mob Spawn Range: 4
+[09:49:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[09:49:22] [Server thread/INFO]: Structure Info Saving: true
+[09:49:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[09:49:22] [Server thread/INFO]: Random Lighting Updates: false
+[09:49:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[09:49:22] [Server thread/INFO]: Max TNT Explosions: 100
+[09:49:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[09:49:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[09:49:22] [Server thread/INFO]: Preparing start region for level 0 (Seed: -4970056024693801974)
+[09:49:23] [Server thread/INFO]: Preparing start region for level 1 (Seed: -4970056024693801974)
+[09:49:24] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[09:49:24] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[09:49:24] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
+[09:49:24] [Server thread/WARN]: [WorldEdit] WorldEdit has detected you are using Java 7 (based on detected version 18.0.2).
+[09:49:24] [Server thread/WARN]: [WorldEdit] WorldEdit will stop supporting Java less than version 8 in the future, due to Java 7 being EOL since April 2015. Please update your server to Java 8.
+[09:49:24] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.9
+[09:49:24] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[09:49:24] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[09:49:24] [Server thread/INFO]: [ClearLag] Using version-adapter: LegacyVersionAdapter
+[09:49:24] [Server thread/INFO]: [ClearLag] Loading modules...
+[09:49:24] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[09:49:24] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[09:49:24] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[09:49:24] [Server thread/INFO]: [PlugMan] Enabling PlugMan v2.1.7
+[09:49:24] [Thread-7/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.12]...
+[09:49:24] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v2.0.9
+[09:49:24] [Server thread/INFO]: [WorldBorder] [CONFIG] Using rectangular/square border, knockback of 3.0 blocks, and timer delay of 5.
+[09:49:24] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
+[09:49:24] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: 124,0 Y: 64,0 Z: 248,0
+[09:49:24] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.2.2-SNAPSHOT;8eeab68
+[09:49:24] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[09:49:24] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[09:49:24] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[09:49:24] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[09:49:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[09:49:24] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[09:49:24] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[09:49:24] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[09:49:24] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[09:49:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[09:49:24] [Server thread/INFO]: [WorldGuard] Loading region data...
+[09:49:25] [Server thread/WARN]: [WorldGuard] Failed to parse flag 'weather-lock' with value 'clear'
+[09:49:25] [Server thread/INFO]: [SimpleLay] Enabling SimpleLay v1.0.10
+[09:49:25] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v1.13-breaking
+[09:49:25] [Server thread/INFO]: [EconomyMoniDays] Enabling EconomyMoniDays v1.0.3
+[09:49:25] [Thread-7/INFO]: [ClearLag] No updates found!
+[09:49:29] [Server thread/INFO]: §cMySQL disable
+
+[09:49:29] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "ru.see1.database.MySQL.con" is null
+
+[09:49:29] [Server thread/WARN]: 	at ru.see1.database.MySQL.TryToCreateTable(MySQL.java:79)
+
+[09:49:29] [Server thread/WARN]: 	at ru.see1.database.MySQL.<init>(MySQL.java:22)
+
+[09:49:29] [Server thread/WARN]: 	at ru.see1.economy.Main.ConnectMySql(Main.java:113)
+
+[09:49:29] [Server thread/WARN]: 	at ru.see1.economy.Main.onEnable(Main.java:55)
+
+[09:49:29] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+
+[09:49:29] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337)
+
+[09:49:29] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403)
+
+[09:49:29] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381)
+
+[09:49:29] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330)
+
+[09:49:29] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422)
+
+[09:49:29] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383)
+
+[09:49:29] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338)
+
+[09:49:29] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272)
+
+[09:49:29] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+
+[09:49:29] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[09:49:29] [Server thread/INFO]: [EconomyMoniDays] Plugin disabled due to no mysqlconnect found!
+
+[09:49:29] [Server thread/INFO]: [EconomyMoniDays] Disabling EconomyMoniDays v1.0.3
+[09:49:31] [Server thread/ERROR]: Error occurred while disabling EconomyMoniDays v1.0.3 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "ru.see1.database.MySQL.close()" because "this.mySQL" is null
+	at ru.see1.economy.Main.DisconnectMySql(Main.java:103) ~[?:?]
+	at ru.see1.economy.Main.onDisable(Main.java:86) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:361) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:422) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at ru.see1.economy.Main.onEnable(Main.java:61) [EconomyMoniDays.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[09:49:31] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.1
+[09:49:31] [Thread-9/INFO]: secret key found, checking
+[09:49:31] [Thread-9/INFO]: check secret
+[09:49:31] [Server thread/INFO]: [Naruto] Enabling Naruto v1.13.0
+[09:49:31] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v3.2.1
+[09:49:31] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.9
+[09:49:31] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_12_R1[32;1m, using [33;1mSpigotSkinRefresher[32;1m.[0;39m
+
+[09:49:32] [Server thread/INFO]: [Essentials] Enabling Essentials v2.16.1.0
+[09:49:32] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsProtect to the same version.
+[09:49:32] [Server thread/WARN]: [Essentials] §4Version mismatch! Please update EssentialsSpawn to the same version.
+[09:49:32] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[09:49:32] [Server thread/INFO]: No kits found to migrate.
+[09:49:32] [Server thread/INFO]: [Essentials] Using legacy item data provider as mob spawner provider.
+[09:49:32] [Server thread/INFO]: [Essentials] Using Reflection based provider as spawn egg provider.
+[09:49:32] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[09:49:32] [Server thread/INFO]: Loaded 852 items from items.csv.
+[09:49:32] [Server thread/INFO]: Using locale ru
+[09:49:32] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[09:49:32] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[09:49:32] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[09:49:32] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[09:49:32] [Server thread/INFO]: [IllegalStack] Enabling IllegalStack v2.2.1a
+[09:49:32] [Server thread/INFO]: §cThe following materials are allowed to have stacks larger than the vanilla size: POTION 
+
+[09:49:32] [Server thread/INFO]: [IllegalStack] Chat Components found! Enabling clickable commands in /istack
+
+[09:49:32] [Server thread/INFO]: [IllegalStack] - Spigot chat components NOT found! disabling chat components.
+
+[09:49:32] [Server thread/INFO]: [Illegal Stack] - MC Version < 1.13 detected!
+
+[09:49:32] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.4.6
+[09:49:32] [Server thread/INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
+[09:49:32] [Server thread/INFO]: [AuctionHouse] Enabling AuctionHouse v2.1.12
+[09:49:32] [Server thread/INFO]: [AuctionHouse] Found locale file en_us.json
+[09:49:32] [Server thread/WARN]: [AuctionHouse] [1;33mA backup of the database has been saved with .backup extension.[0m
+[09:49:32] [Server thread/INFO]: [AuctionHouse] Using NMS version v1_12_R1
+[09:49:32] [Server thread/ERROR]: [AuctionHouse] [1;31mError! This plugin only supports Spigot versions 1.13.2+![0m
+[09:49:32] [Server thread/ERROR]: [AuctionHouse] [1;31mPlease download the AuctionHouse-Retro plugin for 1.8.8 support![0m
+[09:49:32] [Server thread/ERROR]: [AuctionHouse] [1;31mPlease download the AuctionHouse-Legacy plugin for 1.9.4-1.12.2 support![0m
+[09:49:32] [Server thread/ERROR]: [AuctionHouse] [1;31mPlugin will be disabled![0m
+[09:49:32] [Server thread/INFO]: [AuctionHouse] Disabling AuctionHouse v2.1.12
+[09:49:32] [Server thread/INFO]: [AuctionHouse] Saving auctions data
+[09:49:32] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.18.2.0
+[09:49:32] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
+[09:49:32] [Server thread/WARN]: §c§lDayZ §8| §fВерсии не совпадают! Обнови все компоненты Essentials до актуальной версии.
+[09:49:32] [Server thread/ERROR]: Error occurred while enabling EssentialsProtect v2.18.2.0 (Is it up to date?)
+java.lang.NoSuchFieldError: v1_14_R01
+	at com.earth2me.essentials.protect.EssentialsProtect.initialize(EssentialsProtect.java:55) ~[?:?]
+	at com.earth2me.essentials.protect.EssentialsProtect.onEnable(EssentialsProtect.java:34) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[09:49:32] [Server thread/INFO]: [TAB] Enabling TAB v3.1.5
+[09:49:32] [Server thread/INFO]: [TAB] Server version: 1.12.2 (v1_12_R1)
+
+[09:49:32] [Server thread/INFO]: [TAB] Loaded NMS hook in 26ms
+
+[09:49:32] [Server thread/INFO]: [TAB] An outdated version of ViaVersion (3.2.1) was detected.
+
+[09:49:32] [Server thread/INFO]: [TAB] TAB only supports ViaVersion 4.0.0 and above. Disabling ViaVersion hook.
+
+[09:49:32] [Server thread/INFO]: [TAB] This might cause problems, such as limitations still being present for latest MC clients as well as RGB not working.
+
+[09:49:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: tab
+[09:49:32] [Server thread/INFO]: [TAB] Enabled in 121ms
+
+[09:49:32] [Server thread/INFO]: [BetterRTP] Enabling BetterRTP v3.0.4-1
+[09:49:33] [Thread-9/INFO]: found minecraft java tunnel: core-bool.craft.ply.gg
+[09:49:33] [Thread-9/INFO]: keys and tunnel setup
+[09:49:33] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.18.2.0
+[09:49:33] [Server thread/WARN]: [EssentialsSpawn] §c§lDayZ §8| §fВерсии не совпадают! Обнови все компоненты Essentials до актуальной версии.
+[09:49:33] [Server thread/ERROR]: Error occurred while enabling EssentialsSpawn v2.18.2.0 (Is it up to date?)
+java.lang.NoClassDefFoundError: com/earth2me/essentials/metrics/MetricsWrapper
+	at com.earth2me.essentials.spawn.EssentialsSpawn.onEnable(EssentialsSpawn.java:53) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.lang.ClassNotFoundException: com.earth2me.essentials.metrics.MetricsWrapper
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:445) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:152) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:100) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:588) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	... 12 more
+[09:49:33] [Server thread/INFO]: [HolographicExtension] Enabling HolographicExtension v1.10.9
+[09:49:33] [Server thread/INFO]: [HolographicExtension] Starting HolographicExtension v1.10.9
+
+[09:49:33] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'example' from config.
+
+[09:49:33] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'scroller' from config.
+
+[09:49:33] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'typing' from config.
+
+[09:49:33] [Server thread/INFO]: [HolographicExtension] Registering placeholder 'rainbow' from config.
+
+[09:49:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:49:33] [Server thread/INFO]: Done (11,491s)! For help, type "help" or "?"
+[09:49:33] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2(340)
+[09:49:33] [Server thread/WARN]: [HolographicDisplays] Hologram 'forest-greeting' was in the world 'forest' but it wasn't loaded.
+[09:49:33] [Server thread/WARN]: [HolographicDisplays] Hologram 'shinoby' was in the world 'forest' but it wasn't loaded.
+[09:49:33] [Server thread/WARN]: [HolographicDisplays] Hologram 'madara' was in the world 'cave' but it wasn't loaded.
+[09:49:33] [Server thread/WARN]: [HolographicDisplays] Hologram 'oocucuki' was in the world 'arena' but it wasn't loaded.
+[09:49:33] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[09:49:33] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[09:49:33] [Craft Scheduler Thread - 7/INFO]: [Vault] Checking for Updates ... 
+[09:49:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bungee
+[09:49:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault
+[09:49:33] [Server thread/INFO]: 2 placeholder hooks successfully registered!
+
+[09:49:33] [Craft Scheduler Thread - 5/WARN]: [Essentials] Plugin Essentials v2.16.1.0 generated an exception while executing task 37
+org.yaml.snakeyaml.constructor.ConstructorException: Cannot create property=spawns for JavaBean=Spawns(spawns={})
+ in 'reader', line 1, column 1:
+    spawns: 
+    ^
+Unable to make boolean java.beans.FeatureDescriptor.isTransient() accessible: module java.desktop does not "opens java.beans" to unnamed module @9660f4e
+ in 'reader', line 2, column 3:
+      default: 
+      ^
+
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.constructJavaBean2ndStep(Constructor.java:268) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.construct(Constructor.java:149) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at com.earth2me.essentials.storage.BukkitConstructor$ConstructBukkitMapping.construct(BukkitConstructor.java:214) ~[?:?]
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject.construct(Constructor.java:308) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructDocument(BaseConstructor.java:161) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:147) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:467) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at com.earth2me.essentials.storage.YamlStorageReader.load(YamlStorageReader.java:41) ~[?:?]
+	at com.earth2me.essentials.storage.AbstractDelayedYamlFileReader.run(AbstractDelayedYamlFileReader.java:33) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make boolean java.beans.FeatureDescriptor.isTransient() accessible: module java.desktop does not "opens java.beans" to unnamed module @9660f4e
+	at java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297) ~[?:?]
+	at java.lang.reflect.Method.checkCanSetAccessible(Method.java:200) ~[?:?]
+	at java.lang.reflect.Method.setAccessible(Method.java:194) ~[?:?]
+	at org.yaml.snakeyaml.introspector.PropertyUtils.isTransient(PropertyUtils.java:129) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.yaml.snakeyaml.introspector.PropertyUtils.getPropertiesMap(PropertyUtils.java:91) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.yaml.snakeyaml.introspector.PropertyUtils.getProperty(PropertyUtils.java:182) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.yaml.snakeyaml.introspector.PropertyUtils.getProperty(PropertyUtils.java:178) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.yaml.snakeyaml.TypeDescription.discoverProperty(TypeDescription.java:240) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.yaml.snakeyaml.TypeDescription.checkDelegates(TypeDescription.java:230) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.yaml.snakeyaml.TypeDescription.getProperty(TypeDescription.java:249) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.constructJavaBean2ndStep(Constructor.java:210) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	... 16 more
+[09:49:34] [Thread-9/INFO]: setup playit.gg account: https://playit.gg/login/guest-account/0001000000000000000000013ee764213c7e010000000002d6eeee310e157095a983c216c6c8fa74c78dd52c658a36a88cbe85cf66e85045
+[09:49:34] [Thread-9/INFO]: playit.gg: tunnel setup
+
+[09:49:34] [Thread-9/INFO]: playit.gg: core-bool.craft.ply.gg
+
+[09:49:34] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.11.3) is available at:
+[09:49:34] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+[09:49:34] [Craft Scheduler Thread - 7/WARN]: [Vault] Stable Version: 1.7.3 is out! You are still running version: 1.5.6
+[09:49:34] [Craft Scheduler Thread - 7/WARN]: [Vault] Update at: http://dev.bukkit.org/server-mods/vault
+[09:49:34] [Server thread/INFO]: [HolographicDisplays] Found a new version available: v3.0.1
+[09:49:34] [Server thread/INFO]: [HolographicDisplays] Download it on Bukkit Dev:
+[09:49:34] [Server thread/INFO]: [HolographicDisplays] dev.bukkit.org/projects/holographic-displays
+[09:49:34] [Server thread/WARN]: [ViaVersion] There is a newer version available: 4.6.2, you're on: 3.2.1
+[09:49:34] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+
+[09:49:34] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+
+[09:49:34] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+
+[09:49:34] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+
+[09:49:34] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+
+[09:49:34] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+
+[09:49:34] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+
+[09:49:34] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.9[0;39m
+
+[09:49:34] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+
+[09:49:34] [Craft Scheduler Thread - 2/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+
+[09:49:35] [Thread-9/INFO]: request queued, waiting 1 second before resend
+[09:49:36] [Craft Scheduler Thread - 2/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m

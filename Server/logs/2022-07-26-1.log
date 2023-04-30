@@ -1,0 +1,512 @@
+[14:01:46] [Server thread/INFO]: Loading properties
+[14:01:46] [Server thread/INFO]: Default game type: ADVENTURE
+[14:01:46] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-79a30d7-f4830a1 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[14:01:46] [Server thread/INFO]: Debug logging is disabled
+[14:01:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:01:46] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:01:46] [Server thread/INFO]: Generating keypair
+[14:01:47] [Server thread/INFO]: Starting Minecraft server on *:22228
+[14:01:47] [Server thread/INFO]: Using default channel type
+[14:01:47] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[14:01:47] [Server thread/INFO]: [Vault] Loading Vault v1.7.3
+[14:01:47] [Server thread/INFO]: [CasinoPlugin] Loading CasinoPlugin v1.0
+[14:01:47] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3
+[14:01:48] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[14:01:48] [Server thread/INFO]: [Vault] Enabled Version 1.7.3
+[14:01:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:01:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:01:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:01:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:01:48] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[14:01:48] [Server thread/INFO]: Preparing level "world"
+[14:01:48] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:01:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:01:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:01:48] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:01:48] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:01:48] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:01:48] [Server thread/INFO]: View Distance: 7
+[14:01:48] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:01:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:01:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:01:48] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:01:48] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:01:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:01:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:01:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:01:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:01:48] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:01:48] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:01:48] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:01:48] [Server thread/INFO]: Mob Spawn Range: 4
+[14:01:48] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[14:01:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:01:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:01:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[14:01:48] [Server thread/INFO]: Random Lighting Updates: false
+[14:01:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:01:48] [Server thread/INFO]: Structure Info Saving: true
+[14:01:48] [Server thread/INFO]: Max TNT Explosions: 100
+[14:01:48] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:01:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:01:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:01:48] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:01:48] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:01:48] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:01:48] [Server thread/INFO]: View Distance: 7
+[14:01:48] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:01:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:01:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:01:48] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:01:48] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:01:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:01:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:01:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:01:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:01:48] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:01:48] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:01:48] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:01:48] [Server thread/INFO]: Mob Spawn Range: 4
+[14:01:48] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[14:01:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:01:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:01:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[14:01:48] [Server thread/INFO]: Random Lighting Updates: false
+[14:01:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:01:48] [Server thread/INFO]: Structure Info Saving: true
+[14:01:48] [Server thread/INFO]: Max TNT Explosions: 100
+[14:01:48] [Server thread/INFO]: Preparing start region for level 0 (Seed: -4970056024693801974)
+[14:01:49] [Server thread/INFO]: Preparing start region for level 1 (Seed: -4970056024693801974)
+[14:01:49] [Server thread/INFO]: [CasinoPlugin] Enabling CasinoPlugin v1.0
+[14:01:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:01:49] [Server thread/INFO]: Done (1,833s)! For help, type "help" or "?"
+[14:01:49] [Craft Scheduler Thread - 0/INFO]: [Vault] Checking for Updates ... 
+[14:01:50] [Craft Scheduler Thread - 0/INFO]: [Vault] No new version available
+[14:02:03] [User Authenticator #1/INFO]: UUID of player see1 is db936ff2-7690-381c-b127-ad929f15e95b
+[14:02:03] [Server thread/INFO]: see1[/127.0.0.1:61296] logged in with entity id 53 at ([world]-14.374810682813756, 65.0, 225.56892355182927)
+[14:02:04] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-15.0,y=65.0,z=223.0,pitch=0.0,yaw=0.0}
+[14:02:04] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=158.0,y=70.0,z=290.0,pitch=0.0,yaw=0.0}
+[14:02:04] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-15.0,y=65.0,z=223.0,pitch=0.0,yaw=0.0}
+[14:02:04] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=155.0,y=71.0,z=288.0,pitch=0.0,yaw=0.0}
+[14:02:04] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-15.0,y=65.0,z=223.0,pitch=0.0,yaw=0.0}
+[14:02:04] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=152.0,y=74.0,z=284.0,pitch=0.0,yaw=0.0}
+[14:02:04] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-15.0,y=65.0,z=223.0,pitch=0.0,yaw=0.0}
+[14:02:04] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=158.0,y=70.0,z=290.0,pitch=0.0,yaw=0.0}
+[14:02:04] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-15.0,y=65.0,z=223.0,pitch=0.0,yaw=0.0}
+[14:02:04] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=155.0,y=71.0,z=288.0,pitch=0.0,yaw=0.0}
+[14:02:04] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-15.0,y=65.0,z=223.0,pitch=0.0,yaw=0.0}
+[14:02:04] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=152.0,y=74.0,z=284.0,pitch=0.0,yaw=0.0}
+[14:02:06] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-15.0,y=65.0,z=223.0,pitch=0.0,yaw=0.0}
+[14:02:06] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=158.0,y=70.0,z=290.0,pitch=0.0,yaw=0.0}
+[14:02:06] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-15.0,y=65.0,z=223.0,pitch=0.0,yaw=0.0}
+[14:02:06] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=155.0,y=71.0,z=288.0,pitch=0.0,yaw=0.0}
+[14:02:06] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-15.0,y=65.0,z=223.0,pitch=0.0,yaw=0.0}
+[14:02:06] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=152.0,y=74.0,z=284.0,pitch=0.0,yaw=0.0}
+[14:02:06] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-15.0,y=65.0,z=223.0,pitch=0.0,yaw=0.0}
+[14:02:06] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=158.0,y=70.0,z=290.0,pitch=0.0,yaw=0.0}
+[14:02:06] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-15.0,y=65.0,z=223.0,pitch=0.0,yaw=0.0}
+[14:02:06] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=155.0,y=71.0,z=288.0,pitch=0.0,yaw=0.0}
+[14:02:06] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-15.0,y=65.0,z=223.0,pitch=0.0,yaw=0.0}
+[14:02:06] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=152.0,y=74.0,z=284.0,pitch=0.0,yaw=0.0}
+[14:02:07] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-15.0,y=65.0,z=223.0,pitch=0.0,yaw=0.0}
+[14:02:07] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=158.0,y=70.0,z=290.0,pitch=0.0,yaw=0.0}
+[14:02:07] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-15.0,y=65.0,z=223.0,pitch=0.0,yaw=0.0}
+[14:02:07] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=155.0,y=71.0,z=288.0,pitch=0.0,yaw=0.0}
+[14:02:07] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-15.0,y=65.0,z=223.0,pitch=0.0,yaw=0.0}
+[14:02:07] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=152.0,y=74.0,z=284.0,pitch=0.0,yaw=0.0}
+[14:02:11] [Server thread/INFO]: see1 issued server command: /casino 100
+[14:02:17] [Server thread/INFO]: see1 issued server command: /casino setblock
+[14:02:33] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[14:02:33] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[14:02:33] [Server thread/INFO]: Debug logging is disabled
+[14:02:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:02:33] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:02:33] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:02:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:02:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:02:33] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:02:33] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:02:33] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:02:33] [Server thread/INFO]: View Distance: 7
+[14:02:33] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:02:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:02:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:02:33] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:02:33] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:02:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:02:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:02:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:02:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:02:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:02:33] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:02:33] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:02:33] [Server thread/INFO]: Mob Spawn Range: 4
+[14:02:33] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[14:02:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:02:33] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:02:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[14:02:33] [Server thread/INFO]: Random Lighting Updates: false
+[14:02:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:02:33] [Server thread/INFO]: Structure Info Saving: true
+[14:02:33] [Server thread/INFO]: Max TNT Explosions: 100
+[14:02:33] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:02:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:02:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:02:33] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:02:33] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:02:33] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:02:33] [Server thread/INFO]: View Distance: 7
+[14:02:33] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:02:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:02:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:02:33] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:02:33] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:02:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:02:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:02:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:02:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:02:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:02:33] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:02:33] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:02:33] [Server thread/INFO]: Mob Spawn Range: 4
+[14:02:33] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[14:02:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:02:33] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:02:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[14:02:33] [Server thread/INFO]: Random Lighting Updates: false
+[14:02:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:02:33] [Server thread/INFO]: Structure Info Saving: true
+[14:02:33] [Server thread/INFO]: Max TNT Explosions: 100
+[14:02:33] [Server thread/INFO]: [CasinoPlugin] Disabling CasinoPlugin v1.0
+[14:02:33] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3
+[14:02:33] [Server thread/INFO]: [Vault] Loading Vault v1.7.3
+[14:02:33] [Server thread/INFO]: [CasinoPlugin] Loading CasinoPlugin v1.0
+[14:02:33] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3
+[14:02:33] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[14:02:33] [Server thread/INFO]: [Vault] Enabled Version 1.7.3
+[14:02:33] [Server thread/INFO]: [CasinoPlugin] Enabling CasinoPlugin v1.0
+[14:02:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:02:33] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[14:02:33] [Craft Scheduler Thread - 0/INFO]: [Vault] Checking for Updates ... 
+[14:02:34] [Craft Scheduler Thread - 0/INFO]: [Vault] No new version available
+[14:02:35] [Server thread/INFO]: see1 issued server command: /casino 100
+[14:02:38] [Server thread/INFO]: see1 issued server command: /casino setblock
+[14:02:41] [Server thread/INFO]: see1 issued server command: /casino setblock
+[14:02:41] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing command 'casino' in plugin CasinoPlugin v1.0
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:46) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:648) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.handleCommand(PlayerConnection.java:1401) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1236) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(PacketPlayInChat.java:45) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(PacketPlayInChat.java:1) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: java.lang.NullPointerException
+	at org.bukkit.ChatColor.translateAlternateColorCodes(ChatColor.java:324) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at me.see1.casino.StringUtils.color(StringUtils.java:10) ~[?:?]
+	at me.see1.casino.CasinoCmd.onCommand(CasinoCmd.java:35) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	... 15 more
+[14:02:57] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[14:02:57] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[14:02:57] [Server thread/INFO]: Debug logging is disabled
+[14:02:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:02:57] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:02:57] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:02:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:02:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:02:57] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:02:57] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:02:57] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:02:57] [Server thread/INFO]: View Distance: 7
+[14:02:57] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:02:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:02:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:02:57] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:02:57] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:02:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:02:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:02:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:02:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:02:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:02:57] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:02:57] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:02:57] [Server thread/INFO]: Mob Spawn Range: 4
+[14:02:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[14:02:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:02:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:02:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[14:02:57] [Server thread/INFO]: Random Lighting Updates: false
+[14:02:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:02:57] [Server thread/INFO]: Structure Info Saving: true
+[14:02:57] [Server thread/INFO]: Max TNT Explosions: 100
+[14:02:57] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:02:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:02:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:02:57] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:02:57] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:02:57] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:02:57] [Server thread/INFO]: View Distance: 7
+[14:02:57] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:02:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:02:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:02:57] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:02:57] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:02:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:02:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:02:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:02:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:02:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:02:57] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:02:57] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:02:57] [Server thread/INFO]: Mob Spawn Range: 4
+[14:02:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[14:02:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:02:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:02:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[14:02:57] [Server thread/INFO]: Random Lighting Updates: false
+[14:02:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:02:57] [Server thread/INFO]: Structure Info Saving: true
+[14:02:57] [Server thread/INFO]: Max TNT Explosions: 100
+[14:02:57] [Server thread/INFO]: [CasinoPlugin] Disabling CasinoPlugin v1.0
+[14:02:57] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3
+[14:02:58] [Server thread/INFO]: [Vault] Loading Vault v1.7.3
+[14:02:58] [Server thread/INFO]: [CasinoPlugin] Loading CasinoPlugin v1.0
+[14:02:58] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3
+[14:02:58] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[14:02:58] [Server thread/INFO]: [Vault] Enabled Version 1.7.3
+[14:02:58] [Server thread/INFO]: [CasinoPlugin] Enabling CasinoPlugin v1.0
+[14:02:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:02:58] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[14:02:58] [Craft Scheduler Thread - 0/INFO]: [Vault] Checking for Updates ... 
+[14:02:58] [Craft Scheduler Thread - 0/INFO]: [Vault] No new version available
+[14:02:59] [Server thread/INFO]: see1 issued server command: /casino setblock
+[14:03:01] [Server thread/INFO]: see1 issued server command: /casino 100
+[14:03:05] [Server thread/INFO]: see1 issued server command: /casino setblock
+[14:03:40] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[14:03:40] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[14:03:40] [Server thread/INFO]: Debug logging is disabled
+[14:03:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:03:40] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:03:40] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:03:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:03:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:03:40] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:03:40] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:03:40] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:03:40] [Server thread/INFO]: View Distance: 7
+[14:03:40] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:03:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:03:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:03:40] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:03:40] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:03:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:03:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:03:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:03:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:03:40] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:03:40] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:03:40] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:03:40] [Server thread/INFO]: Mob Spawn Range: 4
+[14:03:40] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[14:03:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:03:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:03:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[14:03:40] [Server thread/INFO]: Random Lighting Updates: false
+[14:03:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:03:40] [Server thread/INFO]: Structure Info Saving: true
+[14:03:40] [Server thread/INFO]: Max TNT Explosions: 100
+[14:03:40] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:03:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:03:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:03:40] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:03:40] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:03:40] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:03:40] [Server thread/INFO]: View Distance: 7
+[14:03:40] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:03:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:03:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:03:40] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:03:40] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:03:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:03:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:03:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:03:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:03:40] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:03:40] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:03:40] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:03:40] [Server thread/INFO]: Mob Spawn Range: 4
+[14:03:40] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[14:03:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:03:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:03:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[14:03:40] [Server thread/INFO]: Random Lighting Updates: false
+[14:03:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:03:40] [Server thread/INFO]: Structure Info Saving: true
+[14:03:40] [Server thread/INFO]: Max TNT Explosions: 100
+[14:03:40] [Server thread/INFO]: [CasinoPlugin] Disabling CasinoPlugin v1.0
+[14:03:40] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3
+[14:03:40] [Server thread/INFO]: [Vault] Loading Vault v1.7.3
+[14:03:40] [Server thread/INFO]: [CasinoPlugin] Loading CasinoPlugin v1.0
+[14:03:40] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3
+[14:03:40] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[14:03:41] [Server thread/INFO]: [Vault] Enabled Version 1.7.3
+[14:03:41] [Server thread/INFO]: [CasinoPlugin] Enabling CasinoPlugin v1.0
+[14:03:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:03:41] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[14:03:41] [Craft Scheduler Thread - 0/INFO]: [Vault] Checking for Updates ... 
+[14:03:41] [Craft Scheduler Thread - 0/INFO]: [Vault] No new version available
+[14:03:42] [Server thread/INFO]: see1 issued server command: /casino 100
+[14:03:43] [Server thread/INFO]: see1 issued server command: /casino setblock
+[14:03:44] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-4.0,y=69.0,z=180.0,pitch=0.0,yaw=0.0}
+[14:03:44] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=1.0,y=1.0,z=1.0,pitch=0.0,yaw=0.0}
+[14:03:44] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-4.0,y=69.0,z=180.0,pitch=0.0,yaw=0.0}
+[14:03:44] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=1.0,y=1.0,z=1.0,pitch=0.0,yaw=0.0}
+[14:03:55] [Server thread/INFO]: see1 issued server command: /casino setblock
+[14:03:56] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-4.0,y=69.0,z=180.0,pitch=0.0,yaw=0.0}
+[14:03:56] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=1.0,y=1.0,z=1.0,pitch=0.0,yaw=0.0}
+[14:03:56] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-4.0,y=69.0,z=180.0,pitch=0.0,yaw=0.0}
+[14:03:56] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=1.0,y=1.0,z=1.0,pitch=0.0,yaw=0.0}
+[14:03:57] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-4.0,y=69.0,z=180.0,pitch=0.0,yaw=0.0}
+[14:03:57] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=1.0,y=1.0,z=1.0,pitch=0.0,yaw=0.0}
+[14:03:57] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-4.0,y=69.0,z=180.0,pitch=0.0,yaw=0.0}
+[14:03:57] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=1.0,y=1.0,z=1.0,pitch=0.0,yaw=0.0}
+[14:04:09] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-4.0,y=69.0,z=180.0,pitch=0.0,yaw=0.0}
+[14:04:09] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=1.0,y=1.0,z=1.0,pitch=0.0,yaw=0.0}
+[14:04:09] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-4.0,y=69.0,z=180.0,pitch=0.0,yaw=0.0}
+[14:04:09] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=1.0,y=1.0,z=1.0,pitch=0.0,yaw=0.0}
+[14:04:19] [Server thread/INFO]: see1 issued server command: /casino setblock
+[14:04:19] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-4.0,y=69.0,z=180.0,pitch=0.0,yaw=0.0}
+[14:04:19] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=1.0,y=1.0,z=1.0,pitch=0.0,yaw=0.0}
+[14:04:19] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-4.0,y=69.0,z=180.0,pitch=0.0,yaw=0.0}
+[14:04:19] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=1.0,y=1.0,z=1.0,pitch=0.0,yaw=0.0}
+[14:04:19] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-4.0,y=69.0,z=180.0,pitch=0.0,yaw=0.0}
+[14:04:19] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-4.0,y=69.0,z=180.0,pitch=0.0,yaw=0.0}
+[14:04:26] [Server thread/INFO]: see1 issued server command: /casino setblock
+[14:04:26] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-4.0,y=69.0,z=180.0,pitch=0.0,yaw=0.0}
+[14:04:26] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=1.0,y=1.0,z=1.0,pitch=0.0,yaw=0.0}
+[14:04:26] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-4.0,y=69.0,z=180.0,pitch=0.0,yaw=0.0}
+[14:04:26] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-4.0,y=69.0,z=180.0,pitch=0.0,yaw=0.0}
+[14:04:26] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-4.0,y=69.0,z=180.0,pitch=0.0,yaw=0.0}
+[14:04:26] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-4.0,y=69.0,z=180.0,pitch=0.0,yaw=0.0}
+[14:04:26] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-4.0,y=69.0,z=180.0,pitch=0.0,yaw=0.0}
+[14:04:26] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=1.0,y=1.0,z=1.0,pitch=0.0,yaw=0.0}
+[14:04:26] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-4.0,y=69.0,z=180.0,pitch=0.0,yaw=0.0}
+[14:04:26] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-4.0,y=69.0,z=180.0,pitch=0.0,yaw=0.0}
+[14:04:26] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-4.0,y=69.0,z=180.0,pitch=0.0,yaw=0.0}
+[14:04:26] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-4.0,y=69.0,z=180.0,pitch=0.0,yaw=0.0}
+[14:04:39] [Server thread/INFO]: [Server] yay2
+[14:04:45] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-4.0,y=69.0,z=180.0,pitch=0.0,yaw=0.0}
+[14:04:45] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=1.0,y=1.0,z=1.0,pitch=0.0,yaw=0.0}
+[14:04:45] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-4.0,y=69.0,z=180.0,pitch=0.0,yaw=0.0}
+[14:04:45] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-4.0,y=69.0,z=180.0,pitch=0.0,yaw=0.0}
+[14:04:45] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-4.0,y=69.0,z=180.0,pitch=0.0,yaw=0.0}
+[14:04:45] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-4.0,y=69.0,z=180.0,pitch=0.0,yaw=0.0}
+[14:09:57] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[14:09:57] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[14:09:57] [Server thread/INFO]: Debug logging is disabled
+[14:09:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:09:57] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:09:57] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:09:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:09:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:09:57] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:09:57] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:09:57] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:09:57] [Server thread/INFO]: View Distance: 7
+[14:09:57] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:09:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:09:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:09:57] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:09:57] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:09:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:09:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:09:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:09:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:09:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:09:57] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:09:57] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:09:57] [Server thread/INFO]: Mob Spawn Range: 4
+[14:09:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[14:09:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:09:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:09:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[14:09:57] [Server thread/INFO]: Random Lighting Updates: false
+[14:09:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:09:57] [Server thread/INFO]: Structure Info Saving: true
+[14:09:57] [Server thread/INFO]: Max TNT Explosions: 100
+[14:09:57] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:09:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:09:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:09:57] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:09:57] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:09:57] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:09:57] [Server thread/INFO]: View Distance: 7
+[14:09:57] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:09:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:09:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:09:57] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:09:57] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:09:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:09:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:09:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:09:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:09:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:09:57] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:09:57] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:09:57] [Server thread/INFO]: Mob Spawn Range: 4
+[14:09:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[14:09:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:09:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:09:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[14:09:57] [Server thread/INFO]: Random Lighting Updates: false
+[14:09:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:09:57] [Server thread/INFO]: Structure Info Saving: true
+[14:09:57] [Server thread/INFO]: Max TNT Explosions: 100
+[14:09:57] [Server thread/INFO]: [CasinoPlugin] Disabling CasinoPlugin v1.0
+[14:09:57] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3
+[14:09:57] [Server thread/INFO]: [Vault] Loading Vault v1.7.3
+[14:09:57] [Server thread/INFO]: [CasinoPlugin] Loading CasinoPlugin v1.0
+[14:09:57] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3
+[14:09:57] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[14:09:57] [Server thread/INFO]: [Vault] Enabled Version 1.7.3
+[14:09:57] [Server thread/INFO]: [CasinoPlugin] Enabling CasinoPlugin v1.0
+[14:09:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:09:57] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[14:09:57] [Craft Scheduler Thread - 1/INFO]: [Vault] Checking for Updates ... 
+[14:09:58] [Craft Scheduler Thread - 1/INFO]: [Vault] No new version available
+[14:10:00] [Server thread/INFO]: see1 issued server command: /casino setblock
+[14:10:06] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-9.0,y=68.0,z=185.0,pitch=0.0,yaw=0.0}
+[14:10:06] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-9.0,y=68.0,z=185.0,pitch=0.0,yaw=0.0}
+[14:10:18] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-9.0,y=68.0,z=185.0,pitch=0.0,yaw=0.0}
+[14:10:18] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-9.0,y=68.0,z=185.0,pitch=0.0,yaw=0.0}
+[14:10:18] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-9.0,y=68.0,z=185.0,pitch=0.0,yaw=0.0}
+[14:10:18] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-9.0,y=68.0,z=185.0,pitch=0.0,yaw=0.0}
+[14:10:30] [Server thread/INFO]: [Server] yay3
+[14:10:30] [Server thread/WARN]: [CasinoPlugin] Task #14 for CasinoPlugin v1.0 generated an exception
+java.lang.NullPointerException: null
+	at me.see1.casino.CasinoSlotMachine$1.lambda$0(CasinoSlotMachine.java:55) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
+	at me.see1.casino.CasinoSlotMachine$1.run(CasinoSlotMachine.java:48) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:739) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[14:10:48] [Server thread/INFO]: see1 issued server command: /casino 100
+[14:10:49] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-9.0,y=68.0,z=185.0,pitch=0.0,yaw=0.0}
+[14:10:49] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-9.0,y=68.0,z=185.0,pitch=0.0,yaw=0.0}
+[14:10:49] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-9.0,y=68.0,z=185.0,pitch=0.0,yaw=0.0}
+[14:10:49] [Server thread/INFO]: Location{world=CraftWorld{name=world},x=-9.0,y=68.0,z=185.0,pitch=0.0,yaw=0.0}
+[14:11:02] [Server thread/INFO]: [Server] yay

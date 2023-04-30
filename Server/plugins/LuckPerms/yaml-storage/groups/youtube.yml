@@ -1,0 +1,9 @@
+name: youtube
+permissions:
+- weight.10
+parents:
+- default
+- redline
+prefixes:
+- §cY§fT §7|§f:
+    priority: 10

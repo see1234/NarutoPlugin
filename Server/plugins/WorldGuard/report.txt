@@ -1,0 +1,3545 @@
+================================
+Server Information
+================================
+
+Bukkit Version: 1.15.2-R0.1-SNAPSHOT
+Implementation: Paper git-Paper-391 (MC: 1.15.2)
+Player Count: 22/300
+Server Class Source: file:/home/naruto/cache/patched_1.15.2.jar
+Spawning: 
+	Ambient Spawn Limit: 1
+	Animal Spawn Limit: 8
+	Monster Spawn Limit: 50
+	Ticks per Animal Spawn: 400
+	Ticks per Monster Spawn: 4
+Configuration: 
+	Nether Enabled?: true
+	The End Enabled?: true
+	Generate Structures?: true
+	Flight Allowed?: false
+	Connection Throttle: -1
+	Idle Timeout: 0
+	Shutdown Message: Сервер закрыт
+	Default Game Mode: SURVIVAL
+	Main World Type: default
+	View Distance: 5
+Protection: Spawn Radius: 0
+
+================================
+Plugins
+================================
+
+Plugin Count: 29
+Plugin: PlaceholderAPI: 
+	Enabled?: true
+	Full Name: PlaceholderAPI v2.10.9
+	Version: 2.10.9
+	Website: null
+	Description: An awesome placeholder provider!
+	Authors: HelpChat
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+	Folder: /home/naruto/plugins/PlaceholderAPI
+	Entry Point: me.clip.placeholderapi.PlaceholderAPIPlugin
+	Class: me.clip.placeholderapi.PlaceholderAPIPlugin
+	Class Source: file:/home/naruto/plugins/PlaceholderAPI-2.10.9.jar
+Plugin: ClearLag: 
+	Enabled?: true
+	Full Name: ClearLag v3.2.0
+	Version: 3.2.0
+	Website: null
+	Description: Clear your lagg!
+	Authors: bob7l
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+	Folder: /home/naruto/plugins/ClearLag
+	Entry Point: me.minebuilders.clearlag.Clearlag
+	Class: me.minebuilders.clearlag.Clearlag
+	Class Source: file:/home/naruto/plugins/Clearlag.jar
+Plugin: TAB-BukkitBridge: 
+	Enabled?: true
+	Full Name: TAB-BukkitBridge v1.2
+	Version: 1.2
+	Website: https://www.spigotmc.org/resources/57806/
+	Description: Bukkit bridge for PlaceholderAPI support when TAB is on bungeecord
+	Authors: NEZNAMY
+	Load Before: 
+	Dependencies: PlaceholderAPI
+	Soft Dependencies: 
+	Folder: /home/naruto/plugins/TAB-BukkitBridge
+	Entry Point: me.neznamy.tab.bridge.Main
+	Class: me.neznamy.tab.bridge.Main
+	Class Source: file:/home/naruto/plugins/TAB-BukkitBridge%20v1.2.jar
+Plugin: PlugMan: 
+	Enabled?: true
+	Full Name: PlugMan v2.1.7
+	Version: 2.1.7
+	Website: null
+	Description: Plugin manager for Bukkit servers
+	Authors: rylinaux
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+	Folder: /home/naruto/plugins/PlugMan
+	Entry Point: com.rylinaux.plugman.PlugMan
+	Class: com.rylinaux.plugman.PlugMan
+	Class Source: file:/home/naruto/plugins/PlugMan.jar
+Plugin: WorldBorder: 
+	Enabled?: true
+	Full Name: WorldBorder v2.0.9
+	Version: 2.0.9
+	Website: null
+	Description: Efficient, feature-rich plugin for limiting the size of your worlds.
+	Authors: 
+		Brettflan
+		PryPurity
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: dynmap
+	Folder: /home/naruto/plugins/WorldBorder
+	Entry Point: com.wimbli.WorldBorder.WorldBorder
+	Class: com.wimbli.WorldBorder.WorldBorder
+	Class Source: file:/home/naruto/plugins/WorldBorder.jar
+Plugin: SimpleLay: 
+	Enabled?: true
+	Full Name: SimpleLay v1.0.10
+	Version: 1.0.10
+	Website: null
+	Description: null
+	Authors: Sirboys
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+	Folder: /home/naruto/plugins/SimpleLay
+	Entry Point: ru.azerusteam.sirmanager.Main
+	Class: ru.azerusteam.sirmanager.Main
+	Class Source: file:/home/naruto/plugins/SimpleLay-1.0.10.jar
+Plugin: SkinsRestorer: 
+	Enabled?: true
+	Full Name: SkinsRestorer v13.8.7
+	Version: 13.8.7
+	Website: https://skinsrestorer.net/
+	Description: Ability to restore/change skins on servers! (Offline and Online Mode)
+	Authors: 
+		Th3Tr0LLeR
+		McLive
+		DoNotSpamPls
+		knat
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: ViaBackwards
+	Folder: /home/naruto/plugins/SkinsRestorer
+	Entry Point: skinsrestorer.bukkit.SkinsRestorer
+	Class: skinsrestorer.bukkit.SkinsRestorer
+	Class Source: file:/home/naruto/plugins/SkinsRestorer.jar
+Plugin: ViaVersion: 
+	Enabled?: true
+	Full Name: ViaVersion v3.2.1
+	Version: 3.2.1
+	Website: null
+	Description: Allow newer clients to join older server versions.
+	Authors: 
+		_MylesC
+		creeper123123321
+		Gerrygames
+		KennyTV
+		Matsv
+	Load Before: 
+		ProtocolLib
+		ProxyPipe
+		SpigotLib
+		SkinRestorer
+	Dependencies: 
+	Soft Dependencies: 
+		ProtocolSupport
+		PacketListenerApi
+	Folder: /home/naruto/plugins/ViaVersion
+	Entry Point: us.myles.ViaVersion.ViaVersionPlugin
+	Class: us.myles.ViaVersion.ViaVersionPlugin
+	Class Source: file:/home/naruto/plugins/ViaVersion-3.2.1.jar
+Plugin: LuckPerms: 
+	Enabled?: true
+	Full Name: LuckPerms v5.2.90
+	Version: 5.2.90
+	Website: https://luckperms.net
+	Description: A permissions plugin
+	Authors: Luck
+	Load Before: Vault
+	Dependencies: 
+	Soft Dependencies: 
+		LilyPad-Connect
+		ViaVersion
+	Folder: /home/naruto/plugins/LuckPerms
+	Entry Point: me.lucko.luckperms.bukkit.LPBukkitBootstrap
+	Class: me.lucko.luckperms.bukkit.LPBukkitBootstrap
+	Class Source: file:/home/naruto/plugins/LuckPerms-Bukkit-5.2.90.jar
+Plugin: ProtocolLib: 
+	Enabled?: true
+	Full Name: ProtocolLib v4.5.1
+	Version: 4.5.1
+	Website: null
+	Description: Provides read/write access to the Minecraft protocol.
+	Authors: 
+		dmulloy2
+		comphenix
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+	Folder: /home/naruto/plugins/ProtocolLib
+	Entry Point: com.comphenix.protocol.ProtocolLib
+	Class: com.comphenix.protocol.ProtocolLib
+	Class Source: file:/home/naruto/plugins/ProtocolLib.jar
+Plugin: Vault: 
+	Enabled?: true
+	Full Name: Vault v1.7.3-b131
+	Version: 1.7.3-b131
+	Website: https://dev.bukkit.org/projects/vault
+	Description: Vault is a Permissions & Economy API to allow plugins to more easily hook into these systems without needing to hook each individual system themselves.
+	Authors: 
+		cereal
+		Sleaker
+		mung3r
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+	Folder: /home/naruto/plugins/Vault
+	Entry Point: net.milkbowl.vault.Vault
+	Class: net.milkbowl.vault.Vault
+	Class Source: file:/home/naruto/plugins/Vault.jar
+Plugin: Chatty: 
+	Enabled?: true
+	Full Name: Chatty v2.18.1
+	Version: 2.18.1
+	Website: null
+	Description: null
+	Authors: MrBrikster
+	Load Before: Essentials
+	Dependencies: 
+	Soft Dependencies: 
+		Vault
+		PlaceholderAPI
+		NametagEdit
+	Folder: /home/naruto/plugins/Chatty
+	Entry Point: ru.mrbrikster.chatty.Chatty
+	Class: ru.mrbrikster.chatty.Chatty
+	Class Source: file:/home/naruto/plugins/Chatty.jar
+Plugin: Essentials: 
+	Enabled?: true
+	Full Name: Essentials v2.18.2.0
+	Version: 2.18.2.0
+	Website: https://essentialsx.net/
+	Description: Provides an essential, core set of commands for Bukkit.
+	Authors: 
+		Zenexer
+		ementalo
+		Aelux
+		Brettflan
+		KimKandor
+		snowleo
+		ceulemans
+		Xeology
+		KHobbits
+		md_5
+		Iaccidentally
+		drtshock
+		vemacs
+		SupaHam
+		md678685
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+		Vault
+		LuckPerms
+	Folder: /home/naruto/plugins/Essentials
+	Entry Point: com.earth2me.essentials.Essentials
+	Class: com.earth2me.essentials.Essentials
+	Class Source: file:/home/naruto/plugins/EssentialsX-2.18.2.0.jar
+Plugin: HolographicDisplays: 
+	Enabled?: true
+	Full Name: HolographicDisplays v2.4.4
+	Version: 2.4.4
+	Website: null
+	Description: null
+	Authors: filoghost
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: ProtocolLib
+	Folder: /home/naruto/plugins/HolographicDisplays
+	Entry Point: com.gmail.filoghost.holographicdisplays.HolographicDisplays
+	Class: com.gmail.filoghost.holographicdisplays.HolographicDisplays
+	Class Source: file:/home/naruto/plugins/HolographicDisplays.jar
+Plugin: Multiverse-Core: 
+	Enabled?: true
+	Full Name: Multiverse-Core v4.2.2-b812
+	Version: 4.2.2-b812
+	Website: https://dev.bukkit.org/projects/multiverse-core
+	Description: null
+	Authors: 
+		dumptruckman
+		Rigby
+		fernferret
+		lithium3141
+		main--
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: Vault
+	Folder: /home/naruto/plugins/Multiverse-Core
+	Entry Point: com.onarandombox.MultiverseCore.MultiverseCore
+	Class: com.onarandombox.MultiverseCore.MultiverseCore
+	Class Source: file:/home/naruto/plugins/Multiverse-Core-4.2.2.jar
+Plugin: SimpleClans: 
+	Enabled?: true
+	Full Name: SimpleClans v2.14.6
+	Version: 2.14.6
+	Website: https://www.spigotmc.org/resources/simpleclans.71242/
+	Description: null
+	Authors: 
+		Phaed
+		RoinujNosde
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+		VanishNoPacket
+		Permissions
+		PermissionsBukkit
+		Vault
+		PermissionsEx
+		mChat
+		mChatSuite
+		PlaceholderAPI
+		LuckPerms
+	Folder: /home/naruto/plugins/SimpleClans
+	Entry Point: net.sacredlabyrinth.phaed.simpleclans.SimpleClans
+	Class: net.sacredlabyrinth.phaed.simpleclans.SimpleClans
+	Class Source: file:/home/naruto/plugins/SimpleClans.jar
+Plugin: FastAsyncWorldEdit: 
+	Enabled?: true
+	Full Name: FastAsyncWorldEdit v1.16-560;6895fe3
+	Version: 1.16-560;6895fe3
+	Website: https://www.spigotmc.org/resources/13932/
+	Description: Blazingly fast world manipulation for builders, large networks and developers.
+	Authors: 
+		Empire92
+		MattBDev
+		IronApollo
+		dordsor21
+		NotMyFault
+	Load Before: 
+		WorldGuard
+		PlotSquared
+	Dependencies: 
+	Soft Dependencies: Vault
+	Folder: /home/naruto/plugins/FastAsyncWorldEdit
+	Entry Point: com.sk89q.worldedit.bukkit.WorldEditPlugin
+	Class: com.sk89q.worldedit.bukkit.WorldEditPlugin
+	Class Source: file:/home/naruto/plugins/FastAsyncWorldEdit-1.16-560.jar
+Plugin: EssentialsProtect: 
+	Enabled?: true
+	Full Name: EssentialsProtect v2.18.2.0
+	Version: 2.18.2.0
+	Website: https://essentialsx.net/
+	Description: Provides protection for various parts of the world.
+	Authors: 
+		Zenexer
+		ementalo
+		Aelux
+		Brettflan
+		KimKandor
+		snowleo
+		ceulemans
+		Xeology
+		KHobbits
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: Essentials
+	Folder: /home/naruto/plugins/EssentialsProtect
+	Entry Point: com.earth2me.essentials.protect.EssentialsProtect
+	Class: com.earth2me.essentials.protect.EssentialsProtect
+	Class Source: file:/home/naruto/plugins/EssentialsXProtect-2.18.2.0.jar
+Plugin: EssentialsSpawn: 
+	Enabled?: true
+	Full Name: EssentialsSpawn v2.18.2.0
+	Version: 2.18.2.0
+	Website: https://essentialsx.net/
+	Description: Provides spawn control commands, utilizing Essentials.
+	Authors: 
+		Zenexer
+		ementalo
+		Aelux
+		Brettflan
+		KimKandor
+		snowleo
+		ceulemans
+		Xeology
+		KHobbits
+	Load Before: 
+	Dependencies: Essentials
+	Soft Dependencies: 
+	Folder: /home/naruto/plugins/EssentialsSpawn
+	Entry Point: com.earth2me.essentials.spawn.EssentialsSpawn
+	Class: com.earth2me.essentials.spawn.EssentialsSpawn
+	Class Source: file:/home/naruto/plugins/EssentialsXSpawn-2.18.2.0.jar
+Plugin: WorldGuard: 
+	Enabled?: true
+	Full Name: WorldGuard v7.0.3;5407315
+	Version: 7.0.3;5407315
+	Website: null
+	Description: null
+	Authors: 
+	Load Before: 
+	Dependencies: WorldEdit
+	Soft Dependencies: CommandBook
+	Folder: /home/naruto/plugins/WorldGuard
+	Entry Point: com.sk89q.worldguard.bukkit.WorldGuardPlugin
+	Class: com.sk89q.worldguard.bukkit.WorldGuardPlugin
+	Class Source: file:/home/naruto/plugins/WorldGuard.jar
+Plugin: Citizens: 
+	Enabled?: true
+	Full Name: Citizens v2.0.27-SNAPSHOT (build 2226)
+	Version: 2.0.27-SNAPSHOT (build 2226)
+	Website: http://www.citizensnpcs.co
+	Description: null
+	Authors: fullwall
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+		Vault
+		PlaceholderAPI
+		WorldGuard
+	Folder: /home/naruto/plugins/Citizens
+	Entry Point: net.citizensnpcs.Citizens
+	Class: net.citizensnpcs.Citizens
+	Class Source: file:/home/naruto/plugins/Citizens-2.0.27-b2226.jar
+Plugin: Sentinel: 
+	Enabled?: true
+	Full Name: Sentinel v2.2.0-SNAPSHOT (build 373)
+	Version: 2.2.0-SNAPSHOT (build 373)
+	Website: null
+	Description: null
+	Authors: mcmonkey
+	Load Before: 
+	Dependencies: Citizens
+	Soft Dependencies: 
+		Vault
+		Sentry
+		CrackShot
+		Factions
+		Towny
+		SimpleClans
+		War
+	Folder: /home/naruto/plugins/Sentinel
+	Entry Point: org.mcmonkey.sentinel.SentinelPlugin
+	Class: org.mcmonkey.sentinel.SentinelPlugin
+	Class Source: file:/home/naruto/plugins/Sentinel-2.2.0-SNAPSHOT-b373.jar
+Plugin: Quests: 
+	Enabled?: true
+	Full Name: Quests v4.0.0-rc.4-b191
+	Version: 4.0.0-rc.4-b191
+	Website: https://www.spigotmc.org/resources/quests.3711/
+	Description: An extensive questing system.
+	Authors: PikaMug
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+		Citizens
+		CitizensBooks
+		Denizen
+		DungeonsXL
+		GPS
+		Heroes
+		mcMMO
+		Parties
+		PhatLoots
+		PlaceholderAPI
+		Vault
+		WorldGuard
+	Folder: /home/naruto/plugins/Quests
+	Entry Point: me.blackvein.quests.Quests
+	Class: me.blackvein.quests.Quests
+	Class Source: file:/home/naruto/plugins/Quests-4.0.0-rc.4.jar
+Plugin: WGExtender: 
+	Enabled?: true
+	Full Name: WGExtender v3.0
+	Version: 3.0
+	Website: null
+	Description: null
+	Authors: _Shevchik_
+	Load Before: 
+	Dependencies: 
+		WorldGuard
+		WorldEdit
+		Vault
+	Soft Dependencies: 
+	Folder: /home/naruto/plugins/WGExtender
+	Entry Point: wgextender.WGExtender
+	Class: wgextender.WGExtender
+	Class Source: file:/home/naruto/plugins/WorldGuardExtender.jar
+Plugin: Naruto: 
+	Enabled?: true
+	Full Name: Naruto v1.0
+	Version: 1.0
+	Website: null
+	Description: Naruto by Click
+	Authors: 
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+		CMI
+		SimpleClans
+		Citizens
+		Sentinel
+	Folder: /home/naruto/plugins/Naruto
+	Entry Point: ru.swell.naruto.main.NarutoMain
+	Class: ru.swell.naruto.main.NarutoMain
+	Class Source: file:/home/naruto/plugins/NarutoPlugin.jar
+Plugin: BetterRTP: 
+	Enabled?: true
+	Full Name: BetterRTP v3.0.4-1
+	Version: 3.0.4-1
+	Website: null
+	Description: null
+	Authors: SuperRonanCraft
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+		Vault
+		WorldGuard
+		GriefPrevention
+		Towny
+		Factions
+		RedProtect
+		Lands
+		Residence
+		ProtocolLib
+		Kingdoms
+	Folder: /home/naruto/plugins/BetterRTP
+	Entry Point: me.SuperRonanCraft.BetterRTP.BetterRTP
+	Class: me.SuperRonanCraft.BetterRTP.BetterRTP
+	Class Source: file:/home/naruto/plugins/BetterRTP-3.0.4-1.jar
+Plugin: Jobs: 
+	Enabled?: true
+	Full Name: Jobs v4.16.3
+	Version: 4.16.3
+	Website: https://www.spigotmc.org/resources/4216/
+	Description: Jobs Plugin for the BukkitAPI
+	Authors: 
+		phrstbrn
+		Zrips
+		montlikadani
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+		Vault
+		Essentials
+		MythicMobs
+		McMMO
+		mcMMO
+		WorldGuard
+		MyPet
+		PlaceholderAPI
+	Folder: /home/naruto/plugins/Jobs
+	Entry Point: com.gamingmesh.jobs.Jobs
+	Class: com.gamingmesh.jobs.Jobs
+	Class Source: file:/home/naruto/plugins/Jobs.jar
+Plugin: dtlTraders: 
+	Enabled?: true
+	Full Name: dtlTraders v6.2.6
+	Version: 6.2.6
+	Website: www.degitise.com
+	Description: Trade like never before!
+	Authors: 
+		Minevid
+		TheWGBbroz
+		samyratchet
+	Load Before: 
+	Dependencies: 
+		Vault
+		Citizens
+	Soft Dependencies: 
+		Essentials
+		OptEco
+		BeastTokens
+		GemsEconomy
+	Folder: /home/naruto/plugins/dtlTraders
+	Entry Point: com.degitise.minevid.dtlTraders.Main
+	Class: com.degitise.minevid.dtlTraders.Main
+	Class Source: file:/home/naruto/plugins/dtlTraders-6.2.6.jar
+Plugin: Multiverse-Portals: 
+	Enabled?: true
+	Full Name: Multiverse-Portals v4.2.2-SNAPSHOT-b841
+	Version: 4.2.2-SNAPSHOT-b841
+	Website: null
+	Description: null
+	Authors: 
+		Rigby
+		fernferret
+	Load Before: 
+	Dependencies: Multiverse-Core
+	Soft Dependencies: WorldEdit
+	Folder: /home/naruto/plugins/Multiverse-Portals
+	Entry Point: com.onarandombox.MultiversePortals.MultiversePortals
+	Class: com.onarandombox.MultiversePortals.MultiversePortals
+	Class Source: file:/home/naruto/plugins/Multiverse-Portals-4.2.2-SNAPSHOT.jar
+
+================================
+Scheduler
+================================
+
+Pending Task Count: 505
+Task: #7: 
+	Owner: ProtocolLib
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #11: 
+	Owner: FastAsyncWorldEdit
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5697627: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1019951: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5443696: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8323138: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1331287: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8204335: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #6135818: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1020004: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #4968498: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2965586: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5443819: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8204472: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #200: 
+	Owner: ClearLag
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #201: 
+	Owner: ClearLag
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #202: 
+	Owner: ClearLag
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #6971556: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2965709: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2965711: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #4698277: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2965707: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8089729: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2965713: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #286: 
+	Owner: WorldBorder
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7471446: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7090524: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2535782: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2695521: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #349: 
+	Owner: SimpleLay
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2965837: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2965847: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2568617: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #811422: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1040841: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8352166: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #489: 
+	Owner: Chatty
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #493: 
+	Owner: Essentials
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #496: 
+	Owner: HolographicDisplays
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #497: 
+	Owner: HolographicDisplays
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #498: 
+	Owner: HolographicDisplays
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5681572: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #499: 
+	Owner: HolographicDisplays
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #502: 
+	Owner: Multiverse-Core
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #504: 
+	Owner: SimpleClans
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #505: 
+	Owner: SimpleClans
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #509: 
+	Owner: WorldGuard
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #511: 
+	Owner: WorldGuard
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #513: 
+	Owner: Citizens
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #514: 
+	Owner: Citizens
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #517: 
+	Owner: Sentinel
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #518: 
+	Owner: Sentinel
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #519: 
+	Owner: Sentinel
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #520: 
+	Owner: Quests
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #523: 
+	Owner: WGExtender
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #524: 
+	Owner: Citizens
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #6971993: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8155722: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #568: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #569: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #570: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #572: 
+	Owner: dtlTraders
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #573: 
+	Owner: dtlTraders
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8163905: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #576: 
+	Owner: FastAsyncWorldEdit
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #524881: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7324173: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5087779: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #4358711: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2781777: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2781780: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8503814: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5432031: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7443159: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7635667: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5112549: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2351847: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7643824: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5776021: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #525018: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5681800: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7991963: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #4682401: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2781916: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2782010: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1278758: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8422327: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #516926: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #525106: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7324496: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1082206: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5432071: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5432069: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2003781: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1082226: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #877425: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1082251: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #885692: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1381286: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #525233: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2524058: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1082308: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #467920: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #467951: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #467948: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7775133: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5432225: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #467953: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #4965299: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1094637: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8324214: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #525316: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #4805722: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2466872: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8725656: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7754856: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #525345: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #4387846: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #885851: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5219345: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #885868: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8729831: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #6583297: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7775248: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8729846: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1299567: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #885918: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #517276: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5416179: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5416189: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #877759: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5735659: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8324288: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #885961: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1244: 
+	Owner: Citizens
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1245: 
+	Owner: Citizens
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8324256: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #885991: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5735611: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8324242: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8324234: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5735765: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1041671: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7091553: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5219649: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5211482: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730000: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1271051: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5416265: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730031: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730052: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5416209: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730061: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5416222: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #652614: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730066: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730077: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5416200: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730084: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730091: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730099: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1287575: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8729868: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1566118: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #755122: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1328577: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8729948: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1291759: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8729979: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1566184: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730266: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730276: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #4855394: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5678719: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730280: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1566245: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7910961: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730321: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730320: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5219856: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8287772: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730351: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730345: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #493180: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1390229: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8156920: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1390234: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7460606: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #935583: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730139: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1390271: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #4966119: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730154: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730164: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5678816: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1210029: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1210066: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730177: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5432980: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5432969: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5432972: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #3745492: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #562919: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730235: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730501: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730500: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730497: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730496: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730499: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #4699968: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730498: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730509: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730507: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730506: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5875522: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #3745545: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730556: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730553: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730560: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730563: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730562: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #3745649: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8156982: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #497484: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730569: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #3757931: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730613: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2467749: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730372: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730368: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #563073: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1333145: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730376: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7440383: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2467761: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730387: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730397: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730401: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730412: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730414: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #4720612: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730429: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730436: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730444: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730441: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #4753304: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730453: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2963454: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5683083: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2017: 
+	Owner: Essentials
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730470: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730487: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #608245: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5683114: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2467889: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8714425: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8714427: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #6932522: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8017962: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1640520: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7321651: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #4753449: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #4753455: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #4360234: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1267809: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8157194: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730628: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2468002: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1382552: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730632: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #6932731: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1210497: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730643: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730655: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1267854: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730659: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730669: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730668: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730671: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730670: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730664: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730667: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730677: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730678: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730672: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1267877: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730675: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7489738: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730685: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730684: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730687: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730686: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730680: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730683: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8710212: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730693: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730692: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730695: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730694: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730689: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730688: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730691: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730690: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730701: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730700: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730703: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #10443: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730702: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730697: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730696: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730699: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #10447: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730698: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730709: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730708: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #4700309: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7092414: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730710: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730705: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1267910: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730704: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730707: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730706: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730716: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730719: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730718: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1267919: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730713: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730712: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730715: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730714: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730725: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730724: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730727: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730726: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730721: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730720: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730723: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730722: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1267963: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730729: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730728: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730731: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #6932614: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730730: 
+	Owner: Citizens
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1267943: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #551165: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1059045: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #6158685: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8714631: 
+	Owner: Sentinel
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #469249: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7752061: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5679450: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #469257: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #551200: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1333562: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #551241: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #6158615: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #6932797: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1268043: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #6158648: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #6969617: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5871910: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #4721096: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8505606: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7752191: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #6126039: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1268099: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2468278: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8714549: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1268143: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #6932910: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1620434: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8714589: 
+	Owner: Sentinel
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #6158723: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8714592: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #6126004: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1268193: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #6969756: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7441011: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #6969967: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #551448: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8723099: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #4999807: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8243781: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1882658: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1526364: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #3828333: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #514662: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7236100: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #6126116: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7490056: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #551540: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8247810: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2468517: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5147337: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2964156: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7752423: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7752416: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5147345: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7752404: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #551597: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7752414: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2964096: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #4967067: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #6113922: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #551662: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8247951: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2018025: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #6970221: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8711049: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8711069: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #3443503: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8158044: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5090156: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8321872: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #834362: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #4967221: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8481790: 
+	Owner: Sentinel
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8088573: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #551809: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #809856: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2005942: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8436527: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #4590582: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7760826: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #551926: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #449557: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #449553: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #551976: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #883747: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1043488: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1047612: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #449599: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #449595: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #449621: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1252464: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8240367: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #3443887: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5876882: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8711247: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2374857: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7470236: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #4779354: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1219844: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #687399: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #4672872: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #625992: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #4697379: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7777567: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #3444149: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #4033967: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5086673: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5520869: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7515553: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #4410811: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7089554: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #4673120: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2051624: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #466534: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #466532: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2002555: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #466538: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1314440: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7515862: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7515860: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7442117: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7089877: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1044148: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #380601: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #4968090: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1048323: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #4968303: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #380719: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7470919: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #6971183: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1863549: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8310557: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #3854154: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2039697: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1195917: 
+	Owner: FastAsyncWorldEdit
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1048492: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1019809: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7516125: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #4968442: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8208334: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #2568083: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7917502: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #7466923: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #5087149: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1019883: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1048573: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #3829708: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #1380322: 
+	Owner: Naruto
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730732: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730733: 
+	Owner: Minecraft
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730734: 
+	Owner: Citizens
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #8730735: 
+	Owner: Citizens
+	Runnable: <Unknown>
+	Synchronous?: true
+Task: #522: 
+	Owner: WGExtender
+	Runnable: <Unknown>
+	Synchronous?: false
+Task: #525: 
+	Owner: Citizens
+	Runnable: <Unknown>
+	Synchronous?: false
+Task: #433: 
+	Owner: SkinsRestorer
+	Runnable: <Unknown>
+	Synchronous?: false
+Task: #574: 
+	Owner: Vault
+	Runnable: <Unknown>
+	Synchronous?: false
+Task: #503: 
+	Owner: SimpleClans
+	Runnable: <Unknown>
+	Synchronous?: false
+Task: #506: 
+	Owner: SimpleClans
+	Runnable: <Unknown>
+	Synchronous?: false
+Task: #8730736: 
+	Owner: Quests
+	Runnable: <Unknown>
+	Synchronous?: false
+
+================================
+Services
+================================
+
+me.SuperRonanCraft.BetterRTP.references.web.Metrics: me.SuperRonanCraft.BetterRTP.references.web.Metrics@40916c81
+com.boydti.metrics.bukkit.Metrics: com.boydti.metrics.bukkit.Metrics@2f5b248a
+net.milkbowl.vault.metrics.bukkit.Metrics: net.milkbowl.vault.metrics.bukkit.Metrics@7b42997e
+net.citizensnpcs.Metrics: net.citizensnpcs.Metrics@40642f4c
+skinsrestorer.shared.utils.metrics.bukkit.Metrics: skinsrestorer.shared.utils.metrics.bukkit.Metrics@b5aa6a5
+net.milkbowl.vault.economy.Economy: net.milkbowl.vault.economy.plugins.Economy_Essentials@7dd3ac30
+com.comphenix.protocol.metrics.Metrics: com.comphenix.protocol.metrics.Metrics@1235539d
+com.sk89q.worldguard.bukkit.bstats.bukkit.Metrics: com.sk89q.worldguard.bukkit.bstats.bukkit.Metrics@73ca10d8
+net.luckperms.api.LuckPerms: me.lucko.luckperms.common.api.LuckPermsApiProvider@2d7bff8a
+com.gmail.filoghost.holographicdisplays.metrics.bukkit.MetricsLite: com.gmail.filoghost.holographicdisplays.metrics.bukkit.MetricsLite@4da97439
+com.onarandombox.bstats.bukkit.Metrics: com.onarandombox.bstats.bukkit.Metrics@75387faa
+net.milkbowl.vault.chat.Chat: me.lucko.luckperms.bukkit.vault.LuckPermsVaultChat@5657fd05
+ru.mrbrikster.chatty.util.metrics.Metrics: ru.mrbrikster.chatty.util.metrics.Metrics@24a2cfea
+com.earth2me.essentials.metrics.Metrics: com.earth2me.essentials.metrics.Metrics@222c6ffb
+net.milkbowl.vault.permission.Permission: me.lucko.luckperms.bukkit.vault.LuckPermsVaultPermission@14df813b
+me.clip.placeholderapi.metrics.bukkit.Metrics: me.clip.placeholderapi.metrics.bukkit.Metrics@7d09e970
+ru.azerusteam.util.Metrics: ru.azerusteam.util.Metrics@4f66a4a4
+org.mcmonkey.sentinel.metrics.BStatsMetricsLite: org.mcmonkey.sentinel.metrics.BStatsMetricsLite@e745904
+net.sacredlabyrinth.phaed.simpleclans.metrics.Metrics: net.sacredlabyrinth.phaed.simpleclans.metrics.Metrics@664ac7a8
+
+================================
+Worlds
+================================
+
+World Count: 4
+World: world: 
+	UUID: 1c8693e2-ed4b-45f7-9236-21c12eb4df8b
+	World Type: NORMAL
+	Environment: NORMAL
+	Chunk Generator: <Default>
+	Spawning: 
+		Animals?: true
+		Monsters?: true
+		Ambient Spawn Limit: 1
+		Animal Spawn Limit: 8
+		Monster Spawn Limit: 50
+		Water Creature Spawn Limit: 4
+	Configuration: 
+		Difficulty: EASY
+		Max Height: 256
+		Sea Level: 63
+	State: 
+		Spawn Location: Location{world=CraftWorld{name=world},x=-282.0,y=74.0,z=223.0,pitch=0.0,yaw=0.0}
+		Full Time: 10081285
+		Weather Duration: 6998
+		Thunder Duration: 49544
+	Protection: 
+		PVP?: true
+		Game Rules: doFireTick=true, maxCommandChainLength=65536, fireDamage=true, reducedDebugInfo=false, disableElytraMovementCheck=false, announceAdvancements=false, drowningDamage=true, commandBlockOutput=true, doMobSpawning=true, maxEntityCramming=24, disableRaids=false, doWeatherCycle=true, doDaylightCycle=true, showDeathMessages=true, doTileDrops=true, doInsomnia=true, doImmediateRespawn=false, naturalRegeneration=true, doMobLoot=true, fallDamage=true, keepInventory=true, doEntityDrops=true, doLimitedCrafting=false, mobGriefing=true, randomTickSpeed=3, spawnRadius=10, doTraderSpawning=true, logAdminCommands=true, spectatorsGenerateChunks=true, sendCommandFeedback=false, doPatrolSpawning=true
+World: world_nether: 
+	UUID: 25203d37-7a08-432e-9f9d-bfa503fb75b0
+	World Type: NORMAL
+	Environment: NETHER
+	Chunk Generator: <Default>
+	Spawning: 
+		Animals?: true
+		Monsters?: true
+		Ambient Spawn Limit: 1
+		Animal Spawn Limit: 8
+		Monster Spawn Limit: 50
+		Water Creature Spawn Limit: 4
+	Configuration: 
+		Difficulty: EASY
+		Max Height: 256
+		Sea Level: 63
+	State: 
+		Spawn Location: Location{world=CraftWorld{name=world_nether},x=4.0,y=64.0,z=-4.0,pitch=0.0,yaw=0.0}
+		Full Time: 8233363
+		Weather Duration: 0
+		Thunder Duration: 0
+	Protection: 
+		PVP?: true
+		Game Rules: doFireTick=true, maxCommandChainLength=65536, fireDamage=true, reducedDebugInfo=false, disableElytraMovementCheck=false, announceAdvancements=true, drowningDamage=true, commandBlockOutput=true, doMobSpawning=true, maxEntityCramming=24, disableRaids=false, doWeatherCycle=true, doDaylightCycle=true, showDeathMessages=true, doTileDrops=true, doInsomnia=true, doImmediateRespawn=false, naturalRegeneration=true, doMobLoot=true, fallDamage=true, keepInventory=true, doEntityDrops=true, doLimitedCrafting=false, mobGriefing=true, randomTickSpeed=3, spawnRadius=10, doTraderSpawning=true, logAdminCommands=true, spectatorsGenerateChunks=true, sendCommandFeedback=true, doPatrolSpawning=true
+World: world_the_end: 
+	UUID: 721278a4-3ab3-4a96-a427-85bb464d6100
+	World Type: NORMAL
+	Environment: THE_END
+	Chunk Generator: <Default>
+	Spawning: 
+		Animals?: true
+		Monsters?: true
+		Ambient Spawn Limit: 1
+		Animal Spawn Limit: 8
+		Monster Spawn Limit: 50
+		Water Creature Spawn Limit: 4
+	Configuration: 
+		Difficulty: EASY
+		Max Height: 256
+		Sea Level: 63
+	State: 
+		Spawn Location: Location{world=CraftWorld{name=world_the_end},x=0.0,y=65.0,z=0.0,pitch=0.0,yaw=0.0}
+		Full Time: 8233363
+		Weather Duration: 0
+		Thunder Duration: 0
+	Protection: 
+		PVP?: true
+		Game Rules: doFireTick=true, maxCommandChainLength=65536, fireDamage=true, reducedDebugInfo=false, disableElytraMovementCheck=false, announceAdvancements=true, drowningDamage=true, commandBlockOutput=true, doMobSpawning=true, maxEntityCramming=24, disableRaids=false, doWeatherCycle=true, doDaylightCycle=true, showDeathMessages=true, doTileDrops=true, doInsomnia=true, doImmediateRespawn=false, naturalRegeneration=true, doMobLoot=true, fallDamage=true, keepInventory=true, doEntityDrops=true, doLimitedCrafting=false, mobGriefing=true, randomTickSpeed=3, spawnRadius=10, doTraderSpawning=true, logAdminCommands=true, spectatorsGenerateChunks=true, sendCommandFeedback=true, doPatrolSpawning=true
+World: forest: 
+	UUID: fdf86bf7-abb9-4f6a-99ad-11671276cc71
+	World Type: FLAT
+	Environment: NORMAL
+	Chunk Generator: <Default>
+	Spawning: 
+		Animals?: true
+		Monsters?: true
+		Ambient Spawn Limit: 1
+		Animal Spawn Limit: 8
+		Monster Spawn Limit: 50
+		Water Creature Spawn Limit: 4
+	Configuration: 
+		Difficulty: EASY
+		Max Height: 256
+		Sea Level: 63
+	State: 
+		Spawn Location: Location{world=CraftWorld{name=forest},x=8.0,y=90.0,z=-1.0,pitch=0.0,yaw=0.0}
+		Full Time: 4592000
+		Weather Duration: 36516
+		Thunder Duration: 21551
+	Protection: 
+		PVP?: true
+		Game Rules: doFireTick=true, maxCommandChainLength=65536, fireDamage=true, reducedDebugInfo=false, disableElytraMovementCheck=false, announceAdvancements=true, drowningDamage=true, commandBlockOutput=true, doMobSpawning=false, maxEntityCramming=24, disableRaids=false, doWeatherCycle=true, doDaylightCycle=false, showDeathMessages=true, doTileDrops=true, doInsomnia=true, doImmediateRespawn=false, naturalRegeneration=true, doMobLoot=true, fallDamage=true, keepInventory=true, doEntityDrops=true, doLimitedCrafting=false, mobGriefing=true, randomTickSpeed=3, spawnRadius=10, doTraderSpawning=true, logAdminCommands=true, spectatorsGenerateChunks=true, sendCommandFeedback=true, doPatrolSpawning=true
+
+================================
+Performance
+================================
+
+World Count: 4
+World: world: 
+	Keep in Memory?: true
+	Entity Count: 1922
+	Chunk Count: 4837
+	Tile Entity Count: 1364
+	Entity Distribution: 
+		CraftCreeper: 154 [0.031838/chunk]
+		CraftSpider: 30 [0.006202/chunk]
+		CraftSquid: 23 [0.004755/chunk]
+		CraftSkeleton: 89 [0.018400/chunk]
+		CatNPC: 1 [0.000207/chunk]
+		CraftCow: 134 [0.027703/chunk]
+		CraftSheep: 160 [0.033078/chunk]
+		CraftPainting: 1 [0.000207/chunk]
+		CraftRabbit: 294 [0.060781/chunk]
+		CraftMinecartChest: 57 [0.011784/chunk]
+		CraftPolarBear: 14 [0.002894/chunk]
+		CraftChicken: 164 [0.033905/chunk]
+		CraftHorse: 21 [0.004342/chunk]
+		CraftWolf: 80 [0.016539/chunk]
+		CraftStray: 2 [0.000413/chunk]
+		CraftBat: 11 [0.002274/chunk]
+		CraftExperienceOrb: 1 [0.000207/chunk]
+		CraftDolphin: 2 [0.000413/chunk]
+		CraftNMSArmorStand: 46 [0.009510/chunk]
+		CraftBee: 4 [0.000827/chunk]
+		CraftLlama: 39 [0.008063/chunk]
+		CraftDonkey: 3 [0.000620/chunk]
+		CraftPig: 166 [0.034319/chunk]
+		CraftFox: 12 [0.002481/chunk]
+		CraftEnderman: 9 [0.001861/chunk]
+		CraftDrowned: 6 [0.001240/chunk]
+		CraftPillager: 9 [0.001861/chunk]
+		CraftWitch: 2 [0.000413/chunk]
+		CraftIronGolem: 1 [0.000207/chunk]
+		CraftItemFrame: 21 [0.004342/chunk]
+		CraftPlayer: 18 [0.003721/chunk]
+		CraftTurtle: 24 [0.004962/chunk]
+		CraftItem: 125 [0.025842/chunk]
+		CraftZombie: 150 [0.031011/chunk]
+		CraftVillager: 22 [0.004548/chunk]
+		PlayerNPC: 17 [0.003515/chunk]
+		ArmorStandNPC: 2 [0.000413/chunk]
+		CraftCat: 8 [0.001654/chunk]
+	Tile Entity Distribution: 
+		CraftBrewingStand: 14 [0.002894/chunk]
+		CraftChest: 281 [0.058094/chunk]
+		CraftCreatureSpawner: 82 [0.016953/chunk]
+		CraftCommandBlock: 1 [0.000207/chunk]
+		CraftBell: 1 [0.000207/chunk]
+		CraftBeehive: 7 [0.001447/chunk]
+		CraftCampfire: 1 [0.000207/chunk]
+		CraftBlastFurnace: 1 [0.000207/chunk]
+		CraftComparator: 3 [0.000620/chunk]
+		CraftFurnaceFurnace: 46 [0.009510/chunk]
+		CraftJukebox: 7 [0.001447/chunk]
+		CraftBlockEntityState: 9 [0.001861/chunk]
+		CraftSkull: 137 [0.028323/chunk]
+		CraftEnderChest: 8 [0.001654/chunk]
+		CraftSign: 577 [0.119289/chunk]
+		CraftHopper: 13 [0.002688/chunk]
+		CraftSmoker: 3 [0.000620/chunk]
+		CraftBed: 130 [0.026876/chunk]
+		CraftEnchantingTable: 1 [0.000207/chunk]
+		CraftBanner: 42 [0.008683/chunk]
+World: world_nether: 
+	Keep in Memory?: true
+	Entity Count: 50
+	Chunk Count: 529
+	Tile Entity Count: 4
+	Entity Distribution: 
+		CraftMagmaCube: 3 [0.005671/chunk]
+		CraftEnderman: 2 [0.003781/chunk]
+		CraftPigZombie: 45 [0.085066/chunk]
+	Tile Entity Distribution: 
+		CraftChest: 2 [0.003781/chunk]
+		CraftCreatureSpawner: 2 [0.003781/chunk]
+World: world_the_end: 
+	Keep in Memory?: true
+	Entity Count: 0
+	Chunk Count: 529
+	Tile Entity Count: 21
+	Entity Distribution: No data.
+	Tile Entity Distribution: 
+		CraftBlockEntityState: 20 [0.037807/chunk]
+		CraftEndGateway: 1 [0.001890/chunk]
+World: forest: 
+	Keep in Memory?: true
+	Entity Count: 65
+	Chunk Count: 529
+	Tile Entity Count: 606
+	Entity Distribution: 
+		CraftPlayer: 3 [0.005671/chunk]
+		CraftArmorStand: 1 [0.001890/chunk]
+		CraftNMSArmorStand: 6 [0.011342/chunk]
+		CraftItem: 7 [0.013233/chunk]
+		CraftHorse: 3 [0.005671/chunk]
+		PlayerNPC: 44 [0.083176/chunk]
+		ArmorStandNPC: 1 [0.001890/chunk]
+	Tile Entity Distribution: 
+		CraftFurnaceFurnace: 19 [0.035917/chunk]
+		CraftChest: 21 [0.039698/chunk]
+		CraftDaylightDetector: 5 [0.009452/chunk]
+		CraftSkull: 369 [0.697543/chunk]
+		CraftEnderChest: 3 [0.005671/chunk]
+		CraftSign: 119 [0.224953/chunk]
+		CraftBanner: 70 [0.132325/chunk]
+
+================================
+System Information
+================================
+
+Java: Oracle Corporation 1.8.0_275 (http://java.oracle.com/)
+Operating System: Linux 4.9.0-14-amd64 (amd64)
+Available Processors: 6
+Free Memory: 1776 MB
+Max Memory: 4096 MB
+Total Memory: 4000 MB
+System Load Average: 4.88
+Java Uptime: 648 minutes
+Startup: 
+	Input Arguments: 
+		-Xms1G
+		-Xmx4G
+		-XX:+UseG1GC
+		-XX:+ParallelRefProcEnabled
+		-XX:MaxGCPauseMillis=200
+		-XX:+UnlockExperimentalVMOptions
+		-XX:+DisableExplicitGC
+		-XX:+AlwaysPreTouch
+		-XX:G1NewSizePercent=30
+		-XX:G1MaxNewSizePercent=40
+		-XX:G1HeapRegionSize=8M
+		-XX:G1ReservePercent=20
+		-XX:G1HeapWastePercent=5
+		-XX:G1MixedGCCountTarget=4
+		-XX:InitiatingHeapOccupancyPercent=15
+		-XX:G1MixedGCLiveThresholdPercent=90
+		-XX:G1RSetUpdatingPauseTimePercent=5
+		-XX:SurvivorRatio=32
+		-XX:+PerfDisableSharedMem
+		-XX:MaxTenuringThreshold=1
+		-Dusing.aikars.flags=https://mcflags.emc.gs
+		-Daikars.new.flags=true
+Virtual Machine: 
+	Name: OpenJDK 64-Bit Server VM
+	Vendor: Oracle Corporation
+	Version: Oracle Corporation
+Specification: 
+	Name: Java Virtual Machine Specification
+	Vendor: Oracle Corporation
+	Version: 1.8
+Class Loader: 
+	Loaded Class Count: 28234
+	Total Loaded Class Count: 28820
+	Unloaded Class Count: 586
+Garbage Collectors: 
+	G1 Young Generation: 
+		Collection Count: 2034
+		Collection Time: 221734ms
+	G1 Old Generation: 
+		Collection Count: 0
+		Collection Time: 0ms
+Threads: 
+	#5316 ForkJoinPool-2-worker-2: WAITING
+	#5315 ForkJoinPool-2-worker-1: TIMED_WAITING
+	#5314 ForkJoinPool.commonPool-worker-3: TIMED_WAITING
+	#5313 Craft Scheduler Thread - 1571: TIMED_WAITING
+	#5312 Craft Scheduler Thread - 1570: TIMED_WAITING
+	#5311 Craft Scheduler Thread - 1569: TIMED_WAITING
+	#5308 luckperms-scheduler-worker-208: TIMED_WAITING
+	#5305 Craft Scheduler Thread - 1568: TIMED_WAITING
+	#5303 luckperms-scheduler-worker-207: TIMED_WAITING
+	#5297 Craft Scheduler Thread - 1566: TIMED_WAITING
+	#5295 Craft Scheduler Thread - 1565: TIMED_WAITING
+	#5292 Craft Scheduler Thread - 1564: TIMED_WAITING
+	#5289 Craft Scheduler Thread - 1563: TIMED_WAITING
+	#5283 Craft Scheduler Thread - 1562: TIMED_WAITING
+	#5279 Craft Scheduler Thread - 1560: TIMED_WAITING
+	#5266 Craft Scheduler Thread - 1558: TIMED_WAITING
+	#5260 Craft Scheduler Thread - 1553: TIMED_WAITING
+	#5257 Craft Scheduler Thread - 1552: TIMED_WAITING
+	#5256 Craft Scheduler Thread - 1551: TIMED_WAITING
+	#5255 Craft Scheduler Thread - 1550: TIMED_WAITING
+	#5250 Craft Scheduler Thread - 1548: TIMED_WAITING
+	#5234 Async Chat Thread - #108: TIMED_WAITING
+	#5232 luckperms-scheduler-worker-205: TIMED_WAITING
+	#5228 Craft Scheduler Thread - 1540: TIMED_WAITING
+	#5222 luckperms-scheduler-worker-204: TIMED_WAITING
+	#5201 Craft Scheduler Thread - 1532: TIMED_WAITING
+	#5197 Craft Scheduler Thread - 1530: TIMED_WAITING
+	#5113 WorldGuard Region Chunk Table - world: TIMED_WAITING
+	#4690 pool-50-thread-2: WAITING
+	#4689 pool-50-thread-1: WAITING
+	#3935 Timer-2: WAITING
+	#129 Netty Epoll Server IO #3: RUNNABLE
+	#124 pool-20-thread-1: WAITING
+	#123 ProtocolLib-StructureCompiler 0: WAITING
+	#121 world_nether - Light: WAITING
+	#117 world_the_end - Light: WAITING
+	#116 forest - Light: WAITING
+	#97 Netty Epoll Server IO #2: RUNNABLE
+	#96 Netty Epoll Server IO #1: RUNNABLE
+	#92 Craft Async Scheduler Management Thread: WAITING
+	#87 ExpiringMap-Expirer: TIMED_WAITING
+	#86 Jobs-BufferedPaymentThread: TIMED_WAITING
+	#85 Jobs-DatabaseSaveTask: TIMED_WAITING
+	#82 WorldGuard Region I/O: TIMED_WAITING
+	#80 Paper Object Cleaner: WAITING
+	#78 pool-21-thread-1: TIMED_WAITING
+	#71 world - Light: WAITING
+	#70 Paper RegionFile IO Thread: WAITING
+	#69 Timer-1: TIMED_WAITING
+	#62 luckperms-hikari housekeeper: TIMED_WAITING
+	#61 mysql-cj-abandoned-connection-cleanup: TIMED_WAITING
+	#60 mysql-cj-abandoned-connection-cleanup: TIMED_WAITING
+	#59 Thread-11: RUNNABLE
+	#56 luckperms-scheduler: TIMED_WAITING
+	#55 WorldEdit Session Manager: TIMED_WAITING
+	#49 ForkJoinPool-1-worker-22: WAITING
+	#54 ForkJoinPool-1-worker-26: WAITING
+	#53 ForkJoinPool-1-worker-1: WAITING
+	#52 ForkJoinPool-1-worker-8: WAITING
+	#51 ForkJoinPool-1-worker-15: WAITING
+	#50 ForkJoinPool-1-worker-29: WAITING
+	#48 ForkJoinPool-1-worker-4: WAITING
+	#47 ForkJoinPool-1-worker-11: WAITING
+	#46 ForkJoinPool-1-worker-18: WAITING
+	#45 ForkJoinPool-1-worker-25: WAITING
+	#38 Netty Epoll Server IO #0: RUNNABLE
+	#37 Timer-0: TIMED_WAITING
+	#36 Paper Watchdog Thread: TIMED_WAITING
+	#35 Paper Async Chunk Urgent Task Thread: WAITING
+	#34 Paper Async Chunk Task Thread #4: WAITING
+	#33 Paper Async Chunk Task Thread #3: WAITING
+	#32 Paper Async Chunk Task Thread #2: WAITING
+	#31 Paper Async Chunk Task Thread #1: WAITING
+	#30 Paper Async Chunk Task Thread #0: WAITING
+	#27 DestroyJavaVM: RUNNABLE
+	#24 Server console handler: RUNNABLE
+	#21 Server thread: RUNNABLE
+	#23 Server Infinisleeper: TIMED_WAITING
+	#20 Snooper Timer: WAITING
+	#18 Server-Worker-4: WAITING
+	#17 Server-Worker-3: WAITING
+	#16 Server-Worker-2: WAITING
+	#15 Server-Worker-1: WAITING
+	#11 Log4j2-TF-1-AsyncLogger[AsyncContext@74a14482]-1: TIMED_WAITING
+	#5 Signal Dispatcher: RUNNABLE
+	#3 Finalizer: WAITING
+	#2 Reference Handler: WAITING
+
+================================
+WorldGuard Configuration
+================================
+
+Configuration: 
+	hasCommandBookGodMode: false
+	extraStats: true
+	useRegionsCreatureSpawnEvent: true
+	activityHaltToggle: false
+	useGodPermission: false
+	useGodGroup: false
+	useAmphibiousGroup: false
+	usePlayerMove: true
+	usePlayerTeleports: true
+	deopOnJoin: false
+	blockInGameOp: false
+	migrateRegionsToUuid: false
+	keepUnresolvedNames: true
+	particleEffects: true
+	hostKeysAllowFMLClients: false
+World: world: 
+	Configuration: 
+		blockPotions: []
+		allowAllInteract: {}
+		blockUseAtFeet: {}
+		usePaperEntityOrigin: false
+		blacklistFile: plugins/WorldGuard/worlds/world/blacklist.txt
+		boundedLocationFlags: false
+		useRegions: true
+		simulateSponge: false
+		spongeRadius: 2
+		redstoneSponges: false
+		summaryOnStart: true
+		opPermissions: true
+		buildPermissions: false
+		buildPermissionDenyMessage: §eSorry, but you are not permitted to do that here.
+		fireSpreadDisableToggle: false
+		itemDurability: true
+		disableExpDrops: false
+		blockPotionsAlways: false
+		disableConduitEffects: false
+		pumpkinScuba: false
+		noPhysicsGravel: false
+		noPhysicsSand: false
+		ropeLadders: false
+		allowPortalAnywhere: false
+		preventWaterDamage: []
+		blockLighter: false
+		disableFireSpread: false
+		disableFireSpreadBlocks: []
+		preventLavaFire: false
+		allowedLavaSpreadOver: []
+		blockTNTExplosions: false
+		blockTNTBlockDamage: false
+		blockCreeperExplosions: false
+		blockCreeperBlockDamage: false
+		blockWitherExplosions: false
+		blockWitherBlockDamage: false
+		blockWitherSkullExplosions: false
+		blockWitherSkullBlockDamage: false
+		blockEnderDragonBlockDamage: false
+		blockEnderDragonPortalCreation: false
+		blockFireballExplosions: true
+		blockFireballBlockDamage: false
+		blockOtherExplosions: false
+		blockEntityPaintingDestroy: false
+		blockEntityItemFrameDestroy: false
+		blockEntityArmorStandDestroy: false
+		blockPluginSpawning: true
+		blockGroundSlimes: false
+		blockZombieDoorDestruction: false
+		disableContactDamage: false
+		disableFallDamage: false
+		disableLavaDamage: false
+		disableFireDamage: false
+		disableLightningDamage: false
+		disableDrowningDamage: false
+		disableSuffocationDamage: false
+		teleportOnSuffocation: false
+		disableVoidDamage: false
+		teleportOnVoid: false
+		safeFallOnVoid: false
+		disableExplosionDamage: false
+		disableMobDamage: false
+		highFreqFlags: false
+		checkLiquidFlow: false
+		regionWand: minecraft:leather
+		blockCreatureSpawn: []
+		allowTamedSpawns: true
+		maxClaimVolume: 1000000
+		claimOnlyInsideExistingRegions: false
+		maxRegionCountPerPlayer: 1
+		antiWolfDumbness: false
+		signChestProtection: false
+		disableSignChestProtectionCheck: false
+		removeInfiniteStacks: false
+		disableCreatureCropTrampling: false
+		disablePlayerCropTrampling: false
+		preventLightningFire: false
+		disallowedLightningBlocks: []
+		disableThunder: false
+		disableWeather: false
+		alwaysRaining: false
+		alwaysThundering: false
+		disablePigZap: false
+		disableVillagerZap: false
+		disableCreeperPower: false
+		disableHealthRegain: false
+		disableMushroomSpread: false
+		disableIceMelting: false
+		disableSnowMelting: false
+		disableSnowFormation: false
+		disableIceFormation: false
+		disableLeafDecay: false
+		disableGrassGrowth: false
+		disableMyceliumSpread: false
+		disableVineGrowth: false
+		disableCropGrowth: false
+		disableEndermanGriefing: false
+		disableSnowmanTrails: false
+		disableSoilDehydration: false
+		disableCoralBlockFade: false
+		allowedSnowFallOver: []
+		regionInvinciblityRemovesMobs: false
+		regionCancelEmptyChatEvents: true
+		regionNetherPortalProtection: true
+		forceDefaultTitleTimes: true
+		fakePlayerBuildOverride: true
+		explosionFlagCancellation: true
+		disableDeathMessages: false
+		disableObsidianGenerators: false
+		strictEntitySpawn: false
+		ignoreHopperMoveEvents: false
+		breakDeniedHoppers: true
+		maxRegionCounts: {null=1, gold=10, premium=7, liteplus=3, yt=7, lite=2, vIP=5}
+	Blacklist: <Disabled>
+	Regions: 
+		Region Count: 66
+		__global__: 
+			Type: GLOBAL
+			Priority: 0
+			Parent: <none>
+			Owners: {players={uuids=[], names=[]}, groups={names=[]}}
+			Members: {players={uuids=[], names=[]}, groups={names=[]}}
+			Flags: 
+			Bounds: (0, 0, 0) -> (0, 0, 0)
+World: world_nether: 
+	Configuration: 
+		blockPotions: []
+		allowAllInteract: {}
+		blockUseAtFeet: {}
+		usePaperEntityOrigin: false
+		blacklistFile: plugins/WorldGuard/worlds/world_nether/blacklist.txt
+		boundedLocationFlags: false
+		useRegions: true
+		simulateSponge: false
+		spongeRadius: 2
+		redstoneSponges: false
+		summaryOnStart: true
+		opPermissions: true
+		buildPermissions: false
+		buildPermissionDenyMessage: §eSorry, but you are not permitted to do that here.
+		fireSpreadDisableToggle: false
+		itemDurability: true
+		disableExpDrops: false
+		blockPotionsAlways: false
+		disableConduitEffects: false
+		pumpkinScuba: false
+		noPhysicsGravel: false
+		noPhysicsSand: false
+		ropeLadders: false
+		allowPortalAnywhere: false
+		preventWaterDamage: []
+		blockLighter: false
+		disableFireSpread: false
+		disableFireSpreadBlocks: []
+		preventLavaFire: false
+		allowedLavaSpreadOver: []
+		blockTNTExplosions: false
+		blockTNTBlockDamage: false
+		blockCreeperExplosions: false
+		blockCreeperBlockDamage: false
+		blockWitherExplosions: false
+		blockWitherBlockDamage: false
+		blockWitherSkullExplosions: false
+		blockWitherSkullBlockDamage: false
+		blockEnderDragonBlockDamage: false
+		blockEnderDragonPortalCreation: false
+		blockFireballExplosions: true
+		blockFireballBlockDamage: false
+		blockOtherExplosions: false
+		blockEntityPaintingDestroy: false
+		blockEntityItemFrameDestroy: false
+		blockEntityArmorStandDestroy: false
+		blockPluginSpawning: true
+		blockGroundSlimes: false
+		blockZombieDoorDestruction: false
+		disableContactDamage: false
+		disableFallDamage: false
+		disableLavaDamage: false
+		disableFireDamage: false
+		disableLightningDamage: false
+		disableDrowningDamage: false
+		disableSuffocationDamage: false
+		teleportOnSuffocation: false
+		disableVoidDamage: false
+		teleportOnVoid: false
+		safeFallOnVoid: false
+		disableExplosionDamage: false
+		disableMobDamage: false
+		highFreqFlags: false
+		checkLiquidFlow: false
+		regionWand: minecraft:leather
+		blockCreatureSpawn: []
+		allowTamedSpawns: true
+		maxClaimVolume: 1000000
+		claimOnlyInsideExistingRegions: false
+		maxRegionCountPerPlayer: 1
+		antiWolfDumbness: false
+		signChestProtection: false
+		disableSignChestProtectionCheck: false
+		removeInfiniteStacks: false
+		disableCreatureCropTrampling: false
+		disablePlayerCropTrampling: false
+		preventLightningFire: false
+		disallowedLightningBlocks: []
+		disableThunder: false
+		disableWeather: false
+		alwaysRaining: false
+		alwaysThundering: false
+		disablePigZap: false
+		disableVillagerZap: false
+		disableCreeperPower: false
+		disableHealthRegain: false
+		disableMushroomSpread: false
+		disableIceMelting: false
+		disableSnowMelting: false
+		disableSnowFormation: false
+		disableIceFormation: false
+		disableLeafDecay: false
+		disableGrassGrowth: false
+		disableMyceliumSpread: false
+		disableVineGrowth: false
+		disableCropGrowth: false
+		disableEndermanGriefing: false
+		disableSnowmanTrails: false
+		disableSoilDehydration: false
+		disableCoralBlockFade: false
+		allowedSnowFallOver: []
+		regionInvinciblityRemovesMobs: false
+		regionCancelEmptyChatEvents: true
+		regionNetherPortalProtection: true
+		forceDefaultTitleTimes: true
+		fakePlayerBuildOverride: true
+		explosionFlagCancellation: true
+		disableDeathMessages: false
+		disableObsidianGenerators: false
+		strictEntitySpawn: false
+		ignoreHopperMoveEvents: false
+		breakDeniedHoppers: true
+		maxRegionCounts: {null=1, gold=10, premium=7, liteplus=3, yt=7, lite=2, vIP=5}
+	Blacklist: <Disabled>
+	Regions: 
+		Region Count: 1
+		__global__: <Undefined>
+World: world_the_end: 
+	Configuration: 
+		blockPotions: []
+		allowAllInteract: {}
+		blockUseAtFeet: {}
+		usePaperEntityOrigin: false
+		blacklistFile: plugins/WorldGuard/worlds/world_the_end/blacklist.txt
+		boundedLocationFlags: false
+		useRegions: true
+		simulateSponge: false
+		spongeRadius: 2
+		redstoneSponges: false
+		summaryOnStart: true
+		opPermissions: true
+		buildPermissions: false
+		buildPermissionDenyMessage: §eSorry, but you are not permitted to do that here.
+		fireSpreadDisableToggle: false
+		itemDurability: true
+		disableExpDrops: false
+		blockPotionsAlways: false
+		disableConduitEffects: false
+		pumpkinScuba: false
+		noPhysicsGravel: false
+		noPhysicsSand: false
+		ropeLadders: false
+		allowPortalAnywhere: false
+		preventWaterDamage: []
+		blockLighter: false
+		disableFireSpread: false
+		disableFireSpreadBlocks: []
+		preventLavaFire: false
+		allowedLavaSpreadOver: []
+		blockTNTExplosions: false
+		blockTNTBlockDamage: false
+		blockCreeperExplosions: false
+		blockCreeperBlockDamage: false
+		blockWitherExplosions: false
+		blockWitherBlockDamage: false
+		blockWitherSkullExplosions: false
+		blockWitherSkullBlockDamage: false
+		blockEnderDragonBlockDamage: false
+		blockEnderDragonPortalCreation: false
+		blockFireballExplosions: true
+		blockFireballBlockDamage: false
+		blockOtherExplosions: false
+		blockEntityPaintingDestroy: false
+		blockEntityItemFrameDestroy: false
+		blockEntityArmorStandDestroy: false
+		blockPluginSpawning: true
+		blockGroundSlimes: false
+		blockZombieDoorDestruction: false
+		disableContactDamage: false
+		disableFallDamage: false
+		disableLavaDamage: false
+		disableFireDamage: false
+		disableLightningDamage: false
+		disableDrowningDamage: false
+		disableSuffocationDamage: false
+		teleportOnSuffocation: false
+		disableVoidDamage: false
+		teleportOnVoid: false
+		safeFallOnVoid: false
+		disableExplosionDamage: false
+		disableMobDamage: false
+		highFreqFlags: false
+		checkLiquidFlow: false
+		regionWand: minecraft:leather
+		blockCreatureSpawn: []
+		allowTamedSpawns: true
+		maxClaimVolume: 1000000
+		claimOnlyInsideExistingRegions: false
+		maxRegionCountPerPlayer: 1
+		antiWolfDumbness: false
+		signChestProtection: false
+		disableSignChestProtectionCheck: false
+		removeInfiniteStacks: false
+		disableCreatureCropTrampling: false
+		disablePlayerCropTrampling: false
+		preventLightningFire: false
+		disallowedLightningBlocks: []
+		disableThunder: false
+		disableWeather: false
+		alwaysRaining: false
+		alwaysThundering: false
+		disablePigZap: false
+		disableVillagerZap: false
+		disableCreeperPower: false
+		disableHealthRegain: false
+		disableMushroomSpread: false
+		disableIceMelting: false
+		disableSnowMelting: false
+		disableSnowFormation: false
+		disableIceFormation: false
+		disableLeafDecay: false
+		disableGrassGrowth: false
+		disableMyceliumSpread: false
+		disableVineGrowth: false
+		disableCropGrowth: false
+		disableEndermanGriefing: false
+		disableSnowmanTrails: false
+		disableSoilDehydration: false
+		disableCoralBlockFade: false
+		allowedSnowFallOver: []
+		regionInvinciblityRemovesMobs: false
+		regionCancelEmptyChatEvents: true
+		regionNetherPortalProtection: true
+		forceDefaultTitleTimes: true
+		fakePlayerBuildOverride: true
+		explosionFlagCancellation: true
+		disableDeathMessages: false
+		disableObsidianGenerators: false
+		strictEntitySpawn: false
+		ignoreHopperMoveEvents: false
+		breakDeniedHoppers: true
+		maxRegionCounts: {null=1, gold=10, premium=7, liteplus=3, yt=7, lite=2, vIP=5}
+	Blacklist: <Disabled>
+	Regions: 
+		Region Count: 0
+		__global__: <Undefined>
+World: forest: 
+	Configuration: 
+		blockPotions: []
+		allowAllInteract: {}
+		blockUseAtFeet: {}
+		usePaperEntityOrigin: false
+		blacklistFile: plugins/WorldGuard/worlds/forest/blacklist.txt
+		boundedLocationFlags: false
+		useRegions: true
+		simulateSponge: false
+		spongeRadius: 2
+		redstoneSponges: false
+		summaryOnStart: true
+		opPermissions: true
+		buildPermissions: false
+		buildPermissionDenyMessage: §eSorry, but you are not permitted to do that here.
+		fireSpreadDisableToggle: false
+		itemDurability: true
+		disableExpDrops: false
+		blockPotionsAlways: false
+		disableConduitEffects: false
+		pumpkinScuba: false
+		noPhysicsGravel: false
+		noPhysicsSand: false
+		ropeLadders: false
+		allowPortalAnywhere: false
+		preventWaterDamage: []
+		blockLighter: false
+		disableFireSpread: false
+		disableFireSpreadBlocks: []
+		preventLavaFire: false
+		allowedLavaSpreadOver: []
+		blockTNTExplosions: false
+		blockTNTBlockDamage: false
+		blockCreeperExplosions: false
+		blockCreeperBlockDamage: false
+		blockWitherExplosions: false
+		blockWitherBlockDamage: false
+		blockWitherSkullExplosions: false
+		blockWitherSkullBlockDamage: false
+		blockEnderDragonBlockDamage: false
+		blockEnderDragonPortalCreation: false
+		blockFireballExplosions: true
+		blockFireballBlockDamage: false
+		blockOtherExplosions: false
+		blockEntityPaintingDestroy: false
+		blockEntityItemFrameDestroy: false
+		blockEntityArmorStandDestroy: false
+		blockPluginSpawning: true
+		blockGroundSlimes: false
+		blockZombieDoorDestruction: false
+		disableContactDamage: false
+		disableFallDamage: false
+		disableLavaDamage: false
+		disableFireDamage: false
+		disableLightningDamage: false
+		disableDrowningDamage: false
+		disableSuffocationDamage: false
+		teleportOnSuffocation: false
+		disableVoidDamage: false
+		teleportOnVoid: false
+		safeFallOnVoid: false
+		disableExplosionDamage: false
+		disableMobDamage: false
+		highFreqFlags: false
+		checkLiquidFlow: false
+		regionWand: minecraft:leather
+		blockCreatureSpawn: []
+		allowTamedSpawns: true
+		maxClaimVolume: 1000000
+		claimOnlyInsideExistingRegions: false
+		maxRegionCountPerPlayer: 1
+		antiWolfDumbness: false
+		signChestProtection: false
+		disableSignChestProtectionCheck: false
+		removeInfiniteStacks: false
+		disableCreatureCropTrampling: false
+		disablePlayerCropTrampling: false
+		preventLightningFire: false
+		disallowedLightningBlocks: []
+		disableThunder: false
+		disableWeather: false
+		alwaysRaining: false
+		alwaysThundering: false
+		disablePigZap: false
+		disableVillagerZap: false
+		disableCreeperPower: false
+		disableHealthRegain: false
+		disableMushroomSpread: false
+		disableIceMelting: false
+		disableSnowMelting: false
+		disableSnowFormation: false
+		disableIceFormation: false
+		disableLeafDecay: false
+		disableGrassGrowth: false
+		disableMyceliumSpread: false
+		disableVineGrowth: false
+		disableCropGrowth: false
+		disableEndermanGriefing: false
+		disableSnowmanTrails: false
+		disableSoilDehydration: false
+		disableCoralBlockFade: false
+		allowedSnowFallOver: []
+		regionInvinciblityRemovesMobs: false
+		regionCancelEmptyChatEvents: true
+		regionNetherPortalProtection: true
+		forceDefaultTitleTimes: true
+		fakePlayerBuildOverride: true
+		explosionFlagCancellation: true
+		disableDeathMessages: false
+		disableObsidianGenerators: false
+		strictEntitySpawn: false
+		ignoreHopperMoveEvents: false
+		breakDeniedHoppers: true
+		maxRegionCounts: {null=1, gold=10, premium=7, liteplus=3, yt=7, lite=2, vIP=5}
+	Blacklist: <Disabled>
+	Regions: 
+		Region Count: 5
+		__global__: 
+			Type: GLOBAL
+			Priority: 0
+			Parent: <none>
+			Owners: {players={uuids=[], names=[]}, groups={names=[]}}
+			Members: {players={uuids=[], names=[]}, groups={names=[]}}
+			Flags: 
+			Bounds: (0, 0, 0) -> (0, 0, 0)
+
+================================
+Applicable regions
+================================
+
+Location: world @ (-278, 93, 267)
+Regions: 
+	spawn: 
+		Type: CUBOID
+		Priority: 1
+		Parent: <none>
+		Owners: {players={uuids=[945e45cc-721f-338b-8555-ed3247a42259], names=[]}, groups={names=[]}}
+		Members: {players={uuids=[], names=[]}, groups={names=[]}}
+		Flags: 
+			StateFlag{name='potion-splash'}: DENY
+			StateFlag{name='invincible'}: ALLOW
+			RegistryFlag{name='weather-lock'}: clear
+			StateFlag{name='leaf-decay'}: DENY
+			StateFlag{name='enderman-grief'}: DENY
+			StateFlag{name='mob-damage'}: DENY
+			StateFlag{name='lava-fire'}: DENY
+			StateFlag{name='vine-growth'}: DENY
+			StringFlag{name='farewell'}: §7[§c!§7] Вы вышли за территорию спавна!
+			StateFlag{name='ravager-grief'}: DENY
+			StateFlag{name='use'}: ALLOW
+			StateFlag{name='enderpearl'}: DENY
+			StateFlag{name='lighter'}: DENY
+			StateFlag{name='tnt'}: DENY
+			StateFlag{name='pvp'}: DENY
+			StateFlag{name='vehicle-place'}: DENY
+			StateFlag{name='enderdragon-block-damage'}: DENY
+			StateFlag{name='fire-spread'}: DENY
+			StateFlag{name='mob-spawning'}: DENY
+			StateFlag{name='creeper-explosion'}: DENY
+			StateFlag{name='interact'}: ALLOW
+			StateFlag{name='chest-access'}: ALLOW
+			StateFlag{name='pistons'}: DENY
+			StateFlag{name='chorus-fruit-teleport'}: DENY
+			StateFlag{name='lightning'}: ALLOW
+		Bounds: (-469, 0, -104) -> (-74, 255, 513)
+

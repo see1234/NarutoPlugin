@@ -1,0 +1,244 @@
+# Detailed explanation of all options available at https://github.com/NEZNAMY/TAB/wiki/config.yml
+
+change-nametag-prefix-suffix: true
+change-tablist-prefix-suffix: true
+enable-header-footer: true
+header:
+- ' '
+- '&b&lPrison &9&lEvo'
+- '  '
+footer:
+- ' '
+- '&fСайт: &cmcredline.ru'
+- '&eОбщий онлайн: %bungee_total%'
+group-sorting-priority-list:
+- dev
+- administrator
+- curator
+- cbuilder
+- сtester
+- youtube
+- stmoderator
+- moderator
+- helper
+- builder
+- tester
+- Sponsor+
+- Sponsor
+- redline+
+- redline
+- emerald
+- diamond
+- gold
+- vip
+- player
+- default
+Groups:
+  dev:
+    tabprefix: '&7(&6%prison_level%&7/&e%prison_rebirth% &6lvL&7/&erb&7) &9&lDeveloper &7| &9'
+    tagprefix: '&7(&7&l%prison_rebirth%&6✹&7) &9&lDev &7| &9'
+    tabsuffix: '%vault_suffix% '
+    tagsuffix: ''
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  administrator:
+    tabprefix: '&7(&6%prison_level%&7/&e%prison_rebirth% &6lvL&7/&erb&7) &cAdministrator &7| &c'
+    tagprefix: '&7(&7&l%prison_rebirth%&6✹&7) &cA &7| &c'
+    tabsuffix: '%vault_suffix% '
+    tagsuffix: ''
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  YouTube:
+    tabprefix: '&7(&6%prison_level%&7/&e%prison_rebirth% &6lvL&7/&erb&7) &cYou&fTube &7| &f'
+    tagprefix: '&7(&7&l%prison_rebirth%&6✹&7) &cY&fT &7| &f'
+    tabsuffix: '%vault_suffix% '
+    tagsuffix: ''
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  stmoderator:
+    tabprefix: '&7(&6%prison_level%&7/&e%prison_rebirth% &6lvL&7/&erb&7) &5St.Moderator &7| &f'
+    tagprefix: '&7(&7&l%prison_rebirth%&6✹&7) &5St.M &7| &f'
+    tabsuffix: '%vault_suffix% &7'
+    tagsuffix: '%vault_suffix% &7'
+    customtabname: '%essentialsnick%'
+  Moderator:
+    tabprefix: '&7(&6%prison_level%&7/&e%prison_rebirth% &6lvL&7/&erb&7) &eModerator &7| &f'
+    tagprefix: '&7(&7&l%prison_rebirth%&6✹&7) &eM &7| &f'
+    tabsuffix: '%vault_suffix% &7'
+    tagsuffix: '%vault_suffix% &7'
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  builder:
+    tabprefix: '&7(&6%prison_level%&7/&e%prison_rebirth% &6lvL&7/&erb&7) &2Builder &7| &f'
+    tagprefix: '&7(&7&l%prison_rebirth%&6✹&7) &2B &7| &f'
+    tabsuffix: '%vault_suffix% &7'
+    tagsuffix: '%vault_suffix% &7'
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  Curator:
+    tabprefix: '&7(&6%prison_level%&7/&e%prison_rebirth% &6lvL&7/&erb&7) &cCurator &7| &f'
+    tagprefix: '&7(&7&l%prison_rebirth%&6✹&7) &cCur &7| &f'
+    tabsuffix: '%vault_suffix% &7'
+    tagsuffix: '%vault_suffix% &7'
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  cbuilder:
+    tabprefix: '&7(&6%prison_level%&7/&e%prison_rebirth% &6lvL&7/&erb&7) &cC&7.&2Builder &7| &f'
+    tagprefix: '&7(&7&l%prison_rebirth%&6✹&7) &cCur&7.&2B &7| &f'
+    tabsuffix: '%vault_suffix% &7'
+    tagsuffix: '%vault_suffix% &7'
+    customtabname: '%essentialsnick%'
+  ctester:
+    tabprefix: '&7(&6%prison_level%&7/&e%prison_rebirth% &6lvL&7/&erb&7) &cC&7.&6Tester &7| &f'
+    tagprefix: '&7(&7&l%prison_rebirth%&6✹&7) &cC&7.&6T &7| &f'
+    tabsuffix: '%vault_suffix% &7'
+    tagsuffix: '%vault_suffix% &7'
+    customtabname: '%essentialsnick%'
+  YouTubea:
+    tabprefix: '&7(&6%prison_level%&7/&e%prison_rebirth% &6lvL&7/&erb&7) &cYou&fTube &7| &f'
+    tagprefix: '&7(&7&l%prison_rebirth%&6✹&7) &cY&fT &7| &f'
+    tabsuffix: '%vault_suffix% &7'
+    tagsuffix: '%vault_suffix% &7'
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  _OTHER_:
+    tabprefix: '&7(&6%prison_level%&7/&e%prison_rebirth% &6lvL&7/&erb&7) &7'
+    tagprefix: '&7(&7&l%prison_rebirth%&6✹&7) '
+    tabsuffix: '%vault_suffix% &7'
+    tagsuffix: '%vault_suffix% &7'
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  Helper:
+    tabprefix: '&7(&6%prison_level%&7/&e%prison_rebirth% &6lvL&7/&erb&7)&9 Helper &7| &f'
+    tagprefix: '&7(&7&l%prison_rebirth%&6✹&7) &9H &7| &f'
+    tabsuffix: '%vault_suffix% &7'
+    tagsuffix: '%vault_suffix% &7'
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  Sponsor+:
+    tabprefix: '&7(&6%prison_level%&7/&e%prison_rebirth% &6lvL&7/&erb&7) &6Sponsor&4+ &7| &f'
+    tagprefix: '&7(&7&l%prison_rebirth%&6✹&7) &6S&4+ &7| &f'
+    tabsuffix: '%vault_suffix% &7'
+    tagsuffix: '%vault_suffix% &7'
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  Sponsor:
+    tabprefix: '&7(&6%prison_level%&7/&e%prison_rebirth% &6lvL&7/&erb&7) &6Sponsor &7| &f'
+    tagprefix: '&7(&7&l%prison_rebirth%&6✹&7) &6S &7| &f'
+    tabsuffix: '%vault_suffix% &7'
+    tagsuffix: '%vault_suffix% &7'
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  RedLine+:
+    tabprefix: '&7(&6%prison_level%&7/&e%prison_rebirth% &6lvL&7/&erb&7) &cRed&fLine&4+ &7| &f'
+    tagprefix: '&7(&7&l%prison_rebirth%&6✹&7) &cR&fL&4+ &7| &f'
+    tabsuffix: '%vault_suffix% &7'
+    tagsuffix: '%vault_suffix% &7'
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  RedLine:
+    tabprefix: '&7(&6%prison_level%&7/&e%prison_rebirth% &6lvL&7/&erb&7) &cRed&fLine &7| &f'
+    tagprefix: '&7(&7&l%prison_rebirth%&6✹&7) &cR&fL &7| &f'
+    tabsuffix: '%vault_suffix% &7'
+    tagsuffix: '%vault_suffix% &7'
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  Emerald:
+    tabprefix: '&7(&6%prison_level%&7/&e%prison_rebirth% &6lvL&7/&erb&7) &2Emerald &7| &f'
+    tagprefix: '&7(&7&l%prison_rebirth%&6✹&7) &2E &7| &f'
+    tabsuffix: '%vault_suffix% &7'
+    tagsuffix: '%vault_suffix% &7'
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  Diamond:
+    tabprefix: '&7(&6%prison_level%&7/&e%prison_rebirth% &6lvL&7/&erb&7) &bDiamond &7| &f'
+    tagprefix: '&7(&7&l%prison_rebirth%&6✹&7) &bD &7| &f'
+    tabsuffix: '%vault_suffix% &7'
+    tagsuffix: '%vault_suffix% &7'
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  Gold:
+    tabprefix: '&7(&6%prison_level%&7/&e%prison_rebirth% &6lvL&7/&erb&7) &eGold &7| &f'
+    tagprefix: '&7(&7&l%prison_rebirth%&6✹&7) &eG &7| &f'
+    tabsuffix: '%vault_suffix% &7'
+    tagsuffix: '%vault_suffix% &7'
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  Vip:
+    tabprefix: '&7(&6%prison_level%&7/&e%prison_rebirth% &6lvL&7/&erb&7) &aVip &7| &f'
+    tagprefix: '&7(&7&l%prison_rebirth%&6✹&7) &aV &7| &f'
+    tabsuffix: '%vault_suffix% &7'
+    tagsuffix: '%vault_suffix% &7'
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  Tester:
+    tabprefix: '&7(&6%prison_level%&7/&e%prison_rebirth% &6lvL&7/&erb&7) &6Tester &7| &f'
+    tagprefix: '&7(&7&l%prison_rebirth%&6✹&7) &6T &7| &f'
+    tabsuffix: '%vault_suffix% &7'
+    tagsuffix: '%vault_suffix% &7'
+    customtabname: '%essentialsnick%'
+  SrModer:
+    tabprefix: '&7(&6%prison_level%&7/&e%prison_rebirth% &6lvL&7/&erb&7) &cSr.Moderator &7| &f'
+    tagprefix: '&7(&7&l%prison_rebirth%&6✹&7) &5Sr&7.&5M &7| &f'
+    tabsuffix: '%vault_suffix% &7'
+    tagsuffix: '%vault_suffix% &7'
+    customtabname: '%essentialsnick%'
+Users:
+  Evil_Lord: {}
+enable-collision: true
+do-not-move-spectators: false
+unlimited-nametag-prefix-suffix-mode:
+  enabled: true
+  modify-npc-names: false
+per-world-settings:
+  world1:
+    header:
+    - an example of world with custom
+    footer:
+    - header/footer and prefix/suffix
+    Groups:
+      Owner:
+        tabprefix: '&0&l[&a&lOwner&0&l] &a'
+        tagprefix: '&7(&7&l%prison_rebirth%&6✹&7) &2&lOwner &a'
+  world2-world3:
+    header:
+    - This is a shared header for
+    - world2 and world3
+placeholders:
+  afk-yes: ' &4*&4&lAFK&4*&r'
+  afk-no: ''
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss / h:mm a]'
+  time-offset: 0
+  remove-strings:
+  - '[] '
+  - '< > '
+rank-aliases:
+  Admin: '&4&lADMIN'
+  Mod: '&b&lMOD'
+  Premium: '&6&lPREMIUM'
+  Ultra: '&b&lULTRA'
+  Legend: '&a&lLEGEND'
+  Titan: '&c&lTITAN'
+  Youtuber: '&c&lYOUTUBE'
+  _OTHER_: '&7No Rank'
+disable-features-in-worlds:
+  header-footer:
+  - disabledworld
+  tablist-names:
+  - disabledworld
+  nametag:
+  - disabledworld
+  tablist-objective:
+  - disabledworld
+  bossbar:
+  - disabledworld
+  belowname:
+  - disabledworld
+revert-collision-rule-in-worlds:
+- revertedworld
+yellow-number-in-tablist: ''
+classic-vanilla-belowname:
+  enabled: false
+  number: '%health%'
+  text: Health
