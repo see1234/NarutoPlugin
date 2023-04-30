@@ -1,0 +1,27 @@
+name: curator
+permissions:
+- aac.*
+- litebans.*
+- '*'
+- aac.moderator
+- aac.verbose
+- artifact.5
+- commission.null
+- essentials.gamemode.spectator
+- essentials.gamemode.survival
+- essentials.invsee
+- essentials.teleport
+- essentials.vanish
+- litebans.group.helper
+- litebans.group.moderator
+- litebans.ipban
+- litebans.notify.ipban
+- litebans.staffhistory
+- prisonevo.admin
+- report.system.moderator
+- weight.18
+parents:
+- emerald
+prefixes:
+- §7[§5Curator§7]§f:
+    priority: 18

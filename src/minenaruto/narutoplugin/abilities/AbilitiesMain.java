@@ -1,14 +1,14 @@
 package minenaruto.narutoplugin.abilities;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
+import java.util.*;
 
 import minenaruto.narutoplugin.iditems.Item;
+import minenaruto.narutoplugin.models.ModelsMain;
+import minenaruto.narutoplugin.spawnmob.MobListener;
 import org.bukkit.Bukkit;
 import org.bukkit.Chunk;
 import org.bukkit.Location;
+import org.bukkit.block.Block;
 import org.bukkit.craftbukkit.v1_12_R1.entity.CraftEntity;
 import org.bukkit.entity.*;
 import org.bukkit.event.Listener;
@@ -32,7 +32,9 @@ import minenaruto.narutoplugin.dataplayer.NarutoPlayer;
 import minenaruto.narutoplugin.main.Main;
 
 public abstract class AbilitiesMain implements Listener {
-
+    public WeakHashMap<Player, ArmorStand> arm = new WeakHashMap<Player, ArmorStand>();
+    public static WeakHashMap<Player, String> enabledController = new WeakHashMap<Player, String>();
+    public static HashMap<Player, ArrayList<Block>> blocks = new HashMap<>();
 	public abstract void RightClick(final Player player, NarutoPlayer pl);
 
 	public abstract void RightPlusShift(final Player player, NarutoPlayer pl);
@@ -40,8 +42,10 @@ public abstract class AbilitiesMain implements Listener {
 
 	public static HashMap<Entity, Player> getDamage = new HashMap<Entity, Player>();
 
-    public static HashMap<String, Item> models = new HashMap<String,Item>();
 
+    public HashMap<String, Item> getModels() {
+        return ModelsMain.models;
+    }
 
 	public static HashMap<Player, Integer> scheduler = new HashMap<Player, Integer>();
 
@@ -77,6 +81,9 @@ public abstract class AbilitiesMain implements Listener {
                 for (int len$ = entities.length, i$ = 0; i$ < len$; ++i$) {
                     final Entity entity = arr$[i$];
                     if (entity != player && entity instanceof LivingEntity && entity.getType() != EntityType.SQUID && l.getWorld() == entity.getLocation().getWorld() && l.distance(entity.getLocation()) < 1.5) {
+                        if(!AbilityListener.hasPvpZone(entity)) {
+                            return null;
+                        }
                         return (LivingEntity)entity;
                     }
                 }
@@ -100,6 +107,9 @@ public abstract class AbilitiesMain implements Listener {
                 for (int len$ = entities.length, i$ = 0; i$ < len$; ++i$) {
                     final Entity entity = arr$[i$];
                     if (entity != bukkitEntity && entity instanceof Player && entity.getType() != EntityType.SQUID && l.getWorld() == entity.getLocation().getWorld() && l.distance(entity.getLocation()) < 1.5) {
+                        if(!AbilityListener.hasPvpZone(entity)) {
+                            return null;
+                        }
                         return (LivingEntity)entity;
                     }
                 }

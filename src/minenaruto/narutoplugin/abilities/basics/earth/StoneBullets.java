@@ -104,7 +104,7 @@ public class StoneBullets extends AbilitiesMain {
 			armorstand.setVisible(false);
 			armorstand.setGravity(false);
 			armorstand.setBasePlate(false);
-			armorstand.setHelmet(models.get("stone").getItemStack());
+			armorstand.setHelmet(getModels().get("stone").getItemStack());
 			arrayArmorStand.add(armorstand);
 		}
 		return arrayArmorStand;

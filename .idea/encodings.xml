@@ -15,8 +15,6 @@
     <file url="file://$PROJECT_DIR$/src/minenaruto/narutoplugin/abilities/basics/lightning/Chidori.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/minenaruto/narutoplugin/abilities/basics/lightning/LightningArmor.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/minenaruto/narutoplugin/abilities/basics/lightning/LightningShield.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/minenaruto/narutoplugin/abilities/models/FireBall.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/minenaruto/narutoplugin/abilities/models/Stone.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/minenaruto/narutoplugin/abilities/sharingan/Sharingan.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/minenaruto/narutoplugin/abilities/sharingan/SharinganItachi.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/minenaruto/narutoplugin/abilities/sharingan/SharinganItachiAmateracy.java" charset="UTF-8" />
@@ -27,6 +25,8 @@
     <file url="file://$PROJECT_DIR$/src/minenaruto/narutoplugin/iditems/Item.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/minenaruto/narutoplugin/iditems/NarutoItemsCommand.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/minenaruto/narutoplugin/main/Main.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/minenaruto/narutoplugin/models/FireBall.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/minenaruto/narutoplugin/models/Stone.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/minenaruto/narutoplugin/skillmenu/SkillListener.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/minenaruto/narutoplugin/skillmenu/Skillmenu.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/minenaruto/narutoplugin/spawnmob/MobListener.java" charset="UTF-8" />

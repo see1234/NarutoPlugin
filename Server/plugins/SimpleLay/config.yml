@@ -1,0 +1,27 @@
+lang:
+  lay:
+    already: You are already laying!
+    notOnGround: You can lay only on ground!
+    noLonger: You are no longer laying!
+    now: You are laying now!
+  sit:
+    already: You are already siting!
+    notOnGround: You can sit only on ground!
+    noLonger: You are no longer siting!
+    now: You are siting now!
+  noperms: You don't have permissions to do that!
+sit:
+  announce:
+    command: true
+    click: false
+  click-distance: 7.0
+  pitch-limit: 0.0
+lay:
+  announce:
+    command: true
+    invisible: true
+  invisible: You can't lay down while you're invisible!
+updateEventCheck: 1
+slab-sit: true
+stairs-sit: true
+carpet-sit: true

@@ -89,7 +89,9 @@ public class NarutoPlayer {
 	public String getString(String param) {
 		return this.informations.get(param);
 	}
-
+	public boolean isObject(String param) {
+		return this.informations.containsKey(param);
+	}
 	public boolean IfHasJustuPointAndRemoveJustuPoint(int justupoint) {
 		int getPlayerJustuPoint = this.getInt("justupoint");
 		if (getPlayerJustuPoint >= justupoint) {

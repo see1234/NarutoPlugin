@@ -1,0 +1,9 @@
+name: gold
+permissions:
+- exp.gold
+- weight.3
+parents:
+- default
+prefixes:
+- §eG §7|§f:
+    priority: 3

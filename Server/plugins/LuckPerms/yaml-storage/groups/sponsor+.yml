@@ -1,0 +1,9 @@
+name: sponsor+
+permissions:
+- exp.sponsorplus
+- weight.9
+parents:
+- default
+prefixes:
+- §6S§5+ §7|§f:
+    priority: 9

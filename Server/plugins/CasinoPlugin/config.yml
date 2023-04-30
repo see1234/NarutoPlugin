@@ -1,0 +1,160 @@
+casino:
+  cardmachine:
+    lostmessage:
+      titleone: '&c-%money%$'
+      titletwo: '&cВы проиграли деньги &6x%mult%'
+      message: 'test'
+    winmessage:
+      titleone: '&a+%money%$'
+      titletwo: '&aВы выиграли деньги &6x%mult%'
+      message: 'test'
+    deleteblock: '&8[&6ToffiCasino&8] &7Вы удалили блок с казином'
+    addblock: '&8[&6ToffiCasino&8] &7Вы установлен блок с казином'
+    notcasinoblock: '&8[&6ToffiCasino&8] &7Это не казино блок'
+    displayname: '       &6CASINO'
+    nullmoney: '&8[&6ToffiCasino&8] &4Вы не можете использовать казино, пока не установите
+      счет, введите команду /casino <сумма>'
+    notmoney: '&8[&6ToffiCasino&8] &4У вас недостаточно денег, пополните баланс!'
+    nolmoney: '&8[&6ToffiCasino&8] &4Зачем вы пишите 0?'
+    items:
+    - 35:5,35:6,35:7,35:8,35:4,35:2,35:1,35:0
+    blocks:
+    - world;1;63;212
+    - world;-7;63;216
+    boostwin2: 1.2
+    boostwin3: 4.0
+    emptyslot:
+      lore:
+      - '&aНажми чтоб просмотреть данный слот'
+      displayname: '&7тыкай'
+    winitemslot:
+      lore:
+      - '&7Вы отгадали &a%win%&8/&a3'
+      - '&7Нажмите на слот чтоб посмотреть'
+      - '&7где находились все предметы'
+      displayname: '&2Победа'
+    lossitemslot:
+      lore:
+      - '&7Вы отгадали &c%win%&8/&a3'
+      - '&7Нажмите на слот чтоб посмотреть'
+      - '&7где находились все предметы'
+      displayname: '&4Поражение'
+    winslot:
+      lore:
+      - '&b&lВы большой молодец!'
+      - '&b&lНажми на меня забери приз!'
+      displayname: '&aЗабрать награду'
+    lossslot:
+      lore:
+      - '&b&lНеудача, повезет в следующий раз!'
+      - '&b&lНажми на меня забери приз!'
+      displayname: '&cУйти с поражением'
+    chanceoneslot: 100
+    chancetwoslot: 100
+    chancethreeslot: 100
+  slotmachine:
+    lostmessage:
+      titleone: '&c-%money%$'
+      titletwo: '&cВы проиграли деньги &6x%mult%'
+      message: 'test'
+    winmessage:
+      titleone: '&a+%money%$'
+      titletwo: '&aВы выиграли деньги x%mult%'
+      message: 'test'
+    deleteblock: '&8[&6ToffiCasino&8] &7Вы удалили блок с казином'
+    addblock: '&8[&6ToffiCasino&8] &7Вы установлен блок с казином'
+    notcasinoblock: '&8[&6ToffiCasino&8] &7Это не казино блок'
+    displayname: '             &4V'
+    nullmoney: '&8[&6ToffiCasino&8] &4Вы не можете использовать казино, пока не установите
+      счет, введите команду /casino <сумма>'
+    notmoney: '&8[&6ToffiCasino&8] &4У вас недостаточно денег, пополните баланс!'
+    nolmoney: '&8[&6ToffiCasino&8] &4Зачем вы пишите 0?'
+    items:
+      '1':
+        material: SKULL_ITEM
+        skull: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzBjNDg3M2U0YTIxOTE0NWViNGUzZjY2YzA5ZTJjZThiMjdkZTJmZDgxZGViNDhlM2M3ZTA0ZTk3NGU1ZWFhIn19fQ==
+        name: '&6x0'
+        lore:
+        - '&cС таким блоком вы проиграете свою ставку'
+        data: 3
+        chance: 80
+        commands:
+        - m %playername% ПОПУСК
+        mult: 0
+      '2':
+        material: SKULL_ITEM
+        skull: Requiem_DIO
+        name: '&6x2'
+        lore:
+        - '&cС таким блоком вы повысите в 2x свою ставку'
+        data: 3
+        chance: 20
+        commands:
+        - m %playername% молодец выиграл в 2x больше денег с казика
+        mult: 2
+      '3':
+        material: SKULL_ITEM
+        skull: 4bc
+        name: '&6x4'
+        lore:
+        - '&cС таким блоком вы повысите в 4x свою ставку'
+        data: 3
+        chance: 10
+        commands:
+        - m %playername% молодец выиграл в 4x больше денег с казика
+        mult: 4
+    blocks:
+    - world;-9;68;185
+    - world;35;75;226
+    - world;19;73;212
+    - world;-3;63;217
+    - world;-4;63;218
+cmd:
+  casino:
+    numberformat: '&8[&6ToffiCasino&8] Ошибка, у вас не число!'
+    setmoney: '&8[&6ToffiCasino&8] Вы установили ставку, теперь кликните по казино
+      блоку, чтобы сыиграть.'
+    needop: '&8[&6ToffiCasino&8] Вы должны обладать правами оператора'
+    setupon: '&8[&6ToffiCasino&8] Установка блоков-казино, кликните по любому блоку
+      с зажатым шифтом и он станет им!'
+    setupoff: '&8[&6ToffiCasino&8] Установка блоков-казино отключена'
+    notmoney: '&8[&6ToffiCasino&8] У вас недостаточно денег, попробуйте пополнить
+      баланс!'
+    info:
+    - '&8[&6ToffiCasino&8] &aВыигрышь в казино слотах %winmoneyslotmachine%'
+    - '&8[&6ToffiCasino&8] &aВыигрышь в карточках %winmoneycard%'
+    - '&8[&6ToffiCasino&8] &cПроигрышь в казино слотах %lostmoneyslotmachine%'
+    - '&8[&6ToffiCasino&8] &cПроигрышь в карточках %lostmoneycard%'
+    - '&8[&6ToffiCasino&8] &7Фулл: %full%'
+    help:
+    - '&8[&6ToffiCasino&8] &7/casino top'
+    - '&8[&6ToffiCasino&8] &7/casino help'
+    - '&8[&6ToffiCasino&8] &7/casino <amount>'
+    - '&8[&6ToffiCasino&8] &7/casino info'
+    - '&8[&6ToffiCasino&8] &7/casino setblockcardmachine'
+    - '&8[&6ToffiCasino&8] &7/casino setblockslotmachine'
+    top:
+    - '#%number% - %player% &6в плюсе на %amount%'
+    - '#%number% - %player% &6в плюсе на %amount%'
+    - '#%number% - %player% &6в плюсе на %amount%'
+    - '#%number% - %player% &6в плюсе на %amount%'
+    - '#%number% - %player% &6в плюсе на %amount%'
+    - '#%number% - %player% &6в плюсе на %amount%'
+    - '#%number% - %player% &6в плюсе на %amount%'
+    - '#%number% - %player% &6в плюсе на %amount%'
+    - '#%number% - %player% &6в плюсе на %amount%'
+    - '#%number% - %player% &6в плюсе на %amount%'
+    fullminus: В минусе %amount%
+    fullplus: В плюсе %amount%
+    stavka:
+      maxnumber: 15000
+      minnumber: 10 
+      max: 'Превышен лимит денег надо меньше 15000'
+      min: 'Превышен лимит денег надо больше 10'
+database:
+  type: mysql
+  password: 12341234F
+  host: localhost
+  dbname: rootf
+  user: rootf
+  gametable: help

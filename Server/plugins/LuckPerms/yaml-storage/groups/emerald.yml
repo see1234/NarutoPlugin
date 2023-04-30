@@ -1,0 +1,9 @@
+name: emerald
+permissions:
+- exp.emerald
+- weight.5
+parents:
+- default
+prefixes:
+- §aE §7|§f:
+    priority: 5

@@ -1,0 +1,283 @@
+# Detailed explanation of all options available at https://github.com/NEZNAMY/TAB/wiki/config.yml
+change-nametag-prefix-suffix: true
+change-tablist-prefix-suffix: true
+enable-header-footer: true
+header:
+- ''
+- '&cRed&fLine'
+- '&fСервер: &cUchiha &7World'
+- ''
+- '&fСписок шиноби:'
+footer:
+- '&7&o*'
+- '&fСайт: &credline.pw'
+- '&fОбщий онлайн: &c%bungee_total%'
+- ''
+group-sorting-priority-list:
+- dev
+- administrator
+- curator
+- cbuilder
+- сtester
+- youtube
+- assistant
+- srmoderator
+- moderator
+- helper
+- vhelper
+- builder
+- tester
+- Sponsor+
+- Sponsor
+- redline+
+- redline
+- emerald
+- diamond
+- gold
+- vip
+- player
+- default
+Groups:
+  dev:
+    tabprefix: '%uw_clan% &7[&6%uw_rank%&7] &cDev &7| &f'
+    tagprefix: '%uw_clan% &7[&6%uw_rank%&7] &cDev &7| &b'
+    tabsuffix: ' %vault_suffix% '
+    tagsuffix: ''
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  administrator:
+    tabprefix: '%uw_clan% &7[&6%uw_rank%&7] &cADM &7| &c'
+    tagprefix: '%uw_clan% &7[&6%uw_rank%&7] &cADM &7| &c'
+    tabsuffix: ' %vault_suffix% '
+    tagsuffix: ''
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  YouTube:
+    tabprefix: '%uw_clan% &7[&6%uw_rank%&7] &cY&fT &7| &f'
+    tagprefix: '%uw_clan% &7[&6%uw_rank%&7] &cY&fT &7| &f'
+    tabsuffix: ' %vault_suffix% '
+    tagsuffix: ''
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  assistant:
+    tabprefix: '%uw_clan% &7[&6%uw_rank%&7] &7П &7| &f'
+    tagprefix: '%uw_clan% &7[&6%uw_rank%&7] &7П &7| &f'
+    tabsuffix: ' %vault_suffix% '
+    tagsuffix: ''
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  srmoderator:
+    tabprefix: '%uw_clan% &7[&6%uw_rank%&7] &5St.M &7| &f'
+    tagprefix: '%uw_clan% &7[&6%uw_rank%&7] &5St.M &7| &f'
+    tabsuffix: ' %vault_suffix% &7'
+    tagsuffix: ''
+    customtabname: '%essentialsnick%'
+  Moderator:
+    tabprefix: '%uw_clan% &7[&6%uw_rank%&7] &3M&r &7| &f'
+    tagprefix: '%uw_clan% &7[&6%uw_rank%&7] &3M&r &7| &f'
+    tabsuffix: '&r %vault_suffix% &7'
+    tagsuffix: ''
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  builder:
+    tabprefix: '%uw_clan% &7[&6%uw_rank%&7] &2B &7| &f'
+    tagprefix: '%uw_clan% &7[&6%uw_rank%&7] &2B &7| &f'
+    tabsuffix: ' %vault_suffix% &7'
+    tagsuffix: ''
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  curator:
+    tabprefix: '%uw_clan% &7[&6%uw_rank%&7] &5Cur &7| &f'
+    tagprefix: '%uw_clan% &7[&6%uw_rank%&7] &cCur &7| &f'
+    tabsuffix: ' %vault_suffix% &7'
+    tagsuffix: ''
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  cbuilder:
+    tabprefix: '%uw_clan% &7[&6%uw_rank%&7] &cC&7.&2B &7| &f'
+    tagprefix: '%uw_clan% &7[&6%uw_rank%&7] &cCur&7.&2B &7| &f'
+    tabsuffix: ' %vault_suffix% &7'
+    tagsuffix: ''
+    customtabname: '%essentialsnick%'
+  ctester:
+    tabprefix: '%uw_clan% &7[&6%uw_rank%&7] &cC&7.&6T &7| &f'
+    tagprefix: '%uw_clan% &7[&6%uw_rank%&7] &cC&7.&6T &7| &f'
+    tabsuffix: ' %vault_suffix% &7'
+    tagsuffix: ''
+    customtabname: '%essentialsnick%'
+  YouTubea:
+    tabprefix: '%uw_clan% &7[&6%uw_rank%&7] &cY&fT &7| &f'
+    tagprefix: '%uw_clan% &7[&6%uw_rank%&7] &cY&fT &7| &f'
+    tabsuffix: ' %vault_suffix% &7'
+    tagsuffix: ''
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  _OTHER_:
+    tabprefix: '%uw_clan% &7[&6%uw_rank%&7] &fP &7| &f'
+    tagprefix: '%uw_clan% &7[&6%uw_rank%&7] &fP &7| &f'
+    tabsuffix: ' %vault_suffix% &7'
+    tagsuffix: ''
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  Helper:
+    tabprefix: '%uw_clan% &7[&6%uw_rank%&7]&9 H+ &7| &f'
+    tagprefix: '%uw_clan% &7[&6%uw_rank%&7] &9H+ &7| &f'
+    tabsuffix: ' %vault_suffix% &7'
+    tagsuffix: ''
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  vhelper:
+    tabprefix: '%uw_clan% &7[&6%uw_rank%&7]&6 H &7| &f'
+    tagprefix: '%uw_clan% &7[&6%uw_rank%&7] &6H &7| &f'
+    tabsuffix: ' %vault_suffix% &7'
+    tagsuffix: ''
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  Sponsor+:
+    tabprefix: ' &7[&6%uw_rank%&7%uw_clan%] &6S&5+ &7| &f'
+    tagprefix: '%uw_clan% &7[&6%uw_rank%&7] &6S&4+ &7| &f'
+    tabsuffix: ' %vault_suffix% &7'
+    tagsuffix: ''
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  Sponsor:
+    tabprefix: '%uw_clan% &7[&6%uw_rank%&7] &6S &7| &f'
+    tagprefix: '%uw_clan% &7[&6%uw_rank%&7] &6S &7| &f'
+    tabsuffix: ' %vault_suffix% &7'
+    tagsuffix: ''
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  RedLine+:
+    tabprefix: '%uw_clan% &7[&6%uw_rank%&7] &cR&fL&4+ &7| &f'
+    tagprefix: '%uw_clan% &7[&6%uw_rank%&7] &cR&fL&4+ &7| &f'
+    tabsuffix: ' %vault_suffix% &7'
+    tagsuffix: ''
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  RedLine:
+    tabprefix: '%uw_clan% &7[&6%uw_rank%&7] &cR&fL &7| &f'
+    tagprefix: '%uw_clan% &7[&6%uw_rank%&7] &cR&fL &7| &f'
+    tabsuffix: ' %vault_suffix% &7'
+    tagsuffix: ''
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  Emerald:
+    tabprefix: '%uw_clan% &7[&6%uw_rank%&7] &2E &7| &f'
+    tagprefix: '%uw_clan% &7[&6%uw_rank%&7] &2E &7| &f'
+    tabsuffix: ' %vault_suffix% &7'
+    tagsuffix: ''
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  Diamond:
+    tabprefix: '%uw_clan% &7[&6%uw_rank%&7] &bD &7| &f'
+    tagprefix: '%uw_clan% &7[&6%uw_rank%&7] &bD &7| &f'
+    tabsuffix: ' %vault_suffix% &7'
+    tagsuffix: ''
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  Gold:
+    tabprefix: '%uw_clan% &7[&6%uw_rank%&7] &eG &7| &f'
+    tagprefix: '%uw_clan% &7[&6%uw_rank%&7] &eG &7| &f'
+    tabsuffix: ' %vault_suffix% &7'
+    tagsuffix: ''
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  Vip:
+    tabprefix: '%uw_clan% &7[&6%uw_rank%&7] &aV &7| &f'
+    tagprefix: '%uw_clan% &7[&6%uw_rank%&7] &aV &7| &f'
+    tabsuffix: ' %vault_suffix% &7'
+    tagsuffix: ''
+    customtabname: '%essentialsnick%'
+    customtagname: '%essentialsnick%'
+  Tester:
+    tabprefix: '%uw_clan% &7[&6%uw_rank%&7] &dT &7| &f'
+    tagprefix: '%uw_clan% &7[&6%uw_rank%&7] &dT &7| &f'
+    tabsuffix: ' %vault_suffix% &7'
+    tagsuffix: ''
+    customtabname: '%essentialsnick%'
+  SrModer:
+    tabprefix: '%uw_clan% &7[&6%uw_rank%&7] &cSr.M &7| &f'
+    tagprefix: '%uw_clan% &7[&6%uw_rank%&7] &5Sr&7.&5M &7| &f'
+    tabsuffix: ' %vault_suffix% &7'
+    tagsuffix: ''
+    customtabname: '%essentialsnick%'
+Users:
+  Evil_Lord: {}
+enable-collision: false
+do-not-move-spectators: false
+unlimited-nametag-prefix-suffix-mode:
+  enabled: true
+  modify-npc-names: false
+  use-marker-tag-for-1-8-x-clients: false
+  disable-on-boats: true
+  space-between-lines: true
+per-world-settings:
+  world1:
+    header:
+    - an example of world with custom
+    footer:
+    - header/footer and prefix/suffix
+    Groups:
+      Owner:
+        tabprefix: '&0&l[&a&lOwner&0&l] &a'
+        tagprefix: '%uw_clan% &7[&6%uw_rank%&7] &2&lOwner &a'
+  world2-world3:
+    header:
+    - This is a shared header for
+    - world2 and world3
+placeholders:
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss / h:mm a]'
+  time-offset: 0
+  remove-strings:
+  - '[] '
+  - '< > '
+rank-aliases:
+  Admin: '&4&lADMIN'
+  Mod: '&b&lMOD'
+  Premium: '&6&lPREMIUM'
+  Ultra: '&b&lULTRA'
+  Legend: '&a&lLEGEND'
+  Titan: '&c&lTITAN'
+  Youtuber: '&c&lYOUTUBE'
+  _OTHER_: '&7No Rank'
+disable-features-in-worlds:
+  header-footer:
+  - disabledworld
+  tablist-names:
+  - disabledworld
+  nametag:
+  - disabledworld
+  tablist-objective:
+  - disabledworld
+  bossbar:
+  - disabledworld
+  belowname:
+  - disabledworld
+  unlimited-nametags:
+  - disabledworld
+  yellow-number:
+  - disabledworld
+revert-collision-rule-in-worlds:
+- revertedworld
+yellow-number-in-tablist: ''
+classic-vanilla-belowname:
+  enabled: false
+  number: '%health%'
+  text: Health
+  disable-in-worlds:
+  - disabledworld
+debug: false
+anti-override:
+  tablist-names: true
+  scoreboard-teams: true
+invisible-nametags: false
+sort-players-by-permissions: false
+assign-groups-by-permissions: false
+primary-group-finding-list:
+- Owner
+- Admin
+- Mod
+- Helper
+- default
+fix-pet-names: false

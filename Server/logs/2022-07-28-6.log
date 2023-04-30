@@ -1,0 +1,409 @@
+[12:05:10] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[12:05:10] [Server thread/INFO]: Loading properties
+[12:05:10] [Server thread/INFO]: Default game type: ADVENTURE
+[12:05:10] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-79a30d7-f4830a1 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[12:05:10] [Server thread/INFO]: Debug logging is disabled
+[12:05:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:05:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:05:10] [Server thread/INFO]: Generating keypair
+[12:05:10] [Server thread/INFO]: Starting Minecraft server on *:22229
+[12:05:10] [Server thread/INFO]: Using default channel type
+[12:05:11] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[12:05:11] [Server thread/INFO]: [AutoRestartPlug] Loading AutoRestartPlug v1.0
+[12:05:11] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[12:05:11] [Server thread/INFO]: [CasinoPlugin] Loading CasinoPlugin v1.0
+[12:05:11] [Server thread/INFO]: [Essentials] Loading Essentials v2.16.1.0
+[12:05:11] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[12:05:11] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[12:05:11] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[12:05:11] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[12:05:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:05:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:05:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:05:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:05:11] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[12:05:11] [Server thread/INFO]: Preparing level "world"
+[12:05:11] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:05:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:05:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:05:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:05:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:05:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:05:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:05:11] [Server thread/INFO]: View Distance: 7
+[12:05:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:05:11] [Server thread/INFO]: Mob Spawn Range: 4
+[12:05:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:05:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[12:05:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:05:11] [Server thread/INFO]: Max TNT Explosions: 100
+[12:05:11] [Server thread/INFO]: Random Lighting Updates: false
+[12:05:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[12:05:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:05:11] [Server thread/INFO]: Structure Info Saving: true
+[12:05:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:05:12] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:05:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:05:12] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:05:12] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:05:12] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:05:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:05:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:05:12] [Server thread/INFO]: View Distance: 7
+[12:05:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:05:12] [Server thread/INFO]: Mob Spawn Range: 4
+[12:05:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:05:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:05:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:05:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:05:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:05:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:05:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:05:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:05:12] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:05:12] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:05:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[12:05:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:05:12] [Server thread/INFO]: Max TNT Explosions: 100
+[12:05:12] [Server thread/INFO]: Random Lighting Updates: false
+[12:05:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[12:05:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:05:12] [Server thread/INFO]: Structure Info Saving: true
+[12:05:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:05:12] [Server thread/INFO]: Preparing start region for level 0 (Seed: -4970056024693801974)
+[12:05:13] [Server thread/INFO]: Preparing start region for level 1 (Seed: -4970056024693801974)
+[12:05:13] [Server thread/INFO]: [AutoRestartPlug] Enabling AutoRestartPlug v1.0
+[12:05:13] [Server thread/INFO]: [CasinoPlugin] Enabling CasinoPlugin v1.0
+[12:05:13] [Server thread/INFO]: [Essentials] Enabling Essentials v2.16.1.0
+[12:05:13] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[12:05:13] [Server thread/INFO]: No kits found to migrate.
+[12:05:13] [Server thread/INFO]: [Essentials] Using legacy item data provider as mob spawner provider.
+[12:05:14] [Server thread/INFO]: [Essentials] Using Reflection based provider as spawn egg provider.
+[12:05:14] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[12:05:14] [Server thread/INFO]: Loaded 852 items from items.csv.
+[12:05:14] [Server thread/INFO]: Using locale ru
+[12:05:14] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[12:05:14] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[12:05:14] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[12:05:14] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[12:05:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:05:14] [Server thread/INFO]: Done (2,342s)! For help, type "help" or "?"
+[12:05:14] [Craft Scheduler Thread - 4/INFO]: [Vault] Checking for Updates ... 
+[12:05:14] [Server thread/INFO]: 05:05
+[12:05:14] [Server thread/INFO]: 05:05
+[12:05:15] [Server thread/INFO]: 05:05
+[12:05:15] [Server thread/INFO]: 05:05
+[12:05:15] [Server thread/INFO]: 05:05
+[12:05:16] [Server thread/INFO]: 05:05
+[12:05:16] [Server thread/INFO]: 05:05
+[12:05:16] [Server thread/INFO]: 05:05
+[12:05:16] [Server thread/INFO]: 05:05
+[12:05:17] [Server thread/INFO]: 05:05
+[12:05:17] [Server thread/INFO]: 05:05
+[12:05:17] [Server thread/INFO]: Stopping server
+[12:05:17] [Server thread/INFO]: [Essentials] Disabling Essentials v2.16.1.0
+[12:05:17] [Server thread/INFO]: [Vault][Economy] Essentials Economy unhooked.
+[12:05:17] [Server thread/INFO]: [CasinoPlugin] Disabling CasinoPlugin v1.0
+[12:05:17] [Server thread/INFO]: [Vault] Disabling Vault v1.5.6-b49
+[12:05:17] [Server thread/INFO]: [AutoRestartPlug] Disabling AutoRestartPlug v1.0
+[12:05:17] [Server thread/INFO]: Saving players
+[12:05:17] [Server thread/INFO]: Saving worlds
+[12:05:17] [Server thread/INFO]: Saving chunks for level 'world'/overworld
+[12:05:17] [Server thread/INFO]: Saving chunks for level 'world_the_end'/the_end
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [12:07:15] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world is being accessed from another location, aborting
+[12:07:15] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[12:07:15] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[12:07:15] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[12:07:15] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[12:07:15] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[12:07:15] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[12:07:15] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[12:07:15] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[12:07:15] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world_the_end is being accessed from another location, aborting
+[12:07:15] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[12:07:15] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[12:07:15] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[12:07:15] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[12:07:15] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[12:07:15] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[12:07:15] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[12:07:15] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[12:12:17] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world is being accessed from another location, aborting
+[12:12:17] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[12:12:17] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[12:12:17] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[12:12:17] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[12:12:17] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[12:12:17] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[12:12:17] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[12:12:17] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[12:12:17] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world_the_end is being accessed from another location, aborting
+[12:12:17] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[12:12:17] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[12:12:17] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[12:12:17] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[12:12:17] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[12:12:17] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[12:12:17] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[12:12:17] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[12:17:17] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world is being accessed from another location, aborting
+[12:17:17] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[12:17:17] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[12:17:17] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[12:17:17] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[12:17:17] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[12:17:17] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[12:17:17] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[12:17:17] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[12:17:17] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world_the_end is being accessed from another location, aborting
+[12:17:17] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[12:17:17] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[12:17:17] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[12:17:17] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[12:17:17] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[12:17:17] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[12:17:17] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[12:17:17] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[12:22:18] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world is being accessed from another location, aborting
+[12:22:18] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[12:22:18] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[12:22:18] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[12:22:18] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[12:22:18] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[12:22:18] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[12:22:18] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[12:22:18] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[12:22:18] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world_the_end is being accessed from another location, aborting
+[12:22:18] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[12:22:18] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[12:22:18] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[12:22:18] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[12:22:18] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[12:22:18] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[12:22:18] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[12:22:18] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[12:27:19] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world is being accessed from another location, aborting
+[12:27:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[12:27:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[12:27:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[12:27:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[12:27:19] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[12:27:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[12:27:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[12:27:19] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[12:27:19] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world_the_end is being accessed from another location, aborting
+[12:27:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[12:27:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[12:27:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[12:27:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[12:27:19] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[12:27:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[12:27:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[12:27:19] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[12:32:19] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world is being accessed from another location, aborting
+[12:32:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[12:32:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[12:32:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[12:32:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[12:32:19] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[12:32:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[12:32:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[12:32:19] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[12:32:19] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world_the_end is being accessed from another location, aborting
+[12:32:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[12:32:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[12:32:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[12:32:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[12:32:19] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[12:32:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[12:32:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[12:32:19] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[12:37:19] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world is being accessed from another location, aborting
+[12:37:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[12:37:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[12:37:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[12:37:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[12:37:19] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[12:37:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[12:37:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[12:37:19] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[12:37:19] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world_the_end is being accessed from another location, aborting
+[12:37:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[12:37:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[12:37:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[12:37:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[12:37:19] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[12:37:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[12:37:19] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[12:37:19] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[12:42:20] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world is being accessed from another location, aborting
+[12:42:20] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[12:42:20] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[12:42:20] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[12:42:20] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[12:42:20] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[12:42:20] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[12:42:20] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[12:42:20] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[12:42:20] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world_the_end is being accessed from another location, aborting
+[12:42:20] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[12:42:20] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[12:42:20] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[12:42:20] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[12:42:20] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[12:42:20] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[12:42:20] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[12:42:20] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[12:47:22] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world is being accessed from another location, aborting
+[12:47:22] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[12:47:22] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[12:47:22] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[12:47:22] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[12:47:22] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[12:47:22] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[12:47:22] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[12:47:22] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[12:47:22] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world_the_end is being accessed from another location, aborting
+[12:47:22] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[12:47:22] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[12:47:22] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[12:47:22] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[12:47:22] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[12:47:22] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[12:47:22] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[12:47:22] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[12:52:24] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world is being accessed from another location, aborting
+[12:52:24] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[12:52:24] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[12:52:24] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[12:52:24] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[12:52:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[12:52:24] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[12:52:24] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[12:52:24] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[12:52:24] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world_the_end is being accessed from another location, aborting
+[12:52:24] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[12:52:24] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[12:52:24] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[12:52:24] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[12:52:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[12:52:24] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[12:52:24] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[12:52:24] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[12:57:26] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world is being accessed from another location, aborting
+[12:57:26] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[12:57:26] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[12:57:26] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[12:57:26] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[12:57:26] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[12:57:26] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[12:57:26] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[12:57:26] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[12:57:26] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world_the_end is being accessed from another location, aborting
+[12:57:26] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[12:57:26] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[12:57:26] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[12:57:26] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[12:57:26] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[12:57:26] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[12:57:26] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[12:57:26] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[13:02:27] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world is being accessed from another location, aborting
+[13:02:27] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[13:02:27] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[13:02:27] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[13:02:27] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[13:02:27] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[13:02:27] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[13:02:27] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[13:02:27] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[13:02:27] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world_the_end is being accessed from another location, aborting
+[13:02:27] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[13:02:27] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[13:02:27] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[13:02:27] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[13:02:27] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[13:02:27] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[13:02:27] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[13:02:27] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[13:07:28] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world is being accessed from another location, aborting
+[13:07:28] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[13:07:28] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[13:07:28] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[13:07:28] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[13:07:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[13:07:28] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[13:07:28] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[13:07:28] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[13:07:28] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world_the_end is being accessed from another location, aborting
+[13:07:28] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[13:07:28] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[13:07:28] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[13:07:28] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[13:07:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[13:07:28] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[13:07:28] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[13:07:28] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[13:12:29] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world is being accessed from another location, aborting
+[13:12:29] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[13:12:29] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[13:12:29] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[13:12:29] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[13:12:29] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[13:12:29] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[13:12:29] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[13:12:29] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[13:12:29] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world_the_end is being accessed from another location, aborting
+[13:12:29] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[13:12:29] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[13:12:29] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[13:12:29] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[13:12:29] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[13:12:29] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[13:12:29] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[13:12:29] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[13:17:30] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world is being accessed from another location, aborting
+[13:17:30] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[13:17:30] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[13:17:30] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[13:17:30] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[13:17:30] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[13:17:30] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[13:17:30] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[13:17:30] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[13:17:30] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world_the_end is being accessed from another location, aborting
+[13:17:30] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[13:17:30] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[13:17:30] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[13:17:30] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[13:17:30] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[13:17:30] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[13:17:30] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[13:17:30] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[13:22:32] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world is being accessed from another location, aborting
+[13:22:32] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[13:22:32] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[13:22:32] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[13:22:32] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[13:22:32] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[13:22:32] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[13:22:32] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[13:22:32] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[13:22:32] [Server thread/WARN]: net.minecraft.server.v1_12_R1.ExceptionWorldConflict: The save for world located at .\world_the_end is being accessed from another location, aborting
+[13:22:32] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldNBTStorage.checkSession(WorldNBTStorage.java:78)
+[13:22:32] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.World.checkSession(World.java:2812)
+[13:22:32] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.a(WorldServer.java:1080)
+[13:22:32] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.WorldServer.save(WorldServer.java:1050)
+[13:22:32] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.save(CraftWorld.java:755)
+[13:22:32] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:704)
+[13:22:32] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[13:22:32] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)

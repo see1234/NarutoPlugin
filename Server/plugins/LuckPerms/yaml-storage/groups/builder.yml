@@ -1,0 +1,8 @@
+name: builder
+permissions:
+- weight.13
+parents:
+- default
+prefixes:
+- §2B §7|§f:
+    priority: 13

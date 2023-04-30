@@ -1,0 +1,9 @@
+name: redline
+permissions:
+- exp.redline
+- weight.6
+parents:
+- default
+prefixes:
+- §cR§fL §7|§f:
+    priority: 6

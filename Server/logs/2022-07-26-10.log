@@ -1,0 +1,343 @@
+[22:57:23] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[22:57:23] [Server thread/INFO]: Loading properties
+[22:57:23] [Server thread/INFO]: Default game type: ADVENTURE
+[22:57:23] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-79a30d7-f4830a1 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[22:57:24] [Server thread/INFO]: Debug logging is disabled
+[22:57:24] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:57:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:57:24] [Server thread/INFO]: Generating keypair
+[22:57:24] [Server thread/INFO]: Starting Minecraft server on *:22228
+[22:57:24] [Server thread/INFO]: Using default channel type
+[22:57:25] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[22:57:25] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[22:57:25] [Server thread/INFO]: [CasinoPlugin] Loading CasinoPlugin v1.0
+[22:57:25] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[22:57:25] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[22:57:25] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[22:57:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:57:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:57:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:57:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:57:25] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[22:57:25] [Server thread/INFO]: Preparing level "world"
+[22:57:25] [Server thread/INFO]: -------- World Settings For [world] --------
+[22:57:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:57:25] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:57:25] [Server thread/INFO]: View Distance: 7
+[22:57:25] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:57:25] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:57:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:57:25] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:57:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:57:25] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:57:25] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:57:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:57:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:57:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:57:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:57:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:57:25] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:57:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:57:25] [Server thread/INFO]: Mob Spawn Range: 4
+[22:57:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:57:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[22:57:25] [Server thread/INFO]: Random Lighting Updates: false
+[22:57:25] [Server thread/INFO]: Structure Info Saving: true
+[22:57:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:57:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[22:57:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:57:25] [Server thread/INFO]: Max TNT Explosions: 100
+[22:57:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:57:26] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[22:57:26] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:57:26] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:57:26] [Server thread/INFO]: View Distance: 7
+[22:57:26] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:57:26] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:57:26] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:57:26] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:57:26] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:57:26] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:57:26] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:57:26] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:57:26] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:57:26] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:57:26] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:57:26] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:57:26] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:57:26] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:57:26] [Server thread/INFO]: Mob Spawn Range: 4
+[22:57:26] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:57:26] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[22:57:26] [Server thread/INFO]: Random Lighting Updates: false
+[22:57:26] [Server thread/INFO]: Structure Info Saving: true
+[22:57:26] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:57:26] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[22:57:26] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:57:26] [Server thread/INFO]: Max TNT Explosions: 100
+[22:57:26] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:57:26] [Server thread/INFO]: Preparing start region for level 0 (Seed: -4970056024693801974)
+[22:57:27] [Server thread/INFO]: Preparing start region for level 1 (Seed: -4970056024693801974)
+[22:57:27] [Server thread/INFO]: [CasinoPlugin] Enabling CasinoPlugin v1.0
+[22:57:27] [Server thread/ERROR]: [CasinoPlugin] - Disabled due to no Vault dependency found!
+[22:57:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:57:27] [Server thread/INFO]: Done (1,959s)! For help, type "help" or "?"
+[22:57:27] [Craft Scheduler Thread - 1/INFO]: [Vault] Checking for Updates ... 
+[22:57:28] [Craft Scheduler Thread - 1/WARN]: [Vault] Stable Version: 1.7.3 is out! You are still running version: 1.5.6
+[22:57:28] [Craft Scheduler Thread - 1/WARN]: [Vault] Update at: http://dev.bukkit.org/server-mods/vault
+[22:57:42] [User Authenticator #1/INFO]: UUID of player see1 is db936ff2-7690-381c-b127-ad929f15e95b
+[22:57:42] [Server thread/INFO]: see1[/127.0.0.1:58554] logged in with entity id 62 at ([world]35.13930161078577, 76.0, 227.0594751666365)
+[22:57:48] [Server thread/INFO]: see1 issued server command: /casino
+[22:59:02] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[22:59:02] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[22:59:02] [Server thread/INFO]: Debug logging is disabled
+[22:59:02] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:59:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:59:02] [Server thread/INFO]: -------- World Settings For [world] --------
+[22:59:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:59:02] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:59:02] [Server thread/INFO]: View Distance: 7
+[22:59:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:59:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:59:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:59:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:59:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:59:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:59:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:59:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:59:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:59:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:59:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:59:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:59:02] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:59:02] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:59:02] [Server thread/INFO]: Mob Spawn Range: 4
+[22:59:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:59:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[22:59:02] [Server thread/INFO]: Random Lighting Updates: false
+[22:59:02] [Server thread/INFO]: Structure Info Saving: true
+[22:59:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:59:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[22:59:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:59:02] [Server thread/INFO]: Max TNT Explosions: 100
+[22:59:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:59:02] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[22:59:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:59:02] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:59:02] [Server thread/INFO]: View Distance: 7
+[22:59:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:59:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:59:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:59:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:59:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:59:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:59:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:59:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:59:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:59:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:59:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:59:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:59:02] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:59:02] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:59:02] [Server thread/INFO]: Mob Spawn Range: 4
+[22:59:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:59:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[22:59:02] [Server thread/INFO]: Random Lighting Updates: false
+[22:59:02] [Server thread/INFO]: Structure Info Saving: true
+[22:59:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:59:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[22:59:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:59:02] [Server thread/INFO]: Max TNT Explosions: 100
+[22:59:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:59:02] [Server thread/INFO]: [CasinoPlugin] Disabling CasinoPlugin v1.0
+[22:59:02] [Server thread/INFO]: [Vault] Disabling Vault v1.5.6-b49
+[22:59:02] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[22:59:02] [Server thread/INFO]: [CasinoPlugin] Loading CasinoPlugin v1.0
+[22:59:02] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[22:59:02] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[22:59:02] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[22:59:02] [Server thread/INFO]: [CasinoPlugin] Enabling CasinoPlugin v1.0
+[22:59:02] [Server thread/ERROR]: [CasinoPlugin] - Disabled due to no Vault dependency found!
+[22:59:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:59:02] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[22:59:02] [Craft Scheduler Thread - 3/INFO]: [Vault] Checking for Updates ... 
+[22:59:03] [Craft Scheduler Thread - 3/WARN]: [Vault] Stable Version: 1.7.3 is out! You are still running version: 1.5.6
+[22:59:03] [Craft Scheduler Thread - 3/WARN]: [Vault] Update at: http://dev.bukkit.org/server-mods/vault
+[22:59:05] [Server thread/INFO]: see1 issued server command: /casino
+[22:59:49] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[22:59:49] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[22:59:49] [Server thread/INFO]: Debug logging is disabled
+[22:59:49] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:59:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:59:49] [Server thread/INFO]: -------- World Settings For [world] --------
+[22:59:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:59:49] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:59:49] [Server thread/INFO]: View Distance: 7
+[22:59:49] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:59:49] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:59:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:59:49] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:59:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:59:49] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:59:49] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:59:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:59:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:59:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:59:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:59:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:59:49] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:59:49] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:59:49] [Server thread/INFO]: Mob Spawn Range: 4
+[22:59:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:59:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[22:59:49] [Server thread/INFO]: Random Lighting Updates: false
+[22:59:49] [Server thread/INFO]: Structure Info Saving: true
+[22:59:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:59:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[22:59:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:59:49] [Server thread/INFO]: Max TNT Explosions: 100
+[22:59:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:59:49] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[22:59:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:59:49] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:59:49] [Server thread/INFO]: View Distance: 7
+[22:59:49] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:59:49] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:59:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:59:49] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:59:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:59:49] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:59:49] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:59:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:59:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:59:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:59:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:59:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:59:49] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:59:49] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:59:49] [Server thread/INFO]: Mob Spawn Range: 4
+[22:59:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:59:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[22:59:49] [Server thread/INFO]: Random Lighting Updates: false
+[22:59:49] [Server thread/INFO]: Structure Info Saving: true
+[22:59:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:59:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[22:59:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:59:49] [Server thread/INFO]: Max TNT Explosions: 100
+[22:59:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:59:49] [Server thread/INFO]: [CasinoPlugin] Disabling CasinoPlugin v1.0
+[22:59:52] [Server thread/WARN]: org.sqlite.SQLiteException: [SQLITE_BUSY]  The database file is locked (database is locked)
+[22:59:52] [Server thread/WARN]: 	at org.sqlite.core.DB.newSQLException(DB.java:909)
+[22:59:52] [Server thread/WARN]: 	at org.sqlite.core.DB.newSQLException(DB.java:921)
+[22:59:52] [Server thread/WARN]: 	at org.sqlite.core.DB.throwex(DB.java:886)
+[22:59:52] [Server thread/WARN]: 	at org.sqlite.core.NativeDB._exec_utf8(Native Method)
+[22:59:52] [Server thread/WARN]: 	at org.sqlite.core.NativeDB._exec(NativeDB.java:87)
+[22:59:52] [Server thread/WARN]: 	at org.sqlite.jdbc3.JDBC3Statement.executeUpdate(JDBC3Statement.java:116)
+[22:59:52] [Server thread/WARN]: 	at me.see1.casino.objects.SQLiteDatabase.setlostmoneycard(SQLiteDatabase.java:111)
+[22:59:52] [Server thread/WARN]: 	at me.see1.casino.Main.onDisable(Main.java:65)
+[22:59:52] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266)
+[22:59:52] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:361)
+[22:59:52] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:422)
+[22:59:52] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:415)
+[22:59:52] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.clearPlugins(SimplePluginManager.java:456)
+[22:59:52] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.reload(CraftServer.java:719)
+[22:59:52] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:525)
+[22:59:52] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:27)
+[22:59:52] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141)
+[22:59:52] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:648)
+[22:59:52] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchServerCommand(CraftServer.java:634)
+[22:59:52] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.aP(DedicatedServer.java:444)
+[22:59:52] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:407)
+[22:59:52] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679)
+[22:59:52] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[22:59:52] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[22:59:55] [Server thread/WARN]: org.sqlite.SQLiteException: [SQLITE_BUSY]  The database file is locked (database is locked)
+[22:59:55] [Server thread/WARN]: 	at org.sqlite.core.DB.newSQLException(DB.java:909)
+[22:59:55] [Server thread/WARN]: 	at org.sqlite.core.DB.newSQLException(DB.java:921)
+[22:59:55] [Server thread/WARN]: 	at org.sqlite.core.DB.throwex(DB.java:886)
+[22:59:55] [Server thread/WARN]: 	at org.sqlite.core.NativeDB._exec_utf8(Native Method)
+[22:59:55] [Server thread/WARN]: 	at org.sqlite.core.NativeDB._exec(NativeDB.java:87)
+[22:59:55] [Server thread/WARN]: 	at org.sqlite.jdbc3.JDBC3Statement.executeUpdate(JDBC3Statement.java:116)
+[22:59:55] [Server thread/WARN]: 	at me.see1.casino.objects.SQLiteDatabase.setlostmoneyslotmachine(SQLiteDatabase.java:98)
+[22:59:55] [Server thread/WARN]: 	at me.see1.casino.Main.onDisable(Main.java:67)
+[22:59:55] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266)
+[22:59:55] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:361)
+[22:59:55] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:422)
+[22:59:55] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:415)
+[22:59:55] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.clearPlugins(SimplePluginManager.java:456)
+[22:59:55] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.reload(CraftServer.java:719)
+[22:59:55] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:525)
+[22:59:55] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:27)
+[22:59:55] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141)
+[22:59:55] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:648)
+[22:59:55] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchServerCommand(CraftServer.java:634)
+[22:59:55] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.aP(DedicatedServer.java:444)
+[22:59:55] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:407)
+[22:59:55] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679)
+[22:59:55] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[22:59:55] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[22:59:58] [Server thread/WARN]: org.sqlite.SQLiteException: [SQLITE_BUSY]  The database file is locked (database is locked)
+[22:59:58] [Server thread/WARN]: 	at org.sqlite.core.DB.newSQLException(DB.java:909)
+[22:59:58] [Server thread/WARN]: 	at org.sqlite.core.DB.newSQLException(DB.java:921)
+[22:59:58] [Server thread/WARN]: 	at org.sqlite.core.DB.throwex(DB.java:886)
+[22:59:58] [Server thread/WARN]: 	at org.sqlite.core.NativeDB._exec_utf8(Native Method)
+[22:59:58] [Server thread/WARN]: 	at org.sqlite.core.NativeDB._exec(NativeDB.java:87)
+[22:59:58] [Server thread/WARN]: 	at org.sqlite.jdbc3.JDBC3Statement.executeUpdate(JDBC3Statement.java:116)
+[22:59:58] [Server thread/WARN]: 	at me.see1.casino.objects.SQLiteDatabase.setwinmoneycard(SQLiteDatabase.java:137)
+[22:59:58] [Server thread/WARN]: 	at me.see1.casino.Main.onDisable(Main.java:69)
+[22:59:58] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266)
+[22:59:58] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:361)
+[22:59:58] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:422)
+[22:59:58] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:415)
+[22:59:58] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.clearPlugins(SimplePluginManager.java:456)
+[22:59:58] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.reload(CraftServer.java:719)
+[22:59:58] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:525)
+[22:59:58] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:27)
+[22:59:58] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141)
+[22:59:58] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:648)
+[22:59:58] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchServerCommand(CraftServer.java:634)
+[22:59:58] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.aP(DedicatedServer.java:444)
+[22:59:58] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:407)
+[22:59:58] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679)
+[22:59:58] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[22:59:58] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[23:00:01] [Server thread/WARN]: org.sqlite.SQLiteException: [SQLITE_BUSY]  The database file is locked (database is locked)
+[23:00:01] [Server thread/WARN]: 	at org.sqlite.core.DB.newSQLException(DB.java:909)
+[23:00:01] [Server thread/WARN]: 	at org.sqlite.core.DB.newSQLException(DB.java:921)
+[23:00:01] [Server thread/WARN]: 	at org.sqlite.core.DB.throwex(DB.java:886)
+[23:00:01] [Server thread/WARN]: 	at org.sqlite.core.NativeDB._exec_utf8(Native Method)
+[23:00:01] [Server thread/WARN]: 	at org.sqlite.core.NativeDB._exec(NativeDB.java:87)
+[23:00:01] [Server thread/WARN]: 	at org.sqlite.jdbc3.JDBC3Statement.executeUpdate(JDBC3Statement.java:116)
+[23:00:01] [Server thread/WARN]: 	at me.see1.casino.objects.SQLiteDatabase.setwinmoneyslotmachine(SQLiteDatabase.java:124)
+[23:00:01] [Server thread/WARN]: 	at me.see1.casino.Main.onDisable(Main.java:71)
+[23:00:01] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266)
+[23:00:01] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:361)
+[23:00:01] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:422)
+[23:00:01] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:415)
+[23:00:01] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.clearPlugins(SimplePluginManager.java:456)
+[23:00:01] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.reload(CraftServer.java:719)
+[23:00:01] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:525)
+[23:00:01] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:27)
+[23:00:01] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141)
+[23:00:01] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:648)
+[23:00:01] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchServerCommand(CraftServer.java:634)
+[23:00:01] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.aP(DedicatedServer.java:444)
+[23:00:01] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:407)
+[23:00:01] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679)
+[23:00:01] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577)
+[23:00:01] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:834)
+[23:00:01] [Server thread/INFO]: [Vault] Disabling Vault v1.5.6-b49
+[23:00:02] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[23:00:02] [Server thread/INFO]: [CasinoPlugin] Loading CasinoPlugin v1.0
+[23:00:02] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[23:00:02] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[23:00:02] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[23:00:02] [Server thread/INFO]: [CasinoPlugin] Enabling CasinoPlugin v1.0
+[23:00:02] [Server thread/ERROR]: [CasinoPlugin] - Disabled due to no Vault dependency found!
+[23:00:02] [Server thread/INFO]: testf
+[23:00:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:00:02] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[23:00:02] [Craft Scheduler Thread - 3/INFO]: [Vault] Checking for Updates ... 
+[23:00:02] [Server thread/WARN]: see1 moved too quickly! -0.074932185657552,3.0013359791121417,9.690188363269527
+[23:00:02] [Craft Scheduler Thread - 3/WARN]: [Vault] Stable Version: 1.7.3 is out! You are still running version: 1.5.6
+[23:00:02] [Craft Scheduler Thread - 3/WARN]: [Vault] Update at: http://dev.bukkit.org/server-mods/vault

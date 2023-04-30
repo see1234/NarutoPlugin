@@ -1,0 +1,8 @@
+name: tester
+permissions:
+- weight.11
+parents:
+- default
+prefixes:
+- §dT §7|§f:
+    priority: 11

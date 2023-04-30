@@ -1,0 +1,42 @@
+---- Minecraft Crash Report ----
+// My bad.
+
+Time: 05.07.2022, 21:59
+Description: Exception in server tick loop
+
+java.net.UnknownHostException: 10.8.0.2:51116: invalid IPv6 address
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1341)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1298)
+	at java.base/java.net.InetAddress.getByName(InetAddress.java:1248)
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:176)
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 11.0.14, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 290455552 bytes (277 MB) / 369098752 bytes (352 MB) up to 1073741824 bytes (1024 MB)
+	JVM Flags: 1 total; -Xmx1G
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	CraftBukkit Information: 
+   Running: 
+   Failed to handle CraftCrashReport:
+java.lang.NullPointerException
+	at org.bukkit.Bukkit.getName(Bukkit.java:92)
+	at org.bukkit.craftbukkit.v1_12_R1.CraftCrashReport.call(CraftCrashReport.java:21)
+	at net.minecraft.server.v1_12_R1.CrashReportSystemDetails.a(SourceFile:78)
+	at net.minecraft.server.v1_12_R1.CrashReport.h(CrashReport.java:128)
+	at net.minecraft.server.v1_12_R1.CrashReport.<init>(CrashReport.java:35)
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:597)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'Spigot'
+	Type: Dedicated Server (map_server.txt)

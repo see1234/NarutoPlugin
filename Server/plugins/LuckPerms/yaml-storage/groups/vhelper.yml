@@ -1,0 +1,12 @@
+name: vhelper
+permissions:
+- litebans.group.helper:
+    value: false
+- litebans.group.vhelper
+- weight.11
+parents:
+- default
+- helper
+prefixes:
+- §6H §7|§f:
+    priority: 12

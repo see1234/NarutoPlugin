@@ -6,6 +6,7 @@ import java.util.*;
 
 import minenaruto.narutoplugin.abilities.AbilitiesMain;
 import minenaruto.narutoplugin.main.Main;
+import minenaruto.narutoplugin.swords.SwordMain;
 import org.bukkit.Bukkit;
 import org.bukkit.command.*;
 import org.bukkit.entity.*;
@@ -44,6 +45,13 @@ public class NarutoItemsCommand extends EasyCommand {
 						id++;
 						//
 					}
+					for(SwordMain sword : Main.getInstance().getSwords()) {
+						String displayname = sword.getItem().getItemStack().getItemMeta().getDisplayName();
+
+						np.sendMessage("&7ID: &4" + id + " &7- &8[" + displayname + "&8]");
+						id++;
+						//
+					}
 					break;
 				case "give":
 					if(args.length >= 3) {
@@ -51,13 +59,25 @@ public class NarutoItemsCommand extends EasyCommand {
 						for(AbilitiesMain ability : Main.getInstance().getAbilities()) {
 							if(i == Integer.parseInt(args[2])) {
 								Bukkit.getPlayer(args[1]).getInventory().addItem(ability.getItem().getItemStack());
+								i=-1;
 								break;
 							}
 
 							i++;
 							//
 						}
+						for(SwordMain swordMain : Main.getInstance().getSwords()) {
+							if(i == -1) {
+								break;
+							}
+							if(i == Integer.parseInt(args[2])) {
+								Bukkit.getPlayer(args[1]).getInventory().addItem(swordMain.getItem().getItemStack());
+								break;
+							}
 
+							i++;
+							//
+						}
 
 					}
 					else {
@@ -71,6 +91,19 @@ public class NarutoItemsCommand extends EasyCommand {
 						for(AbilitiesMain ability : Main.getInstance().getAbilities()) {
 							if(i == Integer.parseInt(args[1])) {
 								p.getInventory().addItem(ability.getItem().getItemStack());
+								i = -1;
+								break;
+							}
+
+							i++;
+							//
+						}
+						for(SwordMain sword : Main.getInstance().getSwords()) {
+							if(i == -1) {
+								break;
+							}
+							if(i == Integer.parseInt(args[1])) {
+								p.getInventory().addItem(sword.getItem().getItemStack());
 								break;
 							}
 

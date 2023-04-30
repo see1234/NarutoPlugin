@@ -1,0 +1,269 @@
+January 16 2021 (1:41:15) - Quincy was prevented from accessing the top of the nether @ Location{world=CraftWorld{name=world_nether},x=-63.93871706161865,y=128.0,z=-618.7211390346416,pitch=14.549842,yaw=-149.76219}
+January 16 2021 (1:41:15) - Quincy has been teleported down from above the nether ceiling @ Location{world=CraftWorld{name=world_nether},x=-63.988071942932365,y=128.0,z=-618.636474424565,pitch=14.549842,yaw=-149.76219}
+January 16 2021 (1:41:15) - §ajanabakana is spam fishing! ~casts~ casts without a 2 second break! @ Location{world=CraftWorld{name=world},x=-443.44200140438875,y=87.5,z=-4933.698975936012,pitch=8.848684,yaw=179.64484}
+January 16 2021 (1:41:15) - §ajanabakana is spam fishing! ~casts~ casts without a 2 second break! @ Location{world=CraftWorld{name=world},x=-443.43643104488666,y=87.5,z=-4933.699740671968,pitch=2.3986843,yaw=178.89488}
+January 17 2021 (6:26:44) - §aworon_2468 appears to be using an autofishing mod..  4 caught within 0.3 blocks of each other @ Location{world=CraftWorld{name=world},x=-352.8444735809795,y=63.0,z=-344.0625640815682,pitch=19.601383,yaw=248.87767}
+January 18 2021 (0:38:6) - §aMastercrow12345 appears to be using an autofishing mod..  4 caught within 0.3 blocks of each other @ Location{world=CraftWorld{name=world},x=-840.5020945316174,y=63.09375,z=-333.73078229227843,pitch=27.599995,yaw=339.07413}
+January 18 2021 (0:38:6) - §aMastercrow12345 appears to be using an autofishing mod..  4 caught within 0.3 blocks of each other @ Location{world=CraftWorld{name=world},x=-840.5020945316174,y=63.09375,z=-333.73078229227843,pitch=30.149992,yaw=335.3242}
+January 18 2021 (0:38:6) - Stopped Rail/Carpet Dupe & Removed Piston @ Location{world=CraftWorld{name=world},x=31.0,y=64.0,z=-607.0,pitch=0.0,yaw=0.0}  RAIL RAIL
+January 18 2021 (0:38:6) - Stopped Rail/Carpet Dupe & Removed Piston @ Location{world=CraftWorld{name=world},x=32.0,y=64.0,z=-606.0,pitch=0.0,yaw=0.0}  RAIL
+January 18 2021 (0:38:6) - Stopped Rail/Carpet Dupe & Removed Piston @ Location{world=CraftWorld{name=world},x=32.0,y=64.0,z=-610.0,pitch=0.0,yaw=0.0}  RAIL
+January 18 2021 (0:38:6) - §aBazukaPlay4k appears to be using an autofishing mod..  4 caught within 0.3 blocks of each other @ Location{world=CraftWorld{name=world},x=90.69999998807907,y=63.0,z=45.30000001192093,pitch=20.550425,yaw=64.25375}
+January 18 2021 (0:38:6) - §aBazukaPlay4k appears to be using an autofishing mod..  4 caught within 0.3 blocks of each other @ Location{world=CraftWorld{name=world},x=90.69999998807907,y=63.0,z=45.30000001192093,pitch=14.700403,yaw=-311.64624}
+January 18 2021 (0:38:6) - Prevented a bed from being used as an explosive @Location{world=CraftWorld{name=world_the_end},x=42.0,y=79.0,z=0.0,pitch=0.0,yaw=0.0}
+January 18 2021 (0:38:6) - Prevented a bed from being used as an explosive @Location{world=CraftWorld{name=world_the_end},x=33.0,y=82.0,z=24.0,pitch=0.0,yaw=0.0}
+January 18 2021 (0:38:6) - Prevented a bed from being used as an explosive @Location{world=CraftWorld{name=world_the_end},x=12.0,y=91.0,z=39.0,pitch=0.0,yaw=0.0}
+January 18 2021 (0:38:6) - Prevented a bed from being used as an explosive @Location{world=CraftWorld{name=world_the_end},x=-13.0,y=94.0,z=39.0,pitch=0.0,yaw=0.0}
+January 18 2021 (0:38:6) - Prevented a bed from being used as an explosive @Location{world=CraftWorld{name=world_the_end},x=-34.0,y=103.0,z=24.0,pitch=0.0,yaw=0.0}
+January 18 2021 (0:38:6) - Prevented a bed from being used as an explosive @Location{world=CraftWorld{name=world_the_end},x=-42.0,y=85.0,z=-1.0,pitch=0.0,yaw=0.0}
+January 18 2021 (0:38:6) - Prevented a bed from being used as an explosive @Location{world=CraftWorld{name=world_the_end},x=-34.0,y=88.0,z=-25.0,pitch=0.0,yaw=0.0}
+January 18 2021 (0:38:6) - Prevented a bed from being used as an explosive @Location{world=CraftWorld{name=world_the_end},x=-13.0,y=100.0,z=-40.0,pitch=0.0,yaw=0.0}
+January 18 2021 (0:38:6) - Prevented a bed from being used as an explosive @Location{world=CraftWorld{name=world_the_end},x=12.0,y=76.0,z=-40.0,pitch=0.0,yaw=0.0}
+January 18 2021 (0:38:6) - Prevented a bed from being used as an explosive @Location{world=CraftWorld{name=world_the_end},x=33.0,y=97.0,z=-25.0,pitch=0.0,yaw=0.0}
+January 18 2021 (0:38:6) - §amamik12 appears to be using an autofishing mod..  4 caught within 0.3 blocks of each other @ Location{world=CraftWorld{name=world},x=-850.6065265911033,y=63.09375,z=-336.31296046045725,pitch=37.949844,yaw=7.98797}
+January 18 2021 (0:38:6) - §a_Makc505_ appears to be using an autofishing mod..  4 caught within 0.3 blocks of each other @ Location{world=CraftWorld{name=world},x=463.6973896508511,y=66.0,z=-666.9547667791545,pitch=46.35448,yaw=-179.09644}
+January 18 2021 (0:38:6) - §amamik12 appears to be using an autofishing mod..  4 caught within 0.3 blocks of each other @ Location{world=CraftWorld{name=world},x=-850.556668024997,y=63.09375,z=-336.51633713661613,pitch=25.461678,yaw=7.69593}
+January 18 2021 (0:38:6) - §a_Makc505_ appears to be using an autofishing mod..  4 caught within 0.3 blocks of each other @ Location{world=CraftWorld{name=world},x=466.0099842294925,y=67.5,z=-664.3000000119209,pitch=21.168745,yaw=-180.39406}
+January 18 2021 (0:38:6) - §askyms appears to be using an autofishing mod..  4 caught within 0.3 blocks of each other @ Location{world=CraftWorld{name=world},x=79.30000001192093,y=70.0,z=-704.6999999880791,pitch=20.399992,yaw=353.74078}
+January 18 2021 (0:38:6) - §askyms appears to be using an autofishing mod..  4 caught within 0.3 blocks of each other @ Location{world=CraftWorld{name=world},x=79.30000001192093,y=70.0,z=-704.6999999880791,pitch=21.150017,yaw=346.24054}
+January 18 2021 (0:38:6) - §askyms appears to be using an autofishing mod..  4 caught within 0.3 blocks of each other @ Location{world=CraftWorld{name=world},x=79.30000001192093,y=70.0,z=-704.6999999880791,pitch=23.550018,yaw=330.19043}
+January 18 2021 (0:38:6) - §amamik12 appears to be using an autofishing mod..  4 caught within 0.3 blocks of each other @ Location{world=CraftWorld{name=world},x=-839.6063818030028,y=63.0,z=-404.3442032598014,pitch=20.550802,yaw=-121.01416}
+January 18 2021 (0:38:6) - §amamik12 appears to be using an autofishing mod..  4 caught within 0.3 blocks of each other @ Location{world=CraftWorld{name=world},x=-834.2913253013284,y=63.0,z=-401.30000001192093,pitch=19.696175,yaw=-183.85522}
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 18 2021 (0:38:6) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 21 2021 (11:45:20) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 21 2021 (11:45:20) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 21 2021 (11:45:20) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 21 2021 (11:45:20) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 21 2021 (11:45:20) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 21 2021 (5:13:25) - Prevented an armor stand from being lifted straight up via a piston @ Location{world=CraftWorld{name=world},x=-185.5,y=67.0,z=560.5,pitch=0.0,yaw=0.0}
+January 23 2021 (0:28:46) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 23 2021 (0:28:46) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 23 2021 (0:28:46) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 23 2021 (0:28:46) - §aBazukaPlay4k appears to be using an autofishing mod..  4 caught within 0.3 blocks of each other @ Location{world=CraftWorld{name=world},x=92.69999998807907,y=64.0,z=46.30000001192093,pitch=24.900091,yaw=-309.69366}
+January 23 2021 (0:28:46) - §aBazukaPlay4k is spam fishing! ~casts~ casts without a 2 second break! @ Location{world=CraftWorld{name=world},x=115.30000001192093,y=72.5,z=-9.565577198578781,pitch=3.599962,yaw=-275.7932}
+January 23 2021 (0:28:46) - §aBazukaPlay4k is spam fishing! ~casts~ casts without a 2 second break! @ Location{world=CraftWorld{name=world},x=115.30000001192093,y=72.5,z=-9.565577198578781,pitch=8.549967,yaw=-274.2932}
+January 23 2021 (0:28:46) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+January 23 2021 (0:28:46) - §aBazukaPlay4k appears to be using an autofishing mod..  4 caught within 0.3 blocks of each other @ Location{world=CraftWorld{name=world},x=106.92500001192093,y=80.0,z=-6.300000011920929,pitch=34.19991,yaw=-144.99176}
+January 23 2021 (0:28:46) - §aBazukaPlay4k appears to be using an autofishing mod..  4 caught within 0.3 blocks of each other @ Location{world=CraftWorld{name=world},x=106.92500001192093,y=80.0,z=-6.300000011920929,pitch=40.94987,yaw=-140.49178}
+January 23 2021 (0:28:46) - §aBazukaPlay4k appears to be using an autofishing mod..  4 caught within 0.3 blocks of each other @ Location{world=CraftWorld{name=world},x=106.92500001192093,y=80.0,z=-6.300000011920929,pitch=32.09979,yaw=-149.34149}
+January 23 2021 (0:28:46) - §aBazukaPlay4k appears to be using an autofishing mod..  4 caught within 0.3 blocks of each other @ Location{world=CraftWorld{name=world},x=107.30000001192093,y=79.0,z=-6.300000011920929,pitch=25.349813,yaw=-158.49129}
+January 23 2021 (0:28:46) - §aBazukaPlay4k appears to be using an autofishing mod..  4 caught within 0.3 blocks of each other @ Location{world=CraftWorld{name=world},x=107.30000001192093,y=79.0,z=-6.300000011920929,pitch=29.54981,yaw=-162.09126}
+January 23 2021 (0:28:46) - §aBazukaPlay4k appears to be using an autofishing mod..  4 caught within 0.3 blocks of each other @ Location{world=CraftWorld{name=world},x=92.69999998807907,y=63.0,z=48.30000001192093,pitch=22.350164,yaw=-317.49365}
+January 23 2021 (0:28:46) - §aBazukaPlay4k appears to be using an autofishing mod..  4 caught within 0.3 blocks of each other @ Location{world=CraftWorld{name=world},x=92.69999998807907,y=63.0,z=48.30000001192093,pitch=18.900175,yaw=-316.4436}
+January 23 2021 (0:28:46) - §aBazukaPlay4k appears to be using an autofishing mod..  4 caught within 0.3 blocks of each other @ Location{world=CraftWorld{name=world},x=92.69999998807907,y=63.0,z=48.30000001192093,pitch=2.1001873,yaw=-316.14368}
+January 23 2021 (0:28:46) - §aLacari appears to be using an autofishing mod..  4 caught within 0.3 blocks of each other @ Location{world=CraftWorld{name=world},x=-1280.300000011921,y=63.0,z=-4505.300000011921,pitch=33.90002,yaw=134.19418}
+January 25 2021 (2:35:27) - §aRomirgl appears to be using an autofishing mod..  4 caught within 0.3 blocks of each other @ Location{world=CraftWorld{name=world},x=826.6702642147063,y=64.0,z=-197.76269434011266,pitch=15.415325,yaw=-319.27527}
+January 27 2021 (6:13:54) - §alingleat is spam fishing! ~casts~ casts without a 2 second break! @ Location{world=CraftWorld{name=world},x=835.4866021882739,y=20.0,z=-783.6999999880791,pitch=30.178583,yaw=-179.28772}
+January 27 2021 (6:13:54) - §alingleat is spam fishing! ~casts~ casts without a 2 second break! @ Location{world=CraftWorld{name=world},x=833.5101399840414,y=20.0,z=-784.4610999891531,pitch=13.328662,yaw=-89.94119}
+January 27 2021 (6:13:54) - §anazartasher appears to be using an autofishing mod..  4 caught within 0.3 blocks of each other @ Location{world=CraftWorld{name=world},x=-194.9409623602548,y=73.0,z=352.59667040605865,pitch=1.752229,yaw=-91.0218}
+January 27 2021 (6:13:54) - §anazartasher appears to be using an autofishing mod..  4 caught within 0.3 blocks of each other @ Location{world=CraftWorld{name=world},x=-199.82124867844206,y=73.0,z=350.14490539092577,pitch=1.8857043,yaw=-55.25501}
+February 4 2021 (3:9:10) - Illegal stack of items removed: WRITABLE_BOOK (2) from player: Lil_Click at item scan.
+August 26 2022 (2:17:0) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+August 26 2022 (2:17:0) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+August 26 2022 (2:17:0) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+August 26 2022 (2:28:43) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+August 26 2022 (2:28:43) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+August 26 2022 (2:28:43) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+August 26 2022 (2:37:54) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+August 27 2022 (3:9:16) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+August 27 2022 (3:9:16) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+August 27 2022 (3:9:16) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+August 27 2022 (3:9:16) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+August 27 2022 (3:9:16) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+August 27 2022 (3:9:16) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+August 29 2022 (1:42:44) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+August 29 2022 (1:42:44) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+August 30 2022 (11:51:3) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+August 30 2022 (11:51:3) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+August 30 2022 (11:51:3) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+September 1 2022 (3:57:30) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 1 2022 (3:57:30) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 1 2022 (3:57:30) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 1 2022 (3:57:30) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 1 2022 (3:57:30) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 1 2022 (3:57:30) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 1 2022 (3:57:30) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 1 2022 (3:57:30) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 1 2022 (3:57:30) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 1 2022 (3:57:30) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 1 2022 (4:4:27) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 1 2022 (4:4:27) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 1 2022 (4:4:27) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 1 2022 (4:4:27) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 1 2022 (4:4:27) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 1 2022 (4:4:27) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 1 2022 (4:4:27) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 1 2022 (4:4:27) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 1 2022 (4:4:27) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 1 2022 (4:4:27) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 1 2022 (4:4:27) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 1 2022 (4:4:27) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 1 2022 (4:4:27) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 1 2022 (4:4:27) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 1 2022 (4:4:27) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 1 2022 (4:4:27) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 1 2022 (4:4:27) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 1 2022 (4:4:27) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 1 2022 (4:4:27) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 2 2022 (8:38:19) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 5 2022 (2:10:8) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 5 2022 (2:10:8) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+September 5 2022 (2:32:21) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 5 2022 (2:32:21) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+September 5 2022 (2:50:41) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 5 2022 (2:50:41) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 5 2022 (2:50:41) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+September 5 2022 (2:50:41) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+September 5 2022 (2:55:39) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+September 5 2022 (2:55:39) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+February 27 2023 (8:20:57) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+February 27 2023 (8:20:57) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+February 27 2023 (8:20:57) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+February 27 2023 (8:20:57) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+February 27 2023 (8:20:57) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+February 27 2023 (8:20:57) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+February 27 2023 (8:20:57) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+February 27 2023 (8:20:57) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+February 27 2023 (10:3:14) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+February 27 2023 (10:3:14) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+February 27 2023 (10:3:14) - Illegal stack of items removed: DIAMOND_HOE (3) from player: see1 at item scan.
+February 27 2023 (10:9:29) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+February 27 2023 (10:9:29) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+February 27 2023 (10:9:29) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+February 27 2023 (10:9:29) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+February 28 2023 (10:37:56) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+February 28 2023 (10:37:56) - Illegal stack of items removed: DIAMOND_HOE (3) from player: see1 at item scan.
+February 28 2023 (10:37:56) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+February 28 2023 (10:37:56) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+February 28 2023 (10:37:56) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+February 28 2023 (10:37:56) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+February 28 2023 (10:37:56) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+February 28 2023 (11:53:4) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+February 28 2023 (11:53:4) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+February 28 2023 (11:53:4) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+February 28 2023 (11:53:4) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+February 28 2023 (11:53:4) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+February 28 2023 (11:53:4) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+February 28 2023 (11:53:4) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+February 28 2023 (11:53:4) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+February 28 2023 (11:53:4) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+February 28 2023 (11:53:4) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+February 28 2023 (11:53:4) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+February 28 2023 (11:53:4) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+February 28 2023 (3:45:48) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+February 28 2023 (3:45:48) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+February 28 2023 (3:45:48) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 5 2023 (0:10:36) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 5 2023 (0:10:36) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 5 2023 (0:10:36) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 5 2023 (0:10:36) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 5 2023 (2:28:14) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 5 2023 (2:28:14) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 5 2023 (2:28:14) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 5 2023 (2:58:45) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+March 16 2023 (5:39:8) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 16 2023 (6:46:46) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 16 2023 (6:46:46) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 16 2023 (6:46:46) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 16 2023 (6:46:46) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 16 2023 (6:46:46) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 16 2023 (6:46:46) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 16 2023 (6:46:46) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 16 2023 (6:46:46) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 16 2023 (6:46:46) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 16 2023 (6:46:46) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 16 2023 (6:46:46) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 16 2023 (6:46:46) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 16 2023 (6:46:46) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 16 2023 (6:46:46) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 16 2023 (6:46:46) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 16 2023 (6:46:46) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 16 2023 (6:46:46) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 16 2023 (6:46:46) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 16 2023 (6:46:46) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+March 23 2023 (9:2:50) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+March 23 2023 (10:33:54) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (10:33:54) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+March 23 2023 (10:33:54) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+March 23 2023 (10:33:54) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+March 23 2023 (10:33:54) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+March 23 2023 (10:33:54) - Illegal stack of items removed: DIAMOND_HOE (6) from player: see1 at item scan.
+March 23 2023 (10:33:54) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+March 23 2023 (1:44:38) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (1:44:38) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (1:44:38) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (1:44:38) - Illegal stack of items removed: DIAMOND_HOE (64) from player: see1 at item scan.
+March 23 2023 (1:44:38) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+March 23 2023 (1:44:38) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.
+March 23 2023 (1:44:38) - Illegal stack of items removed: DIAMOND_HOE (2) from player: see1 at item scan.

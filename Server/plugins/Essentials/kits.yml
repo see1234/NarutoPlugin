@@ -1,0 +1,59 @@
+# EssentialsX kit configuration.
+# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+
+# Note: All items MUST be followed by a quantity!
+# All kit names should be lower case, and will be treated as lower in permissions/costs.
+# Syntax: - name[:durability] amount [enchantment:level]... [itemmeta:value]...
+# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
+# To make the kit execute a command, add /<command> to the items list. Use {USERNAME} to specify the player receiving the kit.
+# {PLAYER} will show the player's displayname instead of username.
+# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
+# Set delay to -1 for a one time kit.
+# For more information, visit http://wiki.ess3.net/wiki/Kits
+kits:
+  start:
+    delay: -1
+    items:
+      - stonesword 1 name:&7[&4U&fC&7]_&7Стартовый_набор
+      - ironpickaxe 1 name:&7[&4U&fC&7]_&7Стартовый_набор
+      - stoneshovel 1 name:&7[&4U&fC&7]_&7Стартовый_набор
+      - stoneaxe 1 name:&7[&4U&fC&7]_&7Стартовый_набор
+      - leatherhelmet 1 name:&7[&4U&fC&7]_&7Стартовый_набор
+      - ironchestplate 1 name:&7[&4U&fC&7]_&7Стартовый_набор
+      - leatherleggings 1 name:&7[&4U&fC&7]_&7Стартовый_набор
+      - leatherboots 1 name:&7[&4U&fC&7]_&7Стартовый_набор
+      - bread 16 name:&7[&4U&fC&7]_&7Стартовый_набор
+      - $1000
+  vip:
+    delay: 800000
+    items:
+      - emeraldblock 1 name:&7[&4U&fC&7]_&2VIP_&7Набор
+      - diamondblock 1 name:&7[&4U&fC&7]_&2VIP_&7Набор
+      - ironblock 10 name:&7[&4U&fC&7]_&2VIP_&7Набор
+      - cake 1 name:&7[&4U&fC&7]_&2VIP_&7Набор
+      - $3000
+  premium:
+    delay: 800000
+    items:
+      - diamondchestplate 1 name:&7[&4U&fC&7]_&bPremium_&7Набор
+      - goldhelmet 1 name:&7[&4U&fC&7]_&bPremium_&7Набор
+      - ironleggings 1 name:&7[&4U&fC&7]_&bPremium_&7Набор
+      - leatherboots 1 color:255,255,255 name:&7[&4U&fC&7]_&bPremium_&7Набор
+      - ironsword 1 name:&7[&4U&fC&7]_&bPremium_&7Набор sharpness:3
+      - bow 1 name:&7[&4U&fC&7]_&bPremium_&7Набор power:2
+      - arrow 64 name:&7[&4U&fC&7]_&bPremium_&7Набор
+      - goldenapple:1 2 name:&7[&4U&fC&7]_&bPremium_&7Набор
+      - $5000
+  gold:
+    delay: 800000
+    items:
+      - diamondblock 5 name:&7[&4U&fC&7]_&6&lGOLD_&7Набор
+      - emeraldblock 5 name:&7[&4U&fC&7]_&6&lGOLD_&7Набор
+      - ironblock 16 name:&7[&4U&fC&7]_&6&lGOLD_&7Набор
+      - goldenapple:1 10 name:&7[&4U&fC&7]_&6&lЯблоки
+      - fishingrod 1 name:&7[&4U&fC&7]_&6&lУдочка_Матёрого_Моряка luck:3 durability:3
+      - elytra 1 name:&7[&4U&fC&7]_&6&lКрылья_Бога durability:2 mending:1
+      - diamondsword 1 name:&7[&4U&fC&7]_&6&lКаратель sharpness:5 fire:1  
+      - diamondpickaxe 1 name:&7[&4U&fC&7]_&6&lЛегендарная_Кирка fortune:2 durability:2 efficiency:3
+      - diamondshovel 1 name:&7[&4U&fC&7]_&6&lGOLD_&7Набор durability:3 efficiency:5
+      - $10000

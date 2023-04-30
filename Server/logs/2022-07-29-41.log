@@ -1,0 +1,566 @@
+[15:15:14] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[15:15:14] [Server thread/INFO]: Loading properties
+[15:15:14] [Server thread/INFO]: Default game type: ADVENTURE
+[15:15:14] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-79a30d7-f4830a1 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[15:15:14] [Server thread/INFO]: Debug logging is disabled
+[15:15:14] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:15:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:15:14] [Server thread/INFO]: Generating keypair
+[15:15:14] [Server thread/INFO]: Starting Minecraft server on *:22229
+[15:15:14] [Server thread/INFO]: Using default channel type
+[15:15:15] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[15:15:15] [Server thread/INFO]: [AutoRestartPlug] Loading AutoRestartPlug v1.0
+[15:15:15] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[15:15:15] [Server thread/INFO]: [CasinoPlugin] Loading CasinoPlugin v1.0
+[15:15:15] [Server thread/INFO]: [Essentials] Loading Essentials v2.16.1.0
+[15:15:15] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[15:15:15] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[15:15:15] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[15:15:15] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[15:15:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:15:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:15:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:15:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:15:15] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[15:15:15] [Server thread/INFO]: Preparing level "world"
+[15:15:15] [Server thread/INFO]: -------- World Settings For [world] --------
+[15:15:15] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:15:15] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:15:15] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:15:15] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:15:15] [Server thread/INFO]: View Distance: 7
+[15:15:15] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:15:15] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:15:15] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:15:15] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:15:15] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[15:15:15] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:15:15] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:15:15] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:15:15] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:15:15] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:15:15] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:15:15] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:15:15] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:15:15] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:15:15] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:15:15] [Server thread/INFO]: Mob Spawn Range: 4
+[15:15:15] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:15:15] [Server thread/INFO]: Random Lighting Updates: false
+[15:15:15] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:15:15] [Server thread/INFO]: Structure Info Saving: true
+[15:15:15] [Server thread/INFO]: Max TNT Explosions: 100
+[15:15:15] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[15:15:15] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[15:15:15] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:15:15] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:15:15] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:15:15] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:15:15] [Server thread/INFO]: View Distance: 7
+[15:15:15] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:15:15] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:15:15] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:15:15] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:15:15] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[15:15:15] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:15:15] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:15:15] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:15:15] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:15:15] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:15:15] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:15:15] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:15:15] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:15:15] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:15:15] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:15:15] [Server thread/INFO]: Mob Spawn Range: 4
+[15:15:15] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:15:15] [Server thread/INFO]: Random Lighting Updates: false
+[15:15:15] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:15:15] [Server thread/INFO]: Structure Info Saving: true
+[15:15:15] [Server thread/INFO]: Max TNT Explosions: 100
+[15:15:15] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[15:15:15] [Server thread/INFO]: Preparing start region for level 0 (Seed: -4970056024693801974)
+[15:15:16] [Server thread/INFO]: Preparing start region for level 1 (Seed: -4970056024693801974)
+[15:15:16] [Server thread/INFO]: [AutoRestartPlug] Enabling AutoRestartPlug v1.0
+[15:15:16] [Server thread/INFO]: [CasinoPlugin] Enabling CasinoPlugin v1.0
+[15:15:17] [Server thread/INFO]: [Essentials] Enabling Essentials v2.16.1.0
+[15:15:17] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[15:15:17] [Server thread/INFO]: No kits found to migrate.
+[15:15:17] [Server thread/INFO]: [Essentials] Using legacy item data provider as mob spawner provider.
+[15:15:17] [Server thread/INFO]: [Essentials] Using Reflection based provider as spawn egg provider.
+[15:15:17] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[15:15:17] [Server thread/INFO]: Loaded 852 items from items.csv.
+[15:15:17] [Server thread/INFO]: Using locale ru
+[15:15:17] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[15:15:17] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[15:15:17] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[15:15:17] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[15:15:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:15:17] [Server thread/INFO]: Done (2,037s)! For help, type "help" or "?"
+[15:15:17] [Craft Scheduler Thread - 4/INFO]: [Vault] Checking for Updates ... 
+[15:15:18] [Craft Scheduler Thread - 4/WARN]: [Vault] Stable Version: 1.7.3 is out! You are still running version: 1.5.6
+[15:15:18] [Craft Scheduler Thread - 4/WARN]: [Vault] Update at: http://dev.bukkit.org/server-mods/vault
+[15:15:29] [User Authenticator #1/INFO]: UUID of player see1 is db936ff2-7690-381c-b127-ad929f15e95b
+[15:15:30] [Server thread/INFO]: see1[/127.0.0.1:63756] logged in with entity id 34 at ([world]-2.4411163592566663, 64.0, 218.74819108338818)
+[15:15:38] [Server thread/INFO]: see1 issued server command: /casino 100
+[15:15:56] [Server thread/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@1966b380[id=68e77e26-63c4-40aa-822f-60e996410856,name=Requiem_DIO,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:85) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:173) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.TileEntitySkull$1.load(TileEntitySkull.java:79) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.TileEntitySkull$1.load(TileEntitySkull.java:1) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.TileEntitySkull$3.call(TileEntitySkull.java:206) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.TileEntitySkull$3.call(TileEntitySkull.java:1) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.TileEntitySkull.b(TileEntitySkull.java:222) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaSkull.applyToItem(CraftMetaSkull.java:81) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.craftbukkit.v1_12_R1.inventory.CraftItemStack.setItemMeta(CraftItemStack.java:431) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.craftbukkit.v1_12_R1.inventory.CraftItemStack.asNMSCopy(CraftItemStack.java:45) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.craftbukkit.v1_12_R1.inventory.CraftInventory.setItem(CraftInventory.java:96) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at me.see1.casino.CasinoSlotMachine$1.run(CasinoSlotMachine.java:236) [CasinoPlugin.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:739) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_341]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[?:1.8.0_341]
+	at java.net.SocketInputStream.socketRead(Unknown Source) ~[?:1.8.0_341]
+	at java.net.SocketInputStream.read(Unknown Source) ~[?:1.8.0_341]
+	at java.net.SocketInputStream.read(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLSocketInputRecord.read(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLSocketImpl.access$300(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(Unknown Source) ~[?:1.8.0_341]
+	at java.io.BufferedInputStream.fill(Unknown Source) ~[?:1.8.0_341]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_341]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_341]
+	at sun.net.www.http.HttpClient.parseHTTPHeader(Unknown Source) ~[?:1.8.0_341]
+	at sun.net.www.http.HttpClient.parseHTTP(Unknown Source) ~[?:1.8.0_341]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_341]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_341]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source) ~[?:1.8.0_341]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:130) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:66) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	... 27 more
+[15:15:56] [Server thread/ERROR]: Could not pass event InventoryClickEvent to CasinoPlugin v1.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1893) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:33) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:10) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_341]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_341]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_341]
+Caused by: java.lang.NullPointerException
+	at me.see1.casino.CasinoSlotMachine.onClickEvent(CasinoSlotMachine.java:44) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_341]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_341]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	... 15 more
+[15:15:56] [Server thread/ERROR]: Could not pass event InventoryClickEvent to CasinoPlugin v1.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1893) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:33) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:10) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_341]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_341]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_341]
+Caused by: java.lang.NullPointerException
+	at me.see1.casino.CasinoCardMachine.onClickEvent(CasinoCardMachine.java:210) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_341]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_341]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	... 15 more
+[15:15:57] [Server thread/ERROR]: Could not pass event InventoryClickEvent to CasinoPlugin v1.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1893) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:33) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:10) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_341]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_341]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_341]
+Caused by: java.lang.NullPointerException
+	at me.see1.casino.CasinoSlotMachine.onClickEvent(CasinoSlotMachine.java:44) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_341]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_341]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	... 15 more
+[15:15:57] [Server thread/ERROR]: Could not pass event InventoryClickEvent to CasinoPlugin v1.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1893) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:33) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:10) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_341]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_341]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_341]
+Caused by: java.lang.NullPointerException
+	at me.see1.casino.CasinoCardMachine.onClickEvent(CasinoCardMachine.java:210) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_341]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_341]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	... 15 more
+[15:16:44] [Server thread/INFO]: CONSOLE issued server command: /m see1 ПОПУСК
+[15:16:44] [Server thread/INFO]: [0;37;22m[[0;37;22m[0;37;22mЯ[0;37;1m —> [0;37;22msee1[0;37;1m] [mПОПУСК[m
+[15:17:09] [Server thread/ERROR]: Could not pass event InventoryClickEvent to CasinoPlugin v1.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1893) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:33) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:10) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_341]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_341]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_341]
+Caused by: java.lang.NullPointerException
+	at me.see1.casino.CasinoSlotMachine.onClickEvent(CasinoSlotMachine.java:44) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_341]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_341]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	... 15 more
+[15:17:09] [Server thread/ERROR]: Could not pass event InventoryClickEvent to CasinoPlugin v1.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1893) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:33) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:10) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_341]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_341]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_341]
+Caused by: java.lang.NullPointerException
+	at me.see1.casino.CasinoCardMachine.onClickEvent(CasinoCardMachine.java:210) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_341]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_341]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	... 15 more
+[15:17:10] [Server thread/ERROR]: Could not pass event InventoryClickEvent to CasinoPlugin v1.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1893) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:33) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:10) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_341]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_341]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_341]
+Caused by: java.lang.NullPointerException
+	at me.see1.casino.CasinoSlotMachine.onClickEvent(CasinoSlotMachine.java:44) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_341]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_341]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	... 15 more
+[15:17:10] [Server thread/ERROR]: Could not pass event InventoryClickEvent to CasinoPlugin v1.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1893) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:33) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:10) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_341]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_341]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_341]
+Caused by: java.lang.NullPointerException
+	at me.see1.casino.CasinoCardMachine.onClickEvent(CasinoCardMachine.java:210) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_341]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_341]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	... 15 more
+[15:17:12] [Server thread/ERROR]: Could not pass event InventoryClickEvent to CasinoPlugin v1.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1893) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:33) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:10) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_341]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_341]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_341]
+Caused by: java.lang.NullPointerException
+	at me.see1.casino.CasinoSlotMachine.onClickEvent(CasinoSlotMachine.java:44) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_341]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_341]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	... 15 more
+[15:17:12] [Server thread/ERROR]: Could not pass event InventoryClickEvent to CasinoPlugin v1.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1893) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:33) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:10) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_341]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_341]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_341]
+Caused by: java.lang.NullPointerException
+	at me.see1.casino.CasinoCardMachine.onClickEvent(CasinoCardMachine.java:210) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_341]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_341]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	... 15 more
+[15:17:23] [Server thread/ERROR]: Could not pass event InventoryClickEvent to CasinoPlugin v1.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1893) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:33) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:10) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_341]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_341]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_341]
+Caused by: java.lang.NullPointerException
+	at me.see1.casino.CasinoSlotMachine.onClickEvent(CasinoSlotMachine.java:44) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_341]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_341]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	... 15 more
+[15:17:23] [Server thread/ERROR]: Could not pass event InventoryClickEvent to CasinoPlugin v1.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1893) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:33) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:10) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_341]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_341]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_341]
+Caused by: java.lang.NullPointerException
+	at me.see1.casino.CasinoCardMachine.onClickEvent(CasinoCardMachine.java:210) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_341]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_341]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[spigot-1.12.2.jar:git-Spigot-79a30d7-f4830a1]
+	... 15 more
+[15:17:35] [Server thread/INFO]: CONSOLE issued server command: /m see1 ПОПУСК
+[15:17:35] [Server thread/INFO]: [0;37;22m[[0;37;22m[0;37;22mЯ[0;37;1m —> [0;37;22msee1[0;37;1m] [mПОПУСК[m
+[15:20:03] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[15:20:03] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[15:20:03] [Server thread/INFO]: Debug logging is disabled
+[15:20:03] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:20:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:20:03] [Server thread/INFO]: -------- World Settings For [world] --------
+[15:20:03] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:20:03] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:20:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:20:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:20:03] [Server thread/INFO]: View Distance: 7
+[15:20:03] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:20:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:20:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:20:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:20:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[15:20:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:20:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:20:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:20:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:20:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:20:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:20:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:20:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:20:03] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:20:03] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:20:03] [Server thread/INFO]: Mob Spawn Range: 4
+[15:20:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:20:03] [Server thread/INFO]: Random Lighting Updates: false
+[15:20:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:20:03] [Server thread/INFO]: Structure Info Saving: true
+[15:20:03] [Server thread/INFO]: Max TNT Explosions: 100
+[15:20:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[15:20:03] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[15:20:03] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:20:03] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:20:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:20:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:20:03] [Server thread/INFO]: View Distance: 7
+[15:20:03] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:20:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:20:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:20:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:20:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[15:20:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:20:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:20:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:20:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:20:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:20:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:20:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:20:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:20:03] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:20:03] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:20:03] [Server thread/INFO]: Mob Spawn Range: 4
+[15:20:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:20:03] [Server thread/INFO]: Random Lighting Updates: false
+[15:20:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:20:03] [Server thread/INFO]: Structure Info Saving: true
+[15:20:03] [Server thread/INFO]: Max TNT Explosions: 100
+[15:20:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[15:20:03] [Server thread/INFO]: [Essentials] Disabling Essentials v2.16.1.0
+[15:20:03] [Server thread/INFO]: [Vault][Economy] Essentials Economy unhooked.
+[15:20:03] [Server thread/INFO]: [CasinoPlugin] Disabling CasinoPlugin v1.0
+[15:20:08] [Server thread/INFO]: [Vault] Disabling Vault v1.5.6-b49
+[15:20:08] [Server thread/INFO]: [AutoRestartPlug] Disabling AutoRestartPlug v1.0
+[15:20:08] [Server thread/INFO]: [AutoRestartPlug] Loading AutoRestartPlug v1.0
+[15:20:08] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[15:20:08] [Server thread/INFO]: [CasinoPlugin] Loading CasinoPlugin v1.0
+[15:20:08] [Server thread/INFO]: [Essentials] Loading Essentials v2.16.1.0
+[15:20:08] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[15:20:08] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[15:20:08] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[15:20:08] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[15:20:08] [Server thread/INFO]: [AutoRestartPlug] Enabling AutoRestartPlug v1.0
+[15:20:08] [Server thread/INFO]: [CasinoPlugin] Enabling CasinoPlugin v1.0
+[15:20:08] [Server thread/INFO]: [Essentials] Enabling Essentials v2.16.1.0
+[15:20:08] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[15:20:08] [Server thread/INFO]: No kits found to migrate.
+[15:20:08] [Server thread/INFO]: [Essentials] Using legacy item data provider as mob spawner provider.
+[15:20:08] [Server thread/INFO]: [Essentials] Using Reflection based provider as spawn egg provider.
+[15:20:08] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[15:20:08] [Server thread/INFO]: Loaded 852 items from items.csv.
+[15:20:08] [Server thread/INFO]: Using locale ru
+[15:20:08] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[15:20:08] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[15:20:08] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[15:20:08] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[15:20:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:20:08] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[15:20:08] [Craft Scheduler Thread - 10/INFO]: [Vault] Checking for Updates ... 
+[15:20:09] [Craft Scheduler Thread - 10/WARN]: [Vault] Stable Version: 1.7.3 is out! You are still running version: 1.5.6
+[15:20:09] [Craft Scheduler Thread - 10/WARN]: [Vault] Update at: http://dev.bukkit.org/server-mods/vault

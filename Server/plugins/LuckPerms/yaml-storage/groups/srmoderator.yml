@@ -1,0 +1,8 @@
+name: srmoderator
+permissions:
+- weight.15
+parents:
+- moderator
+prefixes:
+- §5St.M §7|§f:
+    priority: 14
