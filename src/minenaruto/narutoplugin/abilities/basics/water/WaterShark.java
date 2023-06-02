@@ -20,7 +20,7 @@ import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
 public class WaterShark extends AbilitiesMain {
-    private minenaruto.narutoplugin.iditems.Item item = new minenaruto.narutoplugin.iditems.Item(293, 64, "§7[§6Naruto§7] §bАкула-Ракета", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
+    private minenaruto.narutoplugin.iditems.Item item = new minenaruto.narutoplugin.iditems.Item(Material.DIAMOND_HOE, 64, "§7[§6Naruto§7] §bАкула-Ракета", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
 
     public static HashMap<ArmorStand, Player> distance = new HashMap<>();
 

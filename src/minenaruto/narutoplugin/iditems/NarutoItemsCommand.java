@@ -8,11 +8,13 @@ import minenaruto.narutoplugin.abilities.AbilitiesMain;
 import minenaruto.narutoplugin.main.Main;
 import minenaruto.narutoplugin.swords.SwordMain;
 import org.bukkit.Bukkit;
+import org.bukkit.Material;
 import org.bukkit.command.*;
 import org.bukkit.entity.*;
 
 import io.netty.util.internal.ThreadLocalRandom;
 import minenaruto.narutoplugin.dataplayer.NarutoPlayer;
+import org.bukkit.inventory.ItemStack;
 
 public class NarutoItemsCommand extends EasyCommand {
 
@@ -59,6 +61,7 @@ public class NarutoItemsCommand extends EasyCommand {
 						for(AbilitiesMain ability : Main.getInstance().getAbilities()) {
 							if(i == Integer.parseInt(args[2])) {
 								Bukkit.getPlayer(args[1]).getInventory().addItem(ability.getItem().getItemStack());
+
 								i=-1;
 								break;
 							}
@@ -91,6 +94,7 @@ public class NarutoItemsCommand extends EasyCommand {
 						for(AbilitiesMain ability : Main.getInstance().getAbilities()) {
 							if(i == Integer.parseInt(args[1])) {
 								p.getInventory().addItem(ability.getItem().getItemStack());
+
 								i = -1;
 								break;
 							}

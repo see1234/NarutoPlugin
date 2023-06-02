@@ -20,8 +20,8 @@ import java.util.List;
 import java.util.WeakHashMap;
 
 public class LogHandsOfWood extends AbilitiesMain {
-    private Item item = new Item(293, 66, "§7[§6Naruto§7] §aРуки-дерево", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
-    public static WeakHashMap<Player, Integer> logScheduler = new WeakHashMap<>();
+    private Item item = new Item(Material.DIAMOND_HOE, 66, "§7[§6Naruto§7] §aРуки-дерево", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
+
     @Override
     public void RightClick(Player player, NarutoPlayer pl) {
         if (AbilityListener.checkChakraItem(player, getItem().getName(), 50, 0, 0, 0, 0)) {
@@ -40,7 +40,7 @@ public class LogHandsOfWood extends AbilitiesMain {
     }
 
     public void runTaskAbility(Player player) {
-        int _scheduler = ((Integer)logScheduler.getOrDefault(player, Integer.valueOf(0))).intValue();
+        int _scheduler = ((Integer)scheduler.getOrDefault(player, Integer.valueOf(0))).intValue();
         ArrayList<Block> blockList = (ArrayList<Block>)blocks.getOrDefault(player, new ArrayList<Block>());
         blocks.put(player, blockList);
         BlockIterator iterator = new BlockIterator((LivingEntity)player, 10);
@@ -50,7 +50,7 @@ public class LogHandsOfWood extends AbilitiesMain {
             if (iterator.hasNext()) {
                 Block block = iterator.next();
                 if (block.getType() == Material.AIR) {
-                    block.setType(Material.LOG);
+                    block.setType(Material.ACACIA_LOG);
                     ((ArrayList<Block>)blocks.get(player)).add(block);
                     for (Entity entity : block.getLocation().getWorld().getNearbyEntities(block.getLocation(), 2.0D, 2.0D, 2.0D)) {
                         if (entity != player) {
@@ -80,12 +80,12 @@ public class LogHandsOfWood extends AbilitiesMain {
                 Block block = ((ArrayList<Block>)blocks.get(player)).remove(0);
                 block.setType(Material.AIR);
             } else {
-                Bukkit.getScheduler().cancelTask(((Integer)logScheduler.get(player)).intValue());
+                Bukkit.getScheduler().cancelTask(((Integer)scheduler.get(player)).intValue());
                 ((ArrayList)blocks.get(player)).clear();
-                logScheduler.remove(player);
+                scheduler.remove(player);
             }
         },1L, 1L);
-        logScheduler.put(player, Integer.valueOf(_scheduler));
+        scheduler.put(player, Integer.valueOf(_scheduler));
     }
     @Override
     public Item getItem() {

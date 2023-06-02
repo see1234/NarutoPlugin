@@ -27,7 +27,7 @@ import minenaruto.narutoplugin.iditems.Item;
 import minenaruto.narutoplugin.main.Main;
 
 public class FireFlameCannon extends AbilitiesMain {
-    private Item item = new Item(293, 54, "§7[§6Naruto§7] §cПушка пламени", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
+    private Item item = new Item(Material.DIAMOND_HOE, 54, "§7[§6Naruto§7] §cПушка пламени", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
     @Override
     public void RightClick(Player player, NarutoPlayer pl) {
         if (AbilityListener.checkChakraItem(player, getItem().getName(), 100, 0, 0, 0, 0)) {
@@ -60,30 +60,34 @@ public class FireFlameCannon extends AbilitiesMain {
                     try {
 
                         arm.teleport(arm.getLocation().add(player.getLocation().getDirection().multiply(2.5)));
-                        arm.getWorld().spawnParticle(Particle.FLAME, arm.getLocation(), 25);
-
 
                         Bukkit.getScheduler().runTask(Main.getInstance(), new Runnable() {
                             @Override
                             public void run() {
+
                                 for (Entity en : arm.getLocation().getWorld().getNearbyEntities(arm.getLocation(), 4.0, 4.0, 4.0)) {
 
                                     if (!(en instanceof LivingEntity) || (en instanceof ArmorStand)
                                             || en == player)
                                         continue;
+
                                     if (en instanceof Player) {
                                         if (!hasPvpZone(en))
                                             continue;
+
                                         addDamageEntity(player, en, 25);
 
                                         en.setFireTicks(100);
 
-
+                                        arm.remove();
+                                        cancel();
                                         continue;
                                     }
 
                                     addDamageEntity(player, en, 30);
                                     en.setFireTicks(100);
+                                    arm.remove();
+                                    cancel();
                                 }
                             }
                         });
@@ -101,11 +105,34 @@ public class FireFlameCannon extends AbilitiesMain {
                                     arm.getLocation().clone().add(new Vector(0, 1, 0)).getBlock()
                                             .setType(Material.FIRE);
                                 }
+                                for (Entity en : arm.getWorld().getNearbyEntities(arm.getLocation(), 4.0, 4.0, 4.0)) {
+
+                                    if (!(en instanceof LivingEntity) || (en instanceof ArmorStand)
+                                            || en == player)
+                                        continue;
+
+                                    if (en instanceof Player) {
+                                        if (!hasPvpZone(en))
+                                            continue;
+
+                                        addDamageEntity(player, en, 25);
+
+                                        en.setFireTicks(100);
+
+
+                                        continue;
+                                    }
+
+                                    addDamageEntity(player, en, 30);
+                                    en.setFireTicks(100);
+
+                                }
 
                             }
                         });
                         arm.remove();
                         cancel();
+
                     }
                 } else {
                     arm.remove();

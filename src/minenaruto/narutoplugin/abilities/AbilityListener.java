@@ -2,8 +2,17 @@ package minenaruto.narutoplugin.abilities;
 
 import java.util.HashMap;
 
+import com.sk89q.worldedit.bukkit.BukkitAdapter;
+import com.sk89q.worldguard.LocalPlayer;
+import com.sk89q.worldguard.WorldGuard;
+import com.sk89q.worldguard.protection.flags.Flag;
+import com.sk89q.worldguard.protection.flags.Flags;
+import com.sk89q.worldguard.protection.flags.StateFlag;
+import com.sk89q.worldguard.protection.regions.RegionContainer;
+import com.sk89q.worldguard.protection.regions.RegionQuery;
 import minenaruto.narutoplugin.abilities.basics.earth.StoneBroke;
 import minenaruto.narutoplugin.main.Main;
+import net.citizensnpcs.api.npc.NPC;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.FallingBlock;
@@ -24,31 +33,38 @@ import org.bukkit.util.Vector;
 
 import com.sk89q.worldguard.bukkit.WorldGuardPlugin;
 import com.sk89q.worldguard.protection.ApplicableRegionSet;
-import com.sk89q.worldguard.protection.flags.DefaultFlag;
+
 import com.sk89q.worldguard.protection.managers.RegionManager;
 import com.sk89q.worldguard.protection.regions.ProtectedRegion;
 
 import minenaruto.narutoplugin.dataplayer.NarutoPlayer;
+import org.mcmonkey.sentinel.SentinelTrait;
+import org.mcmonkey.sentinel.targeting.SentinelTargetLabel;
 
 public class AbilityListener implements Listener {
 	public static HashMap<String, Long> playercooldown = new HashMap<String, Long>();
 
-	public static boolean hasPvpZone(final Entity entity) {
-		if (Bukkit.getServer().getPluginManager().getPlugin("WorldGuard") != null) {
-			RegionManager regionManager = WorldGuardPlugin.inst().getRegionManager(entity.getWorld());
-			ApplicableRegionSet set = regionManager.getApplicableRegions(entity.getLocation());
+	public static boolean hasPvpZone(Entity player) {
+		if(player instanceof Player) {
 
-			for (ProtectedRegion region : set) {
-				if (region != null) {
-					if (!set.allows(DefaultFlag.PVP)) {
+			com.sk89q.worldedit.util.Location loc = BukkitAdapter.adapt(player.getLocation());
+			RegionContainer container = WorldGuard.getInstance().getPlatform().getRegionContainer();
+			RegionQuery query = container.createQuery();
 
-						return false;
-					}
+			ApplicableRegionSet ars = query.getApplicableRegions(loc);
+			for (ProtectedRegion rg : ars.getRegions()) {
+				StateFlag.State pvpState = rg.getFlag(Flags.PVP);
+
+				if (pvpState != null && pvpState == StateFlag.State.DENY) {
+					return false;
 				}
 			}
 
+
+
 		}
-		return true;
+		 return true;
+
 	}
 
 	public boolean haveCooldownPlayer(String name) {
@@ -89,6 +105,9 @@ public class AbilityListener implements Listener {
 				}
 
 			}
+			else {
+				player.sendMessage("§7[§6Naruto§7] §cВы на территории где не действует пвп");
+			}
 
 		}
 	}
@@ -102,7 +121,7 @@ public class AbilityListener implements Listener {
 
 			if (haveCooldownPlayer(e.getPlayer().getName())) return;
 
-			if (hasPvpZone((Entity) player)) {
+			if (hasPvpZone( player)) {
 
 				NarutoPlayer pl = NarutoPlayer.getNarutoPlayer(player.getName());
 
@@ -127,6 +146,9 @@ public class AbilityListener implements Listener {
 				}
 
 			}
+			else {
+				player.sendMessage("§7[§6Naruto§7] §cВы на территории где не действует пвп");
+			}
 
 		}
 	}
@@ -141,19 +163,21 @@ public class AbilityListener implements Listener {
 
 			if (haveCooldownPlayer(e.getPlayer().getName())) return;
 
-			if (hasPvpZone((Entity) player)) {
+			if (hasPvpZone(  player)) {
 
 				NarutoPlayer pl = NarutoPlayer.getNarutoPlayer(player.getName());
 				if(AbilitiesMain.scheduler.containsKey(player)) {
 					player.sendMessage("§7[§6Naruto§7] §cВы контроллируете прошлую способку, подождите её действия");
 					return;
 				}
+
 				for (final AbilitiesMain ap : Main.getInstance().getAbilities()) {
 
 					if (e.getAction().name().startsWith("RIGHT_CLICK")) {
 						if (player.isSneaking()) {
 							ap.RightPlusShift(player, pl);
 						} else {
+
 							ap.RightClick(player, pl);
 						}
 					}
@@ -161,17 +185,34 @@ public class AbilityListener implements Listener {
 				}
 
 			}
-
+			else {
+				player.sendMessage("§7[§6Naruto§7] §cВы на территории где не действует пвп");
+			}
 		}
 	}
 
 	public static void damageEntity(final Entity entity, Player source, double damage) {
-		if (entity instanceof LivingEntity) {
+
+		if (entity instanceof Entity) {
 			LivingEntity lent = (LivingEntity) entity;
 			damage = Math.max(0, damage);
 			EntityDamageByEntityEvent finalEvent = new EntityDamageByEntityEvent(source, entity, DamageCause.MAGIC,
 					damage);
 
+			lent.damage(damage, source);
+
+			lent.setVelocity(new Vector());
+
+			lent.setLastDamageCause(finalEvent);
+		}
+		else if(entity instanceof NPC) {
+			NPC npc = (NPC) entity;
+			final SentinelTrait st = (SentinelTrait) npc.getTrait((Class) SentinelTrait.class);
+
+			LivingEntity lent = st.getLivingEntity();
+			damage = Math.max(0, damage);
+			EntityDamageByEntityEvent finalEvent = new EntityDamageByEntityEvent(source, entity, DamageCause.MAGIC,
+					damage);
 			lent.damage(damage, source);
 
 			lent.setVelocity(new Vector());

@@ -24,7 +24,7 @@ import org.bukkit.util.Vector;
 import java.util.*;
 
 public class ChakraController extends AbilitiesMain implements Listener {
-    private Item item = new Item(293, 2, "§7[§6Naruto§7] §9Контроль чакры", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
+    private Item item = new Item(Material.DIAMOND_HOE, 2, "§7[§6Naruto§7] §9Контроль чакры", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
     public static ArrayList<Player> enabledControlChakras = new ArrayList<>();
 
     public static WeakHashMap<Player, Integer> scheduler = new WeakHashMap<>();

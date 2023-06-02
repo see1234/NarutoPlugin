@@ -27,7 +27,7 @@ import minenaruto.narutoplugin.iditems.Item;
 import minenaruto.narutoplugin.main.Main;
 
 public class FireSimpleFlame extends AbilitiesMain {
-    private Item item = new Item(293, 54, "§7[§6Naruto§7] §cПростое пламя", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
+    private Item item = new Item(Material.DIAMOND_HOE, 54, "§7[§6Naruto§7] §cПростое пламя", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
     @Override
     public void RightClick(Player player, NarutoPlayer pl) {
         if (AbilityListener.checkChakraItem(player, getItem().getName(), 100, 0, 0, 0, 0)) {

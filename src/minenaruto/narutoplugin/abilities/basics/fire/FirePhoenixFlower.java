@@ -10,7 +10,7 @@ import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.Particle;
 import org.bukkit.block.Block;
-import org.bukkit.craftbukkit.v1_12_R1.entity.CraftEntity;
+
 import org.bukkit.entity.ArmorStand;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.EntityType;
@@ -29,7 +29,7 @@ import minenaruto.narutoplugin.iditems.Item;
 import minenaruto.narutoplugin.main.Main;
 
 public class FirePhoenixFlower extends AbilitiesMain {
-    private Item item = new Item(293, 54, "§7[§6Naruto§7] §cЦветок Феникса", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
+    private Item item = new Item(Material.DIAMOND_HOE, 54, "§7[§6Naruto§7] §cЦветок Феникса", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
     @Override
     public void RightClick(Player player, NarutoPlayer pl) {
         if (AbilityListener.checkChakraItem(player, getItem().getName(), 20, 0, 0, 0, 0)) {
@@ -58,42 +58,82 @@ public class FirePhoenixFlower extends AbilitiesMain {
             @Override
             public void run() {
                 if (count++ != 200) {
+
+                    try {
+
+                        arm.teleport(arm.getLocation().add(player.getLocation().getDirection().multiply(2.5)));
+
+                        Bukkit.getScheduler().runTask(Main.getInstance(), new Runnable() {
+                            @Override
+                            public void run() {
+
+                                for (Entity en : arm.getLocation().getWorld().getNearbyEntities(arm.getLocation(), 1.0, 1.0, 1.0)) {
+
+                                    if (!(en instanceof LivingEntity) || (en instanceof ArmorStand)
+                                            || en == player)
+                                        continue;
+
+                                    if (en instanceof Player) {
+                                        if (!hasPvpZone(en))
+                                            continue;
+
+                                        addDamageEntity(player, en, 6);
+
+                                        en.setFireTicks(100);
+
+                                        arm.remove();
+                                        cancel();
+                                        continue;
+                                    }
+
+                                    addDamageEntity(player, en, 8);
+                                    en.setFireTicks(100);
+                                    arm.remove();
+                                    cancel();
+                                }
+                            }
+                        });
+                    }
+                    catch(Exception ex) {
+
+                    }
                     if (arm.getLocation().getBlock().getType() != Material.AIR) {
                         Bukkit.getScheduler().runTask(Main.getInstance(), new Runnable() {
                             @Override
                             public void run() {
+
                                 if (arm.getLocation().clone().add(new Vector(0, 1, 0)).getBlock()
                                         .getType() == Material.AIR) {
                                     arm.getLocation().clone().add(new Vector(0, 1, 0)).getBlock()
                                             .setType(Material.FIRE);
                                 }
+                                for (Entity en : arm.getWorld().getNearbyEntities(arm.getLocation(), 1.0, 1.0, 1.0)) {
+
+                                    if (!(en instanceof LivingEntity) || (en instanceof ArmorStand)
+                                            || en == player)
+                                        continue;
+
+                                    if (en instanceof Player) {
+                                        if (!hasPvpZone(en))
+                                            continue;
+
+                                        addDamageEntity(player, en, 6);
+
+                                        en.setFireTicks(100);
+
+
+                                        continue;
+                                    }
+
+                                    addDamageEntity(player, en, 8);
+                                    en.setFireTicks(100);
+
+                                }
+
                             }
                         });
                         arm.remove();
                         cancel();
-                    }
-                    try {
-                        arm.teleport(arm.getLocation().add(player.getLocation().getDirection().multiply(2)));
-                        arm.getWorld().spawnParticle(Particle.FLAME, arm.getLocation(), 0);
-                        for (Entity en : arm.getLocation().getWorld().getNearbyEntities(arm.getLocation(), 2.0, 2.0, 2.0)) {
-                            if (!(en instanceof LivingEntity) || (en instanceof ArmorStand)
-                                    || !(arm.getLocation().distance(en.getLocation()) < 2.0) || en == player)
-                                continue;
-                            if (en instanceof Player) {
-                                if (!hasPvpZone(en))
-                                    continue;
-                                addDamageEntity(player, en, 6);
-                                en.setFireTicks(100);
-                                arm.remove();
-                                continue;
-                            }
-
-                            addDamageEntity(player, en, 8);
-                            en.setFireTicks(100);
-                            arm.remove();
-                        }
-                    }
-                    catch(Exception ex) {
 
                     }
                 } else {

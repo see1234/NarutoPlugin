@@ -64,10 +64,10 @@ public class Skillmenu implements Listener {
 		if(event.getSlot() == 999) {
 			return;
 		}
-		if(event.getInventory().getTitle() == null) {
+		if(event.getView().getTitle() == null) {
 			return;
 		}
-		if(!event.getInventory().getTitle().contains("§f\uE101\uC002") && !event.getInventory().getTitle().contains("§f\uE101\uC003") && !event.getInventory().getTitle().contains("§f\uE101\uC004")) {
+		if(!event.getView().getTitle().contains("§f\uE101\uC002") && !event.getView().getTitle().contains("§f\uE101\uC003") && !event.getView().getTitle().contains("§f\uE101\uC004")) {
 			return;
 		}
 		if(event.getClickedInventory() == null) {
@@ -84,13 +84,13 @@ public class Skillmenu implements Listener {
 		}
 
 		event.setCancelled(true);
-		if(event.getClickedInventory().getTitle().contains("§f\uE101\uC002")) {
+		if(event.getView().getTitle().contains("§f\uE101\uC002")) {
 			if(event.getSlot() == 53) {
 				onInvTwo((Player) event.getWhoClicked());
 			}
 
 		}
-		if(event.getClickedInventory().getTitle().contains("§f\uE101\uC003")) {
+		if(event.getView().getTitle().contains("§f\uE101\uC003")) {
 			if(event.getSlot() == 53) {
 				onInvThree((Player) event.getWhoClicked());
 			}
@@ -149,7 +149,7 @@ public class Skillmenu implements Listener {
 				onInvTwo((Player) event.getWhoClicked());
 			}
 		}
-		if(event.getClickedInventory().getTitle().contains("§f\uE101\uC004")) {
+		if(event.getView().getTitle().contains("§f\uE101\uC004")) {
 			if(event.getSlot() == 45) {
 				onInvTwo((Player) event.getWhoClicked());
 			}

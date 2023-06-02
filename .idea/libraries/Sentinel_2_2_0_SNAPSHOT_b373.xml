@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Sentinel-2.2.0-SNAPSHOT-b373">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/libs/Sentinel-2.2.0-SNAPSHOT-b373.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
+import org.bukkit.Material;
 import org.bukkit.entity.Bat;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.EntityType;
@@ -22,7 +23,7 @@ import minenaruto.narutoplugin.iditems.Item;
 import minenaruto.narutoplugin.main.Main;
 
 public class RenninganSaskeTeleportHome extends AbilitiesMain {
-    private Item item = new Item(293, 72, "§7[§6Naruto§7] §5Риннеган Саске (Сохранение локаций)", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
+    private Item item = new Item(Material.DIAMOND_HOE, 72, "§7[§6Naruto§7] §5Риннеган Саске (Сохранение локаций)", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
     @Override
     public void RightClick(Player player, NarutoPlayer pl) {
         if (AbilityListener.checkChakraItem(player, getItem().getName(), 100, 0, 0, 0, 0)) {
@@ -48,7 +49,9 @@ public class RenninganSaskeTeleportHome extends AbilitiesMain {
     }
 
     public void runTaskAbility(NarutoPlayer np, Player player) {
-
+        if(enabledController.containsKey(player) && !enabledController.containsValue(this.getClass().getSimpleName())) {
+            player.sendMessage("§7[§6Naruto§7] §4Снимите с себя сусанно, джинчурики мод, или того подобного");
+        }
         if(np.isObject("saskehome") && !np.getString("saskehome").equals("null")) {
             double x = Double.parseDouble(np.getString("saskehome").split(";")[0]);
             double y = Double.parseDouble(np.getString("saskehome").split(";")[1]);
@@ -57,6 +60,7 @@ public class RenninganSaskeTeleportHome extends AbilitiesMain {
 
             player.sendMessage("§7[§6Naruto§7] §f" + "Вы телепортировались!");
             player.teleport(new Location(Bukkit.getWorld(world), x,y,z));
+
             np.setString("saskehome", "null");
         }
 

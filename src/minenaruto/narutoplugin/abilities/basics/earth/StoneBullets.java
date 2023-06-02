@@ -10,7 +10,7 @@ import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.Particle;
 import org.bukkit.block.Block;
-import org.bukkit.craftbukkit.v1_12_R1.entity.CraftEntity;
+
 import org.bukkit.entity.ArmorStand;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.EntityType;
@@ -29,7 +29,7 @@ import minenaruto.narutoplugin.iditems.Item;
 import minenaruto.narutoplugin.main.Main;
 
 public class StoneBullets extends AbilitiesMain {
-    private Item item = new Item(293, 52, "§7[§6Naruto§7] §6Каменные пули", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
+    private Item item = new Item(Material.DIAMOND_HOE, 52, "§7[§6Naruto§7] §6Каменные пули", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
 	@Override
 	public void RightClick(Player player, NarutoPlayer pl) {
 		if (AbilityListener.checkChakraItem(player, getItem().getName(), 20, 0, 0, 0, 0)) {

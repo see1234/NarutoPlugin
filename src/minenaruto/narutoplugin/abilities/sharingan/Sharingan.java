@@ -25,7 +25,7 @@ import minenaruto.narutoplugin.iditems.Item;
 import minenaruto.narutoplugin.main.Main;
 
 public class Sharingan extends AbilitiesMain {
-	private Item item = new Item(293, 76, "§7[§6Naruto§7] §4Шаринган Гендзюцу", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
+	private Item item = new Item(Material.DIAMOND_HOE, 76, "§7[§6Naruto§7] §4Шаринган Гендзюцу", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
 	public static HashMap<UUID, ArrayList<Bat>> bats = new HashMap<UUID, ArrayList<Bat>>();
 	@Override
 	public void RightClick(Player player, NarutoPlayer np) {

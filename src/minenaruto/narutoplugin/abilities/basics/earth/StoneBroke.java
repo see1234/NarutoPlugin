@@ -4,7 +4,7 @@ import java.util.*;
 
 import org.bukkit.*;
 import org.bukkit.block.Block;
-import org.bukkit.craftbukkit.v1_12_R1.entity.CraftEntity;
+
 import org.bukkit.entity.*;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.entity.EntityChangeBlockEvent;
@@ -21,7 +21,7 @@ import minenaruto.narutoplugin.iditems.Item;
 import minenaruto.narutoplugin.main.Main;
 
 public class StoneBroke extends AbilitiesMain {
-    private Item item = new Item(293, 52, "§7[§6Naruto§7] §6Разрыв земли", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
+    private Item item = new Item(Material.DIAMOND_HOE, 52, "§7[§6Naruto§7] §6Разрыв земли", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
     public static ArrayList<FallingBlock> fBlocks = new ArrayList<>();
     @Override
     public void RightClick(Player player, NarutoPlayer pl) {

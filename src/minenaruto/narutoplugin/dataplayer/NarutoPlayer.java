@@ -336,6 +336,7 @@ public class NarutoPlayer {
 
 		param2 = exp;
 		this.informations.put("exp", String.valueOf(param2));
+		sendMessage("Вы получили 3 опыта за убийство шиноби");
 	}
 
 	public void sendMessage(String msg) {

@@ -2,31 +2,32 @@ package minenaruto.narutoplugin.abilities;
 
 import java.util.*;
 
+import com.sk89q.worldedit.bukkit.BukkitAdapter;
+import com.sk89q.worldguard.WorldGuard;
+import com.sk89q.worldguard.protection.ApplicableRegionSet;
+import com.sk89q.worldguard.protection.regions.ProtectedRegion;
+import com.sk89q.worldguard.protection.regions.RegionContainer;
+import com.sk89q.worldguard.protection.regions.RegionQuery;
 import minenaruto.narutoplugin.iditems.Item;
 import minenaruto.narutoplugin.models.ModelsMain;
-import minenaruto.narutoplugin.spawnmob.MobListener;
 import org.bukkit.Bukkit;
 import org.bukkit.Chunk;
 import org.bukkit.Location;
 import org.bukkit.block.Block;
-import org.bukkit.craftbukkit.v1_12_R1.entity.CraftEntity;
+
+import org.bukkit.craftbukkit.v1_16_R3.entity.CraftEntity;
 import org.bukkit.entity.*;
 import org.bukkit.event.Listener;
-import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.util.BlockIterator;
 
 import com.sk89q.worldguard.LocalPlayer;
 
 import com.sk89q.worldguard.bukkit.WorldGuardPlugin;
-import com.sk89q.worldguard.protection.ApplicableRegionSet;
-import com.sk89q.worldguard.protection.association.RegionAssociable;
-import com.sk89q.worldguard.protection.flags.DefaultFlag;
+
 import com.sk89q.worldguard.protection.flags.Flags;
 import com.sk89q.worldguard.protection.flags.StateFlag;
-import com.sk89q.worldguard.protection.managers.RegionManager;
-import com.sk89q.worldguard.protection.regions.ProtectedRegion;
- 
+
 
 import minenaruto.narutoplugin.dataplayer.NarutoPlayer;
 import minenaruto.narutoplugin.main.Main;
@@ -49,23 +50,30 @@ public abstract class AbilitiesMain implements Listener {
 
 	public static HashMap<Player, Integer> scheduler = new HashMap<Player, Integer>();
 
-	public static boolean hasPvpZone(final Entity entity) {
-		if (Bukkit.getServer().getPluginManager().getPlugin("WorldGuard") != null) {
-			RegionManager regionManager = WorldGuardPlugin.inst().getRegionManager(entity.getWorld());
-			ApplicableRegionSet set = regionManager.getApplicableRegions(entity.getLocation());
 
-			for (ProtectedRegion region : set) {
-				if (region != null) {
-					if (!set.allows(DefaultFlag.PVP)) {
+    public static boolean hasPvpZone(Entity player) {
+        if(player instanceof Player) {
 
-						return false;
-					}
-				}
-			}
+            com.sk89q.worldedit.util.Location loc = BukkitAdapter.adapt(player.getLocation());
+            RegionContainer container = WorldGuard.getInstance().getPlatform().getRegionContainer();
+            RegionQuery query = container.createQuery();
 
-		}
-		return true;
-	}
+            ApplicableRegionSet ars = query.getApplicableRegions(loc);
+            for (ProtectedRegion rg : ars.getRegions()) {
+                StateFlag.State pvpState = rg.getFlag(Flags.PVP);
+
+                if (pvpState != null && pvpState == StateFlag.State.DENY) {
+                    return false;
+                }
+            }
+
+
+
+        }
+        return true;
+
+    }
+
     public LivingEntity rayTraceEntity(final Player player, final int range) {
         final BlockIterator iterator = new BlockIterator(player.getWorld(), player.getEyeLocation().toVector(), player.getEyeLocation().getDirection(), 0.0, range);
         Chunk chunk = null;
@@ -123,7 +131,7 @@ public abstract class AbilitiesMain implements Listener {
 				getDamage.put(entity, player);
 			} else if (getDamage.get(player) != player) {
 				getDamage.remove(entity, getDamage.get(entity));
-				getDamage.put(entity, player);
+				 getDamage.put(entity, player);
 			}
 			Bukkit.getScheduler().scheduleSyncDelayedTask((Plugin) Main.getInstance(),
 					() -> getDamage.remove(player, player), 600L);

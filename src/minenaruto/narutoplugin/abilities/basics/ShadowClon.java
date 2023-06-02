@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.UUID;
 
+import net.citizensnpcs.trait.SkinTrait;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.Particle;
@@ -24,7 +25,7 @@ import net.citizensnpcs.api.CitizensAPI;
 import net.citizensnpcs.api.npc.NPC;
 import net.citizensnpcs.api.trait.Trait;
 import net.citizensnpcs.api.trait.trait.Equipment;
-import net.citizensnpcs.trait.SkinTrait;
+
 import minenaruto.narutoplugin.abilities.AbilitiesMain;
 import minenaruto.narutoplugin.abilities.AbilityListener;
 import minenaruto.narutoplugin.dataplayer.NarutoPlayer;
@@ -32,7 +33,7 @@ import minenaruto.narutoplugin.iditems.Item;
 import minenaruto.narutoplugin.main.Main;
 
 public class ShadowClon extends AbilitiesMain {
-   private  Item item = new Item(293, 8, "§7[§6Naruto§7] §7Теневое клонирование", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
+   private  Item item = new Item(Material.DIAMOND_HOE, 8, "§7[§6Naruto§7] §7Теневое клонирование", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
 	@Override
 	public void RightClick(Player player, NarutoPlayer pl) {
 		if(AbilityListener.checkChakraItem(player, getItem().getName(), 30, 0, 0, 30, 0)) {

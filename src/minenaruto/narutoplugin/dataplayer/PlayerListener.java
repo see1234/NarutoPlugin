@@ -24,17 +24,23 @@ public class PlayerListener implements Listener {
 
 	@EventHandler
 	public void onPlayerJoin(PlayerJoinEvent event) {
+		event.setJoinMessage(null);
 		NarutoPlayer np = new NarutoPlayer(event.getPlayer().getName());
 
 		np.load();
 		double healthmax = np.getDouble("medical") + 20;
 		double health = np.getDouble("health") <= 0 ? 0 : np.getDouble("health");
-		((Player) event.getPlayer()).setHealth(((double) health / (double) healthmax) * 20.0);
-
+		if(((double) health / (double) healthmax) * 20.0 >= 20.0) {
+			((Player) event.getPlayer()).setHealth(20.0);
+		}
+		else {
+			((Player) event.getPlayer()).setHealth(((double) health / (double) healthmax) * 20.0);
+		}
 	}
 
 	@EventHandler
 	public void onPlayerQuit(PlayerQuitEvent event) {
+		event.setQuitMessage(null);
 		NarutoPlayer np = NarutoPlayer.getNarutoPlayer(event.getPlayer().getName());
 		np.unload();
 		event.getPlayer().setAllowFlight(false);

@@ -30,7 +30,7 @@ import minenaruto.narutoplugin.main.Main;
 
 public class SharinganObito extends AbilitiesMain implements Listener {
     public static HashSet<Player> inKamui = new HashSet<>();
-    private Item item = new Item(293, 80, "§7[§6Naruto§7] §4Шаринган Обито (Камуи)", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
+    private Item item = new Item(Material.DIAMOND_HOE, 80, "§7[§6Naruto§7] §4Шаринган Обито (Камуи)", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
     public SharinganObito() {
         Bukkit.getPluginManager().registerEvents((Listener)this, (Plugin)Main.getInstance());
     }
