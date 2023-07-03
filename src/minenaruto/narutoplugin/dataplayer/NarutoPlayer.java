@@ -318,25 +318,26 @@ public class NarutoPlayer {
 	}
 
 	public void addExp(int param2) {
-		int exp = (getInt("exp") + param2);
+		sendMessage("Вы получили " + param2 + " опыт за убийство");
+		int exp = getInt("exp") + param2;
 		int level = getInt("level");
 		int q = Main.getInstance().getConfig().getInt("q");
 
 		while (level > 0) {
 			q *= Main.getInstance().getConfig().getInt("q");
-			level -= 1;
-
+			level--;
 		}
 
-		while (exp >= Main.getInstance().getConfig().getInt("b1") * q) {
-			exp -= Main.getInstance().getConfig().getInt("b1") * q;
+		int b1 = Main.getInstance().getConfig().getInt("b1");
+		int requiredExp = b1 * q;
 
+		while (exp >= requiredExp) {
+			exp -= requiredExp;
 			lvlup();
 		}
 
 		param2 = exp;
 		this.informations.put("exp", String.valueOf(param2));
-		sendMessage("Вы получили 3 опыта за убийство шиноби");
 	}
 
 	public void sendMessage(String msg) {
@@ -344,7 +345,7 @@ public class NarutoPlayer {
 	}
 
 	public void lvlup() {
-		Bukkit.getPlayer(this.name).sendMessage("§7[§6Naruto§7] §fВы получили §63 джутсупоинта §fи §b3 скиллпоинта");
+		sendMessage("Вы получили §63 джутсупоинта §fи §b3 скиллпоинта");
 		setInt("skillpoint", getInt("skillpoint") + 3);
 		setInt("justupoint", getInt("justupoint") + 3);
 		setInt("level", getInt("level") + 1);

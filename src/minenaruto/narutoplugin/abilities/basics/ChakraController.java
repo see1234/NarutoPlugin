@@ -37,6 +37,7 @@ public class ChakraController extends AbilitiesMain implements Listener {
         enabledControlChakras.add(p);
     }
     public ChakraController() {
+        super();
         Bukkit.getPluginManager().registerEvents((Listener)this, (Plugin)Main.getInstance());
     }
     public static void removeControlChakras(Player p) {
@@ -51,15 +52,7 @@ public class ChakraController extends AbilitiesMain implements Listener {
         }
     }
 
-    @Override
-    public void RightPlusShift(Player player, NarutoPlayer pl) {
-        // TODO Auto-generated method stub
-        if (AbilityListener.checkChakraItem(player, getItem().getName(), 0, 0, 0, 0, 0)) {
-            if(pl.IfHasJustuPointAndRemoveJustuPoint(5)) {
-                //player.getInventory().addItem(Item.items.get(6).getItemStack());
-            }
-        }
-    }
+
     @EventHandler
     public void onMove(PlayerMoveEvent e) {
         Player p = e.getPlayer();

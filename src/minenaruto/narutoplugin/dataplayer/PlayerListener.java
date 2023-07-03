@@ -13,6 +13,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDamageEvent;
 import org.bukkit.event.entity.EntityDeathEvent;
 import org.bukkit.event.entity.PlayerDeathEvent;
+import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
 import org.bukkit.inventory.ItemStack;
@@ -25,6 +26,9 @@ public class PlayerListener implements Listener {
 	@EventHandler
 	public void onPlayerJoin(PlayerJoinEvent event) {
 		event.setJoinMessage(null);
+		if(!event.getPlayer().hasPlayedBefore()) {
+			event.getPlayer().getInventory().addItem(Main.getInstance().getAbilities().get(0).getItem().getItemStack());
+		}
 		NarutoPlayer np = new NarutoPlayer(event.getPlayer().getName());
 
 		np.load();
@@ -49,5 +53,19 @@ public class PlayerListener implements Listener {
 		bossBar.removeAll();
 		Chakra.chakraBar.remove(event.getPlayer().getName());
 	}
-	 
+	@EventHandler
+	public void onInteract(final PlayerInteractEvent e) {
+		if (e.getItem() == null) {
+			return;
+		}
+		if (e.getItem().getType() == Material.DIAMOND_HOE && e.getItem().getType().getMaxDurability() > 16 && !e.getItem().getItemMeta().isUnbreakable()) {
+			final ItemStack itemStack = e.getItem();
+			final ItemMeta itemMeta = itemStack.getItemMeta();
+					itemMeta.setUnbreakable(true);
+					itemStack.setDurability((short)0);
+
+			itemStack.setItemMeta(itemMeta);
+			e.getPlayer().updateInventory();
+		}
+	}
 }

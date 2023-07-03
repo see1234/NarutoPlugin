@@ -33,15 +33,7 @@ public class SharinganItachiAmateracy extends AbilitiesMain {
 		}
 	}
 
-	@Override
-	public void RightPlusShift(Player player, NarutoPlayer pl) {
-		// TODO Auto-generated method stub
-		if (AbilityListener.checkChakraItem(player, getItem().getName(), 0, 0, 0, 0, 0)) {
-			if(pl.IfHasJustuPointAndRemoveJustuPoint(5)) {
-				//player.getInventory().addItem(Item.items.get(16).getItemStack());
-			}
-		}
-	}
+
 
 	@Override
 	public Item getItem() {

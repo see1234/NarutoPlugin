@@ -41,6 +41,7 @@ public class SharinganSusanoItachi extends AbilitiesMain implements Listener {
 
     }
     public SharinganSusanoItachi() {
+        super();
         Bukkit.getPluginManager().registerEvents((Listener)this, (Plugin)Main.getInstance());
     }
     public  void removeControl(Player p) {
@@ -65,15 +66,7 @@ public class SharinganSusanoItachi extends AbilitiesMain implements Listener {
         }
     }
 
-    @Override
-    public void RightPlusShift(Player player, NarutoPlayer pl) {
-        // TODO Auto-generated method stub
-        if (AbilityListener.checkChakraItem(player, getItem().getName(), 0, 0, 0, 0, 0)) {
-            if(pl.IfHasJustuPointAndRemoveJustuPoint(5)) {
-                //player.getInventory().addItem(Item.items.get(6).getItemStack());
-            }
-        }
-    }
+
     @EventHandler
     public void onMove(PlayerQuitEvent e) {
         Player p = e.getPlayer();

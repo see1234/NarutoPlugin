@@ -93,17 +93,29 @@ public class AbilityListener implements Listener {
 					player.sendMessage("§7[§6Naruto§7] §cВы контроллируете прошлую способку, подождите её действия");
 					return;
 				}
-				for (final AbilitiesMain ap : Main.getInstance().getAbilities()) {
-
+				for (int i = 0; i < Main.getInstance().getAbilities().size(); i++) {
+					AbilitiesMain ap = Main.getInstance().getAbilities().get(i);
+					if (AbilityListener.checkChakraItem(player, ap.getItem().getName())) {
 						if (player.isSneaking()) {
-							ap.RightPlusShift(player, pl);
+							if(pl.IfHasJustuPointAndRemoveJustuPoint(3)) {
+								if(Main.getInstance().getAbilities().size() > i+1) {
+									player.getInventory().addItem(Main.getInstance().getAbilities().get(i + 1).getItem().getItemStack());
+								}
+								else {
+									player.sendMessage("§7[§6Naruto§7] §cСпособки закончились");
+									pl.setInt("justupoint", pl.getInt("jutsupoint") + 3);
+									//данная функция тест
+								}
+							}
 						} else {
+
 							ap.RightClick(player, pl);
 						}
+						break;
+					}
 
 
 				}
-
 			}
 			else {
 				player.sendMessage("§7[§6Naruto§7] §cВы на территории где не действует пвп");
@@ -130,11 +142,20 @@ public class AbilityListener implements Listener {
 					return;
 				}
 
-				for (final AbilitiesMain ap : Main.getInstance().getAbilities()) {
+				for (int i = 0; i < Main.getInstance().getAbilities().size(); i++) {
+					AbilitiesMain ap = Main.getInstance().getAbilities().get(i);
 					if (AbilityListener.checkChakraItem(player, ap.getItem().getName())) {
 						if (player.isSneaking()) {
-
-							ap.RightPlusShift(player, pl);
+                              if(pl.IfHasJustuPointAndRemoveJustuPoint(3)) {
+								  if(Main.getInstance().getAbilities().size() > i+1) {
+									  player.getInventory().addItem(Main.getInstance().getAbilities().get(i + 1).getItem().getItemStack());
+								  }
+								  else {
+									  player.sendMessage("§7[§6Naruto§7] §cСпособки закончились");
+									  pl.setInt("justupoint", pl.getInt("jutsupoint") + 3);
+									  //данная функция тест
+								  }
+							  }
 						} else {
 
 							ap.RightClick(player, pl);
@@ -171,16 +192,27 @@ public class AbilityListener implements Listener {
 					return;
 				}
 
-				for (final AbilitiesMain ap : Main.getInstance().getAbilities()) {
-
-					if (e.getAction().name().startsWith("RIGHT_CLICK")) {
+				for (int i = 0; i < Main.getInstance().getAbilities().size(); i++) {
+					AbilitiesMain ap = Main.getInstance().getAbilities().get(i);
+					if (AbilityListener.checkChakraItem(player, ap.getItem().getName())) {
 						if (player.isSneaking()) {
-							ap.RightPlusShift(player, pl);
+							if(pl.IfHasJustuPointAndRemoveJustuPoint(3)) {
+								if(Main.getInstance().getAbilities().size() > i+1) {
+									player.getInventory().addItem(Main.getInstance().getAbilities().get(i + 1).getItem().getItemStack());
+								}
+								else {
+									player.sendMessage("§7[§6Naruto§7] §cСпособки закончились");
+									pl.setInt("justupoint", pl.getInt("jutsupoint") + 3);
+									//данная функция тест
+								}
+							}
 						} else {
 
 							ap.RightClick(player, pl);
 						}
+						break;
 					}
+
 
 				}
 
@@ -193,7 +225,7 @@ public class AbilityListener implements Listener {
 
 	public static void damageEntity(final Entity entity, Player source, double damage) {
 
-		if (entity instanceof Entity) {
+		if (entity instanceof Entity || entity instanceof NPC) {
 			LivingEntity lent = (LivingEntity) entity;
 			damage = Math.max(0, damage);
 			EntityDamageByEntityEvent finalEvent = new EntityDamageByEntityEvent(source, entity, DamageCause.MAGIC,
@@ -205,20 +237,7 @@ public class AbilityListener implements Listener {
 
 			lent.setLastDamageCause(finalEvent);
 		}
-		else if(entity instanceof NPC) {
-			NPC npc = (NPC) entity;
-			final SentinelTrait st = (SentinelTrait) npc.getTrait((Class) SentinelTrait.class);
 
-			LivingEntity lent = st.getLivingEntity();
-			damage = Math.max(0, damage);
-			EntityDamageByEntityEvent finalEvent = new EntityDamageByEntityEvent(source, entity, DamageCause.MAGIC,
-					damage);
-			lent.damage(damage, source);
-
-			lent.setVelocity(new Vector());
-
-			lent.setLastDamageCause(finalEvent);
-		}
 
 	}
 	@EventHandler

@@ -59,11 +59,7 @@ public class Sharingan extends AbilitiesMain {
 		
 	}
 
-	@Override
-	public void RightPlusShift(Player player, NarutoPlayer np) {
-		// TODO Auto-generated method stub
-		
-	}
+
 	@Override
 	public Item getItem() {
 

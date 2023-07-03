@@ -34,15 +34,7 @@ public class StoneBroke extends AbilitiesMain {
     }
 
 
-    @Override
-    public void RightPlusShift(Player player, NarutoPlayer pl) {
-        // TODO Auto-generated method stub
-        if (AbilityListener.checkChakraItem(player, getItem().getName(), 0, 0, 0, 0, 0)) {
-            if (pl.IfHasJustuPointAndRemoveJustuPoint(5)) {
-                //	player.getInventory().addItem(Item.items.get(10).getItemStack());
-            }
-        }
-    }
+
 
     public void runTaskAbility(Player player) {
         if (player.isOnGround() && (player.getLocation().getBlock().getType() != Material.WATER || player.getLocation().getBlock().getType() != Material.LAVA)) {

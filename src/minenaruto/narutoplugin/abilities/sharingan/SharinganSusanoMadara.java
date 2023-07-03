@@ -43,6 +43,7 @@ public class SharinganSusanoMadara extends AbilitiesMain implements Listener {
     }
 
     public SharinganSusanoMadara() {
+        super();
         Bukkit.getPluginManager().registerEvents((Listener) this, (Plugin) Main.getInstance());
     }
 
@@ -69,15 +70,7 @@ public class SharinganSusanoMadara extends AbilitiesMain implements Listener {
         }
     }
 
-    @Override
-    public void RightPlusShift(Player player, NarutoPlayer pl) {
-        // TODO Auto-generated method stub
-        if (AbilityListener.checkChakraItem(player, getItem().getName(), 0, 0, 0, 0, 0)) {
-            if (pl.IfHasJustuPointAndRemoveJustuPoint(5)) {
-                //player.getInventory().addItem(Item.items.get(6).getItemStack());
-            }
-        }
-    }
+
 
     @EventHandler
     public void onMove(PlayerQuitEvent e) {

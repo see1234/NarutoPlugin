@@ -36,23 +36,23 @@ public abstract class AbilitiesMain implements Listener {
     public WeakHashMap<Player, ArmorStand> arm = new WeakHashMap<Player, ArmorStand>();
     public static WeakHashMap<Player, String> enabledController = new WeakHashMap<Player, String>();
     public static HashMap<Player, ArrayList<Block>> blocks = new HashMap<>();
-	public abstract void RightClick(final Player player, NarutoPlayer pl);
 
-	public abstract void RightPlusShift(final Player player, NarutoPlayer pl);
+    public abstract void RightClick(final Player player, NarutoPlayer pl);
+
     public abstract Item getItem();
 
-	public static HashMap<Entity, Player> getDamage = new HashMap<Entity, Player>();
+    public static HashMap<Entity, Player> getDamage = new HashMap<Entity, Player>();
 
 
     public HashMap<String, Item> getModels() {
         return ModelsMain.models;
     }
 
-	public static HashMap<Player, Integer> scheduler = new HashMap<Player, Integer>();
+    public static HashMap<Player, Integer> scheduler = new HashMap<Player, Integer>();
 
 
     public static boolean hasPvpZone(Entity player) {
-        if(player instanceof Player) {
+        if (player instanceof Player) {
 
             com.sk89q.worldedit.util.Location loc = BukkitAdapter.adapt(player.getLocation());
             RegionContainer container = WorldGuard.getInstance().getPlatform().getRegionContainer();
@@ -66,7 +66,6 @@ public abstract class AbilitiesMain implements Listener {
                     return false;
                 }
             }
-
 
 
         }
@@ -89,19 +88,19 @@ public abstract class AbilitiesMain implements Listener {
                 for (int len$ = entities.length, i$ = 0; i$ < len$; ++i$) {
                     final Entity entity = arr$[i$];
                     if (entity != player && entity instanceof LivingEntity && entity.getType() != EntityType.SQUID && l.getWorld() == entity.getLocation().getWorld() && l.distance(entity.getLocation()) < 1.5) {
-                        if(!AbilityListener.hasPvpZone(entity)) {
+                        if (!AbilityListener.hasPvpZone(entity)) {
                             return null;
                         }
-                        return (LivingEntity)entity;
+                        return (LivingEntity) entity;
                     }
                 }
             }
         }
         return null;
     }
-    
+
     public LivingEntity rayTraceEntity(final CraftEntity bukkitEntity, final int range) {
-        final BlockIterator iterator = new BlockIterator(bukkitEntity.getWorld(), ((LivingEntity)bukkitEntity).getEyeLocation().toVector(), ((LivingEntity)bukkitEntity).getEyeLocation().getDirection(), 0.0, range);
+        final BlockIterator iterator = new BlockIterator(bukkitEntity.getWorld(), ((LivingEntity) bukkitEntity).getEyeLocation().toVector(), ((LivingEntity) bukkitEntity).getEyeLocation().getDirection(), 0.0, range);
         Chunk chunk = null;
         Entity[] entities = null;
         while (iterator.hasNext()) {
@@ -115,29 +114,29 @@ public abstract class AbilitiesMain implements Listener {
                 for (int len$ = entities.length, i$ = 0; i$ < len$; ++i$) {
                     final Entity entity = arr$[i$];
                     if (entity != bukkitEntity && entity instanceof Player && entity.getType() != EntityType.SQUID && l.getWorld() == entity.getLocation().getWorld() && l.distance(entity.getLocation()) < 1.5) {
-                        if(!AbilityListener.hasPvpZone(entity)) {
+                        if (!AbilityListener.hasPvpZone(entity)) {
                             return null;
                         }
-                        return (LivingEntity)entity;
+                        return (LivingEntity) entity;
                     }
                 }
             }
         }
         return null;
     }
-	public static void addDamageEntity(final Player player, final Entity entity, double damage) {
-		if (entity.getName().startsWith("§7[§6Naruto§7]")) {
-			if (!getDamage.containsValue(getDamage.get(player))) {
-				getDamage.put(entity, player);
-			} else if (getDamage.get(player) != player) {
-				getDamage.remove(entity, getDamage.get(entity));
-				 getDamage.put(entity, player);
-			}
-			Bukkit.getScheduler().scheduleSyncDelayedTask((Plugin) Main.getInstance(),
-					() -> getDamage.remove(player, player), 600L);
-		}
-		AbilityListener.damageEntity(entity, player, damage);
-	}
+
+    public static void addDamageEntity(final Player player, final Entity entity, double damage) {
+        if (entity.getName().startsWith("§7[§6Naruto§7]")) {
+            if (!getDamage.containsValue(getDamage.get(player))) {
+                getDamage.put(entity, player);
+            } else if (getDamage.get(player) != player) {
+                getDamage.remove(entity, getDamage.get(entity));
+                getDamage.put(entity, player);
+            }
+            Bukkit.getScheduler().scheduleSyncDelayedTask((Plugin) Main.getInstance(), () -> getDamage.remove(player, player), 600L);
+        }
+        AbilityListener.damageEntity(entity, player, damage);
+    }
 
 
 }

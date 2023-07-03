@@ -32,6 +32,7 @@ public class SharinganObito extends AbilitiesMain implements Listener {
     public static HashSet<Player> inKamui = new HashSet<>();
     private Item item = new Item(Material.DIAMOND_HOE, 80, "§7[§6Naruto§7] §4Шаринган Обито (Камуи)", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
     public SharinganObito() {
+        super();
         Bukkit.getPluginManager().registerEvents((Listener)this, (Plugin)Main.getInstance());
     }
     public static HashMap<UUID, ArrayList<Bat>> bats = new HashMap<UUID, ArrayList<Bat>>();
@@ -58,11 +59,7 @@ public class SharinganObito extends AbilitiesMain implements Listener {
 
     }
 
-    @Override
-    public void RightPlusShift(Player player, NarutoPlayer np) {
-        // TODO Auto-generated method stub
 
-    }
     @Override
     public Item getItem() {
 

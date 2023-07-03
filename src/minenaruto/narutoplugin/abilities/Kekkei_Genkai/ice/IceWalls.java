@@ -26,15 +26,6 @@ public class IceWalls extends AbilitiesMain {
         }
     }
 
-    @Override
-    public void RightPlusShift(Player player, NarutoPlayer pl) {
-        // TODO Auto-generated method stub
-        if (AbilityListener.checkChakraItem(player, getItem().getName(), 0, 0, 0, 0, 0)) {
-            if(pl.IfHasJustuPointAndRemoveJustuPoint(5)) {
-                //player.getInventory().addItem(Item.items.get(6).getItemStack());
-            }
-        }
-    }
 
     public void runTaskAbility(Player player) {
         ArrayList<Block> blocks = new ArrayList<>();
@@ -72,7 +63,6 @@ public class IceWalls extends AbilitiesMain {
             blocks.clear();
         },120L);
         scheduler.put(player, Integer.valueOf(_scheduler));
-        player.addPotionEffect(new PotionEffect(PotionEffectType.REGENERATION, 80, 2));
     }
     @Override
     public Item getItem() {

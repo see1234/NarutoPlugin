@@ -92,11 +92,7 @@ public class ShadowClon extends AbilitiesMain {
 
         return item;
     }
-	@Override
-	public void RightPlusShift(Player player, NarutoPlayer pl) {
-		// TODO Auto-generated method stub
-		
-	}
+
 
  
 

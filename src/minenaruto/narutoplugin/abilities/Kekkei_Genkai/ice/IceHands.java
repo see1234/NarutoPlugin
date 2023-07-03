@@ -29,15 +29,7 @@ public class IceHands extends AbilitiesMain {
         }
     }
 
-    @Override
-    public void RightPlusShift(Player player, NarutoPlayer pl) {
-        // TODO Auto-generated method stub
-        if (AbilityListener.checkChakraItem(player, getItem().getName(), 0, 0, 0, 0, 0)) {
-            if(pl.IfHasJustuPointAndRemoveJustuPoint(5)) {
-                //player.getInventory().addItem(Item.items.get(6).getItemStack());
-            }
-        }
-    }
+
 
     public void runTaskAbility(Player player) {
         int _scheduler = ((Integer)scheduler.getOrDefault(player, Integer.valueOf(0))).intValue();
@@ -50,7 +42,7 @@ public class IceHands extends AbilitiesMain {
             if (iterator.hasNext()) {
                 Block block = iterator.next();
                 if (block.getType() == Material.AIR) {
-                    block.setType(Material.WATER, false);
+                    block.setType(Material.ICE, false);
 
                     ((ArrayList<Block>)blocks.get(player)).add(block);
                     for (Entity entity : block.getLocation().getWorld().getNearbyEntities(block.getLocation(), 2.0D, 2.0D, 2.0D)) {
