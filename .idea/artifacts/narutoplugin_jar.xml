@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="narutoplugin:jar">
-    <output-path>$USER_HOME$/Desktop/Naruto/plugins</output-path>
+    <output-path>$USER_HOME$/Desktop/Сборка Naruto/plugins</output-path>
     <root id="archive" name="narutoplugin.jar">
       <element id="module-output" name="narutoplugin" />
       <element id="file-copy" path="$PROJECT_DIR$/resources/config.yml" />

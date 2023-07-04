@@ -6,11 +6,6 @@
         <element id="module-output" name="narutoplugin" />
       </element>
       <element id="library" level="project" name="PlaceholderAPI-2.10.9" />
-      <element id="library" level="project" name="Citizens-2.0.27-b2226" />
-      <element id="library" level="project" name="Sentinel-2.2.0-SNAPSHOT-b373" />
-      <element id="library" level="project" name="spigot-1.12.2" />
-      <element id="library" level="project" name="WorldGuard" />
-      <element id="library" level="project" name="worldedit-bukkit-6.1.7.31" />
     </root>
   </artifact>
 </component>

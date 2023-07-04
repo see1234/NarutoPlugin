@@ -30,7 +30,7 @@ import minenaruto.narutoplugin.iditems.Item;
 import minenaruto.narutoplugin.main.Main;
 
 public class SharinganItachi extends AbilitiesMain {
-	private Item item = new Item(293, 77, "§7[§6Naruto§7] §4Шаринган Итачи (Воронье Гендзюцу)", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
+	private Item item = new Item(Material.DIAMOND_HOE, 77, "§7[§6Naruto§7] §4Шаринган Итачи (Воронье Гендзюцу)", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
 	@Override
 	public void RightClick(Player player, NarutoPlayer pl) {
 		if (AbilityListener.checkChakraItem(player, getItem().getName(), 100, 0, 0, 0, 0)) {
@@ -41,15 +41,6 @@ public class SharinganItachi extends AbilitiesMain {
 		}
 	}
 
-	@Override
-	public void RightPlusShift(Player player, NarutoPlayer pl) {
-		// TODO Auto-generated method stub
-		if (AbilityListener.checkChakraItem(player, getItem().getName(), 0, 0, 0, 0, 0)) {
-			if(pl.IfHasJustuPointAndRemoveJustuPoint(5)) {
-				//	player.getInventory().addItem(Item.items.get(7).getItemStack());
-			}
-		}
-	}
 
 	@Override
 	public Item getItem() {

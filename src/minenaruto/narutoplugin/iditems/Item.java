@@ -18,15 +18,15 @@ import minenaruto.narutoplugin.main.Main;
 
 public class Item {
 
-	private int iditem;
+	private String material_name;
 	private int durability;
 	private String displayname;
 	private List<String> lore;
 
 
 
-	public Item( int iditem, int durability, String displayname, List<String> lore) {
-	    this.iditem = iditem;
+	public Item(Material material, int durability, String displayname, List<String> lore) {
+	    this.material_name = material.name();
 		this.durability = durability;
 		this.displayname = displayname;
 		this.lore = lore;
@@ -38,7 +38,8 @@ public class Item {
 	}
 
 	public ItemStack getItemStack() {
-		ItemStack is = new ItemStack(Material.getMaterial(iditem));
+
+		ItemStack is = new ItemStack(Material.valueOf(material_name.toUpperCase()), 1, (short)durability);
 		ItemMeta im = is.getItemMeta();
 		List<String> displaylore = new ArrayList<String>();
 		if (this.lore != null) {
@@ -53,7 +54,7 @@ public class Item {
 			im.setDisplayName(displayname.replace("&", "§"));
 		}
 		im.setUnbreakable(true);
-		im.addItemFlags(ItemFlag.HIDE_ATTRIBUTES);
+	 	im.addItemFlags(ItemFlag.HIDE_ATTRIBUTES);
 		im.addItemFlags(ItemFlag.HIDE_DESTROYS);
 		im.addItemFlags(ItemFlag.HIDE_POTION_EFFECTS);
 		im.addItemFlags(ItemFlag.HIDE_PLACED_ON);
@@ -61,6 +62,7 @@ public class Item {
 		im.addItemFlags(ItemFlag.HIDE_UNBREAKABLE);
 		is.setDurability((short) durability);
 		is.setItemMeta(im);
+
 		return is;
 	}
 

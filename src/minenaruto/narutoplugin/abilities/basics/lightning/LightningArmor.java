@@ -29,7 +29,7 @@ import minenaruto.narutoplugin.iditems.Item;
 import minenaruto.narutoplugin.main.Main;
 
 public class LightningArmor extends AbilitiesMain {
-   private Item item = new Item(293, 57, "§7[§6Naruto§7] §6Штормовой покров", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
+   private Item item = new Item(Material.DIAMOND_HOE, 57, "§7[§6Naruto§7] §6Штормовой покров", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
 	@Override
 	public void RightClick(Player player, NarutoPlayer pl) {
 		if (AbilityListener.checkChakraItem(player, getItem().getName(), 100, 0, 0, 0, 0)) {
@@ -37,15 +37,7 @@ public class LightningArmor extends AbilitiesMain {
 		}
 	}
 
-	@Override
-	public void RightPlusShift(Player player, NarutoPlayer pl) {
-		// TODO Auto-generated method stub
-		if (AbilityListener.checkChakraItem(player, getItem().getName(), 0, 0, 0, 0, 0)) {
-			if(pl.IfHasJustuPointAndRemoveJustuPoint(5)) {
-				//player.getInventory().addItem(Item.items.get(6).getItemStack());
-			}
-		}
-	}
+
 
 	public void runTaskAbility(Player player) {
         player.addPotionEffect(new PotionEffect(PotionEffectType.SPEED, 400, 4));

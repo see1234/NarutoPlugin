@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.WeakHashMap;
 
 public class LogSharpNeedles extends AbilitiesMain {
-    private Item item = new Item(293, 66, "§7[§6Naruto§7] §aОстрые иглы", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
+    private Item item = new Item(Material.DIAMOND_HOE, 66, "§7[§6Naruto§7] §aОстрые иглы", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
     public static WeakHashMap<Player, Integer> logScheduler = new WeakHashMap<>();
     @Override
     public void RightClick(Player player, NarutoPlayer pl) {
@@ -26,15 +26,6 @@ public class LogSharpNeedles extends AbilitiesMain {
         }
     }
 
-    @Override
-    public void RightPlusShift(Player player, NarutoPlayer pl) {
-        // TODO Auto-generated method stub
-        if (AbilityListener.checkChakraItem(player, getItem().getName(), 0, 0, 0, 0, 0)) {
-            if(pl.IfHasJustuPointAndRemoveJustuPoint(5)) {
-                //player.getInventory().addItem(Item.items.get(6).getItemStack());
-            }
-        }
-    }
 
     public void runTaskAbility(Player player) {
         ArrayList<Block> ultBlocks = new ArrayList<>();
@@ -42,7 +33,7 @@ public class LogSharpNeedles extends AbilitiesMain {
             if (en instanceof LivingEntity) {
                 if (en.getLocation().getBlock().getType() == Material.AIR) {
                     Block b = en.getLocation().getBlock();
-                    b.setType(Material.LOG);
+                    b.setType(Material.ACACIA_LOG);
                     ultBlocks.add(b);
                 }
                 if (en instanceof Player) {

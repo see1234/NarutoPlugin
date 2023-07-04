@@ -18,8 +18,7 @@ import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
 import org.bukkit.entity.*;
-import org.bukkit.craftbukkit.v1_12_R1.entity.*;
-import net.minecraft.server.v1_12_R1.*;
+
 
 import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
@@ -28,7 +27,7 @@ import org.bukkit.scheduler.*;
 import org.bukkit.util.Vector;
 import org.bukkit.entity.Entity;
 public class WaterPunch extends AbilitiesMain {
-    private minenaruto.narutoplugin.iditems.Item item = new minenaruto.narutoplugin.iditems.Item(293, 64, "§7[§6Naruto§7] §bВодная пуля", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
+    private minenaruto.narutoplugin.iditems.Item item = new minenaruto.narutoplugin.iditems.Item(Material.DIAMOND_HOE, 64, "§7[§6Naruto§7] §bВодная пуля", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
 
     @Override
     public void RightClick(Player player, NarutoPlayer pl) {
@@ -37,15 +36,7 @@ public class WaterPunch extends AbilitiesMain {
         }
     }
 
-    @Override
-    public void RightPlusShift(Player player, NarutoPlayer pl) {
-        // TODO Auto-generated method stub
-        if (AbilityListener.checkChakraItem(player, getItem().getName(), 0, 0, 0, 0, 0)) {
-            if(pl.IfHasJustuPointAndRemoveJustuPoint(5)) {
-                //player.getInventory().addItem(Item.items.get(6).getItemStack());
-            }
-        }
-    }
+
 
     public void runTaskAbility(Player player) {
         final LivingEntity entityTarget = rayTraceEntity(player, 30);

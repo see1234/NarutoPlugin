@@ -28,7 +28,7 @@ import minenaruto.narutoplugin.iditems.Item;
 import minenaruto.narutoplugin.main.Main;
 
 public class FireMassFieryDestruction extends AbilitiesMain {
-    private Item item = new Item(293, 54, "§7[§6Naruto§7] §cМассовое огненное уничтожение", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
+    private Item item = new Item(Material.DIAMOND_HOE, 54, "§7[§6Naruto§7] §cМассовое огненное уничтожение", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
     @Override
     public void RightClick(Player player, NarutoPlayer pl) {
         if (AbilityListener.checkChakraItem(player, getItem().getName(), 150, 0, 0, 0, 0)) {
@@ -40,15 +40,7 @@ public class FireMassFieryDestruction extends AbilitiesMain {
         }
     }
 
-    @Override
-    public void RightPlusShift(Player player, NarutoPlayer pl) {
-        // TODO Auto-generated method stub
-        if (AbilityListener.checkChakraItem(player, getItem().getName(), 0, 0, 0, 0, 0)) {
-            if (pl.IfHasJustuPointAndRemoveJustuPoint(5)) {
-                //	player.getInventory().addItem(Item.items.get(5).getItemStack());
-            }
-        }
-    }
+
 
     public void runTaskAbility(ArmorStand arm, Player player) {
         BukkitRunnable task = new BukkitRunnable() {
@@ -97,7 +89,7 @@ public class FireMassFieryDestruction extends AbilitiesMain {
                 }
             }
         };
-        task.runTaskTimerAsynchronously(Main.getInstance(), 1L, 1L);
+        task.runTaskTimer(Main.getInstance(), 1L, 1L);
     }
 
     public static void spawnParticle(Location location, double radius) {

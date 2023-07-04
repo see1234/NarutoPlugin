@@ -25,7 +25,7 @@ import org.bukkit.util.Vector;
 import java.util.*;
 
 public class SharinganSusanoSaske extends AbilitiesMain implements Listener {
-    private Item item = new Item(293, 81, "§7[§6Naruto§7] §4Шаринган Саске (Сусаноо)", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
+    private Item item = new Item(Material.DIAMOND_HOE, 81, "§7[§6Naruto§7] §4Шаринган Саске (Сусаноо)", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
     public ArrayList<Player> enabledControl = new ArrayList<Player>();
 
     public WeakHashMap<Player, Integer> scheduler = new WeakHashMap<Player, Integer>();
@@ -43,6 +43,7 @@ public class SharinganSusanoSaske extends AbilitiesMain implements Listener {
     }
 
     public SharinganSusanoSaske() {
+        super();
         Bukkit.getPluginManager().registerEvents((Listener) this, (Plugin) Main.getInstance());
     }
 
@@ -70,15 +71,7 @@ public class SharinganSusanoSaske extends AbilitiesMain implements Listener {
         }
     }
 
-    @Override
-    public void RightPlusShift(Player player, NarutoPlayer pl) {
-        // TODO Auto-generated method stub
-        if (AbilityListener.checkChakraItem(player, getItem().getName(), 0, 0, 0, 0, 0)) {
-            if (pl.IfHasJustuPointAndRemoveJustuPoint(5)) {
-                //player.getInventory().addItem(Item.items.get(6).getItemStack());
-            }
-        }
-    }
+
 
     @EventHandler
     public void onMove(PlayerQuitEvent e) {

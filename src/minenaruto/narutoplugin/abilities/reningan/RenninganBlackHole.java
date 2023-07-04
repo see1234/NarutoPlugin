@@ -7,11 +7,7 @@ import java.util.concurrent.ThreadLocalRandom;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
-import org.bukkit.entity.Bat;
-import org.bukkit.entity.Entity;
-import org.bukkit.entity.EntityType;
-import org.bukkit.entity.LivingEntity;
-import org.bukkit.entity.Player;
+import org.bukkit.entity.*;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.potion.PotionEffect;
@@ -26,7 +22,7 @@ import minenaruto.narutoplugin.main.Main;
 public class RenninganBlackHole extends AbilitiesMain {
     public static ArrayList<Entity> dropItem = new ArrayList<>();
 
-    private Item item = new Item(293, 70, "§7[§6Naruto§7] §5Риннеган (Черная дыра)", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
+    private Item item = new Item(Material.DIAMOND_HOE, 70, "§7[§6Naruto§7] §5Риннеган (Черная дыра)", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
     @Override
     public void RightClick(Player player, NarutoPlayer pl) {
         if (AbilityListener.checkChakraItem(player, getItem().getName(), 100, 0, 0, 0, 0)) {
@@ -36,15 +32,7 @@ public class RenninganBlackHole extends AbilitiesMain {
         }
     }
 
-    @Override
-    public void RightPlusShift(Player player, NarutoPlayer pl) {
-        // TODO Auto-generated method stub
-        if (AbilityListener.checkChakraItem(player, getItem().getName(), 0, 0, 0, 0, 0)) {
-            if(pl.IfHasJustuPointAndRemoveJustuPoint(5)) {
-                //player.getInventory().addItem(Item.items.get(16).getItemStack());
-            }
-        }
-    }
+
 
     @Override
     public Item getItem() {
@@ -62,7 +50,7 @@ public class RenninganBlackHole extends AbilitiesMain {
         int _scheduler = ((Integer)scheduler.getOrDefault(player, Integer.valueOf(0))).intValue();
         _scheduler = Bukkit.getScheduler().scheduleSyncRepeatingTask((Plugin)Main.getInstance(), () -> {
             for (Entity en : item1.getNearbyEntities(distance, distance, distance)) {
-                if (en != player && en instanceof LivingEntity) {
+                if (en != player && en instanceof LivingEntity && !(en instanceof ArmorStand)) {
                     if (en instanceof Player) {
                         if (hasPvpZone(en)) {
                             addDamageEntity(player, (Player)en, 10);

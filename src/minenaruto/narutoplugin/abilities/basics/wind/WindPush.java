@@ -18,8 +18,7 @@ import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
 import org.bukkit.entity.*;
-import org.bukkit.craftbukkit.v1_12_R1.entity.*;
-import net.minecraft.server.v1_12_R1.*;
+
 
 import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
@@ -28,7 +27,7 @@ import org.bukkit.scheduler.*;
 import org.bukkit.util.Vector;
 import org.bukkit.entity.Entity;
 public class WindPush extends AbilitiesMain {
-    private minenaruto.narutoplugin.iditems.Item item = new minenaruto.narutoplugin.iditems.Item(293, 65, "§7[§6Naruto§7] §2Ветреный толчок", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
+    private minenaruto.narutoplugin.iditems.Item item = new minenaruto.narutoplugin.iditems.Item(Material.DIAMOND_HOE, 65, "§7[§6Naruto§7] §2Ветреный толчок", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
 
     @Override
     public void RightClick(Player player, NarutoPlayer pl) {
@@ -37,15 +36,7 @@ public class WindPush extends AbilitiesMain {
         }
     }
 
-    @Override
-    public void RightPlusShift(Player player, NarutoPlayer pl) {
-        // TODO Auto-generated method stub
-        if (AbilityListener.checkChakraItem(player, getItem().getName(), 0, 0, 0, 0, 0)) {
-            if(pl.IfHasJustuPointAndRemoveJustuPoint(5)) {
-                //player.getInventory().addItem(Item.items.get(6).getItemStack());
-            }
-        }
-    }
+
 
     public void runTaskAbility(Player player) {
 
@@ -64,12 +55,17 @@ public class WindPush extends AbilitiesMain {
     public  void effect(Player player ) {
         for (final Entity entity : player.getLocation().getWorld().getNearbyEntities(player.getLocation(),5, 5, 5)) {
             if(entity.equals(player)) {
-                return;
+                continue;
+            }
+            if(!(entity instanceof LivingEntity)) {
+
+                continue;
             }
             final LivingEntity target = (LivingEntity)entity;
 
             if(!AbilityListener.hasPvpZone(target)) {
-                return;
+
+                continue;
             }
             final Vector p = player.getLocation().toVector();
             final Vector e2 = target.getLocation().toVector();

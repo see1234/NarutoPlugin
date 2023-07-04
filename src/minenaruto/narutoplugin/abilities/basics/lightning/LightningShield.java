@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.bukkit.Location;
+import org.bukkit.Material;
 import org.bukkit.Particle;
 import org.bukkit.World;
 import org.bukkit.entity.ArmorStand;
@@ -23,7 +24,7 @@ import minenaruto.narutoplugin.iditems.Item;
 import minenaruto.narutoplugin.main.Main;
 
 public class LightningShield extends AbilitiesMain {
-	private Item item = new Item(293, 57, "§7[§6Naruto§7] §6Штормовой щит", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
+	private Item item = new Item(Material.DIAMOND_HOE, 57, "§7[§6Naruto§7] §6Штормовой щит", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
 	@Override
 	public void RightClick(Player player, NarutoPlayer pl) {
 		if (AbilityListener.checkChakraItem(player, getItem().getName(), 50, 0, 0, 0, 0)) {
@@ -31,15 +32,7 @@ public class LightningShield extends AbilitiesMain {
 		}
 	}
 
-	@Override
-	public void RightPlusShift(Player player, NarutoPlayer pl) {
-		// TODO Auto-generated method stub
-		if (AbilityListener.checkChakraItem(player, getItem().getName(), 0, 0, 0, 0, 0)) {
-			if(pl.IfHasJustuPointAndRemoveJustuPoint(5)) {
-				//player.getInventory().addItem(Item.items.get(6).getItemStack());
-			}
-		}
-	}
+
 
 	public void runTaskAbility(Player player) {
 		for (double k = 0.0D; k < 3.0D; k += 0.5D) {
@@ -47,13 +40,13 @@ public class LightningShield extends AbilitiesMain {
 				if (en instanceof LivingEntity) {
 					if (en instanceof Player) {
 						if (hasPvpZone(en)) {
-							addDamageEntity(player, (Player)en,7);
+							addDamageEntity(player,  en,7);
 
 							((LivingEntity)en).addPotionEffect(new PotionEffect(PotionEffectType.SLOW, 100, 5));
 						}
 						continue;
 					}
-					addDamageEntity(player, (Player)en,10);
+					addDamageEntity(player,  en,10);
 					((LivingEntity)en).addPotionEffect(new PotionEffect(PotionEffectType.SLOW, 100, 5));
 				}
 			}

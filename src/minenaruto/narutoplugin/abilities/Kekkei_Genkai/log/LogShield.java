@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.WeakHashMap;
 
 public class LogShield extends AbilitiesMain {
-    private Item item = new Item(293, 66, "§7[§6Naruto§7] §aЩит из дерева", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
+    private Item item = new Item(Material.DIAMOND_HOE, 66, "§7[§6Naruto§7] §aЩит из дерева", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
     public static WeakHashMap<Player, Integer> logScheduler = new WeakHashMap<>();
     @Override
     public void RightClick(Player player, NarutoPlayer pl) {
@@ -26,15 +26,7 @@ public class LogShield extends AbilitiesMain {
         }
     }
 
-    @Override
-    public void RightPlusShift(Player player, NarutoPlayer pl) {
-        // TODO Auto-generated method stub
-        if (AbilityListener.checkChakraItem(player, getItem().getName(), 0, 0, 0, 0, 0)) {
-            if(pl.IfHasJustuPointAndRemoveJustuPoint(5)) {
-                //player.getInventory().addItem(Item.items.get(6).getItemStack());
-            }
-        }
-    }
+
 
     public void runTaskAbility(Player player) {
         ArrayList<Block> blocks = new ArrayList<>();
@@ -59,7 +51,7 @@ public class LogShield extends AbilitiesMain {
             if (iterator.hasNext()) {
                 Block b = iterator.next();
                 if (b.getType() == Material.AIR)
-                    b.setType(Material.LOG);
+                    b.setType(Material.ACACIA_LOG);
             } else {
                 if (scheduler.containsKey(player))
                     Bukkit.getScheduler().cancelTask(((Integer)scheduler.get(player)).intValue());

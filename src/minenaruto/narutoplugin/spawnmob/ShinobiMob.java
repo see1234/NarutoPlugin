@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.UUID;
 
+import net.citizensnpcs.trait.SkinTrait;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Particle;
@@ -22,7 +23,7 @@ import net.citizensnpcs.api.CitizensAPI;
 import net.citizensnpcs.api.npc.NPC;
 import net.citizensnpcs.api.trait.Trait;
 import net.citizensnpcs.api.trait.trait.Equipment;
-import net.citizensnpcs.trait.SkinTrait;
+
 import minenaruto.narutoplugin.main.Main;
 
 public class ShinobiMob {
@@ -42,8 +43,8 @@ public class ShinobiMob {
 
 	public static void spawnEntity(final String name, final double health, final double damage, final Location location,
 			final String s) {
-		final NPC npc = CitizensAPI.getNPCRegistry().createNPC(EntityType.PLAYER, name);
-		((SkinTrait) npc.getTrait((Class) SkinTrait.class)).setSkinName(s);
+		NPC npc = CitizensAPI.getNPCRegistry().createNPC(EntityType.PLAYER, name);
+	 	((SkinTrait) npc.getTrait((Class) SkinTrait.class)).setSkinName(s);
 		// ((Equipment)npc.getTrait((Class)Equipment.class)).set(Equipment.EquipmentSlot.HAND,
 		// (ItemStack)CreateCustomItems.Swords.get("?7[?4UC?7] ?b\u041c\u0435\u0447
 		// \u043d\u043f\u0441"));
@@ -63,7 +64,7 @@ public class ShinobiMob {
 
 			@Override
 			public void run() {
-				if (npc == null || !npc.isSpawned()) {
+				if (npc != null) {
 
 					npc.destroy();
 					npcs.remove(npc);

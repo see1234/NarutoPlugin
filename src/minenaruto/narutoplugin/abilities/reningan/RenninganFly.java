@@ -21,7 +21,7 @@ import minenaruto.narutoplugin.main.Main;
 import org.bukkit.scheduler.BukkitRunnable;
 
 public class RenninganFly extends AbilitiesMain {
-    private Item item = new Item(293, 70, "§7[§6Naruto§7] §5Риннеган (Полет)", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
+    private Item item = new Item(Material.DIAMOND_HOE, 70, "§7[§6Naruto§7] §5Риннеган (Полет)", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
     private WeakHashMap<Player, Boolean> flying = new WeakHashMap<Player,Boolean>();
     @Override
     public void RightClick(Player player, NarutoPlayer pl) {
@@ -32,15 +32,6 @@ public class RenninganFly extends AbilitiesMain {
         }
     }
 
-    @Override
-    public void RightPlusShift(Player player, NarutoPlayer pl) {
-        // TODO Auto-generated method stub
-        if (AbilityListener.checkChakraItem(player, getItem().getName(), 0, 0, 0, 0, 0)) {
-            if(pl.IfHasJustuPointAndRemoveJustuPoint(5)) {
-                //player.getInventory().addItem(Item.items.get(16).getItemStack());
-            }
-        }
-    }
 
     @Override
     public Item getItem() {

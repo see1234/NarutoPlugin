@@ -19,7 +19,7 @@ import org.bukkit.util.Vector;
 import java.util.*;
 
 public class ReplacementTechnique extends AbilitiesMain {
-    private Item item = new Item(293, 6, "§7[§6Naruto§7] §aТехника замены", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
+    private Item item = new Item(Material.DIAMOND_HOE, 6, "§7[§6Naruto§7] §aТехника замены", List.of("§7Использование:§f ПКМ;§7Получение новой способки:§f ПКМ+ШИФТ".split(";")));
 
     @Override
     public void RightClick(Player player, NarutoPlayer pl) {
@@ -28,15 +28,6 @@ public class ReplacementTechnique extends AbilitiesMain {
         }
     }
 
-    @Override
-    public void RightPlusShift(Player player, NarutoPlayer pl) {
-        // TODO Auto-generated method stub
-        if (AbilityListener.checkChakraItem(player, getItem().getName(), 0, 0, 0, 0, 0)) {
-            if(pl.IfHasJustuPointAndRemoveJustuPoint(5)) {
-                //player.getInventory().addItem(Item.items.get(6).getItemStack());
-            }
-        }
-    }
 
     public void runTaskAbility(Player player) {
         int size = 2;
@@ -44,7 +35,7 @@ public class ReplacementTechnique extends AbilitiesMain {
         for (int i = 0; i < size; i++) {
             Block b = player.getWorld().getBlockAt(player.getLocation().getBlockX(), player.getLocation().getBlockY() + i, player.getLocation().getBlockZ());
             if (b.getType() == Material.AIR) {
-                b.setType(Material.LOG);
+                b.setType(Material.ACACIA_LOG);
                 blocks.add(b);
             }
             b.getWorld().spawnParticle(Particle.CLOUD, b.getLocation(), 20, 0.3D, 0.3D, 0.3D, 0.3D);

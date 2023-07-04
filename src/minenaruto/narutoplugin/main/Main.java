@@ -18,26 +18,27 @@ import minenaruto.narutoplugin.abilities.basics.earth.StoneBroke;
 import minenaruto.narutoplugin.abilities.basics.earth.StoneBullets;
 import minenaruto.narutoplugin.abilities.basics.earth.StoneHand;
 import minenaruto.narutoplugin.abilities.basics.fire.*;
-import minenaruto.narutoplugin.abilities.basics.lightning.LightningArmor;
-import minenaruto.narutoplugin.abilities.basics.lightning.LightningBullets;
-import minenaruto.narutoplugin.abilities.basics.lightning.LightningCover;
-import minenaruto.narutoplugin.abilities.basics.lightning.LightningShield;
+import minenaruto.narutoplugin.abilities.basics.lightning.*;
+import minenaruto.narutoplugin.abilities.basics.water.WaterHands;
 import minenaruto.narutoplugin.abilities.basics.water.WaterJail;
 import minenaruto.narutoplugin.abilities.basics.water.WaterPunch;
 import minenaruto.narutoplugin.abilities.basics.water.WaterShark;
-import minenaruto.narutoplugin.abilities.basics.wind.WindPush;
+import minenaruto.narutoplugin.abilities.basics.wind.*;
 import minenaruto.narutoplugin.abilities.reningan.RenninganSaskeTeleportHome;
 import minenaruto.narutoplugin.models.*;
 import minenaruto.narutoplugin.abilities.reningan.RenninganBlackHole;
 import minenaruto.narutoplugin.abilities.reningan.RenninganFly;
 import minenaruto.narutoplugin.abilities.reningan.RenninganSaskeTeleport;
 import minenaruto.narutoplugin.abilities.sharingan.*;
-import minenaruto.narutoplugin.swords.Decapitator;
-import minenaruto.narutoplugin.swords.HidanScythe;
-import minenaruto.narutoplugin.swords.SwordMain;
+import minenaruto.narutoplugin.swords.*;
+import net.citizensnpcs.api.CitizensAPI;
+import net.citizensnpcs.api.npc.NPC;
+import net.citizensnpcs.api.npc.NPCRegistry;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
+import org.bukkit.Material;
 import org.bukkit.World;
+import org.bukkit.block.Block;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Entity;
 import org.bukkit.event.Listener;
@@ -56,6 +57,7 @@ import minenaruto.narutoplugin.spawnmob.ShinobiMob;
 public class Main extends JavaPlugin {
 
 	public static Main instance;
+
 	public static Main getInstance() { return instance; }
 	public static FileConfiguration cfg;
 	private ArrayList<AbilitiesMain> abilities = new ArrayList<AbilitiesMain>();
@@ -71,6 +73,7 @@ public class Main extends JavaPlugin {
 		registerModels();
 		registerAbilities();
 		registerSwords();
+
 		new Chakra().runTaskTimer((Plugin)this, 20L, 20L);
 	}
 
@@ -108,7 +111,7 @@ public class Main extends JavaPlugin {
 		abilities.add(new FireShieldOfFire());
 		abilities.add(new FireSimpleFlame());
 		// Молния:
-		abilities.add(new LightningCover());
+		abilities.add(new LightningPower());
 		abilities.add(new LightningArmor());
 		abilities.add(new LightningBullets());
 		abilities.add(new LightningShield());
@@ -121,8 +124,14 @@ public class Main extends JavaPlugin {
 		abilities.add(new WaterJail());
 		abilities.add(new WaterShark());
 		abilities.add(new WaterPunch());
+		abilities.add(new WaterHands());
         // Ветер:
 		abilities.add(new WindPush());
+		abilities.add(new WindFly());
+		abilities.add(new WindBoom());
+		abilities.add(new WindRun());
+		abilities.add(new WindPunch());
+		abilities.add(new WindPunchDouble());
 		//ККГ:
 		//  Дерево:
 		abilities.add(new LogShield());
@@ -144,6 +153,12 @@ public class Main extends JavaPlugin {
 	}
 	private void registerSwords() {
 		swords.add(new Decapitator());
+		swords.add(new Kabytovari());
+		swords.add(new Nyibari());
+		swords.add(new Posox_mydresa());
+		swords.add(new Shubiki_mech());
+		swords.add(new Samehada());
+		swords.add(new Weer());
 		swords.add(new HidanScythe());
 	}
 	private void registerCommands() {
@@ -157,20 +172,21 @@ public class Main extends JavaPlugin {
 		Bukkit.getPluginManager().registerEvents((Listener)new SkillListener(), (Plugin)this);
 	}
 	public void onDisable() {
-		for(net.citizensnpcs.api.npc.NPC npc : ShinobiMob.npcs) {
-			if(npc.isSpawned())  {
-			npc.despawn();
-			}
-			npc.destroy();
-			   
-		}
+
 		Chakra.chakraBar.keySet().forEach(key -> {
 			
 			Chakra.chakraBar.get(key).removeAll();
 		});
 		Chakra.chakraBar.clear();
-
+		for(NPC npc : ShinobiMob.npcs) {
+			npc.destroy();
+		}
 		ShinobiMob.npcs.clear();
+		for (ArrayList<Block> b : AbilitiesMain.blocks.values()) {
+			for (Block block : b) {
+				block.setType(Material.AIR);
+			}
+		}
 	}
 
     public static void saveCustomYml(final FileConfiguration ymlConfig, final File ymlFile) {
