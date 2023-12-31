@@ -4,10 +4,10 @@
 
 ## Меню
 
-**Меню прокачки: 
-1. ![me](https://github.com/see1234/naruto/blob/main/photos/photo1.png)
-2. ![me](https://github.com/see1234/naruto/blob/main/photos/photo2.png)
-3. ![me](https://github.com/see1234/naruto/blob/main/photos/photo3.png)
+**Меню прокачки:** 
+![me](https://github.com/see1234/naruto/blob/main/photos/photo1.png)
+![me](https://github.com/see1234/naruto/blob/main/photos/photo2.png)
+![me](https://github.com/see1234/naruto/blob/main/photos/photo3.png)
 
 ## Способности
 **1. Способность огня "Цветок феникса":**
