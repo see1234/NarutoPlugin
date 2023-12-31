@@ -5,8 +5,11 @@
 ## Меню
 
 **Меню прокачки:** 
+
 ![me](https://github.com/see1234/naruto/blob/main/photos/photo1.png)
+
 ![me](https://github.com/see1234/naruto/blob/main/photos/photo2.png)
+
 ![me](https://github.com/see1234/naruto/blob/main/photos/photo3.png)
 
 ## Способности
