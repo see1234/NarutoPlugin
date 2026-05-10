@@ -1,0 +1,6 @@
+name: Naruto
+version: 1.13.0
+main: minenaruto.narutoplugin.main.Main
+author: see1
+depend: [Citizens, Sentinel, WorldGuard]
+api-version: 1.16

@@ -1,0 +1,44 @@
+# Ignore build output
+/build/
+/target/
+/out/
+/bin/
+
+# Gradle
+/.gradle/
+/.gradle-user-home/
+/.gradle-user-home-run2/
+
+# Maven wrapper cache if generated locally
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+/.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+hs_err_pid*
+replay_pid*
+
+# Archives and local bundles
+*.zip
+*.rar
+*.zipf
+*.zipff
+*.zipfff
+
+# Runtime files and local secrets
+/d
+/d.pub
+
+# Local dependency jars folder can be kept if intentional.
+# Uncomment next line if you do not want to publish bundled jars.
+# /libs/
