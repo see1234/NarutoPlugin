@@ -42,3 +42,6 @@ replay_pid*
 # Local dependency jars folder can be kept if intentional.
 # Uncomment next line if you do not want to publish bundled jars.
 # /libs/
+
+# Local libraries
+/libs/
